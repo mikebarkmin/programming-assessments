@@ -1,6 +1,6 @@
 # Awesome Programming Assessments [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
- > A curated list of asssessments for programming
+ > A curated list of papers regarding programming asssessments
 
 ## Contents
 
