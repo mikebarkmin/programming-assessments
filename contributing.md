@@ -23,7 +23,7 @@ Papers are divided into two main categories:
 
 A assessment paper will be linked to one of the following categories:
 
-- :sunglasses: (awesome): The assessment needs ot be publicly available
+- :sunglasses: (awesome): The assessment needs to be publicly available
 - :smiley: (great): Example items need to be presented and the author will send the assessment on request
 - :blush: (good): The author will send the assessment on request
 - :confused: (neutral): An assessment is presented, but it is not available to the public or on request and no example items are shown
