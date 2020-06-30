@@ -1,0 +1,24 @@
+ISBN: '1581139977'
+accessed: 2020-06-24
+authors:
+- dierbach_charles
+- taylor_blair
+- zhou_harry
+- zimand_iliana
+collection_number: null
+collection_title: SIGCSE '05
+container_title: Proceedings of the 36th SIGCSE technical symposium on Computer science
+  education
+event_place: St. Louis, Missouri, USA
+id: 10.1145/1047344.1047453
+issue: null
+issued: 2005-02-23
+number: null
+number_of_pages: 4
+original_date: 2005-02-23
+page: 317-320
+publisher: Association for Computing Machinery
+publisher_place: New York, NY, USA
+title: Experiences with a CS0 course targeted for CS1 success
+type: PAPER_CONFERENCE
+volume: null

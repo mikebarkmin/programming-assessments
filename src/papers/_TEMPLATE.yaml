@@ -1,0 +1,12 @@
+# everything which can be included in a bibtex file
+title: A template
+id: 10.5555/1862712.1862723
+issued: 2009-01-01
+category: 0
+
+# references other data
+authors:
+  - author_1
+  - author_2
+assessments:
+  - assessment_1

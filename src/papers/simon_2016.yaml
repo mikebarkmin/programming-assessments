@@ -1,0 +1,28 @@
+ISBN: '9781450344494'
+accessed: 2020-06-24
+authors:
+- simon
+- sheard_judy
+- d'souza_daryl
+- klemperer_peter
+- porter_leo
+- sorva_juha
+- stegeman_martijn
+- zingaro_daniel
+collection_number: null
+collection_title: ICER '16
+container_title: Proceedings of the 2016 ACM Conference on International Computing
+  Education Research
+event_place: Melbourne, VIC, Australia
+id: 10.1145/2960310.2960337
+issue: null
+issued: 2016-08-25
+number: null
+number_of_pages: 9
+original_date: 2016-08-25
+page: 103-111
+publisher: Association for Computing Machinery
+publisher_place: New York, NY, USA
+title: 'Benchmarking Introductory Programming Exams: Some Preliminary Results'
+type: PAPER_CONFERENCE
+volume: null

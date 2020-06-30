@@ -1,0 +1,11 @@
+default: &default
+  build_and_run:
+  syntax:
+  semantic:
+  standard_library:
+
+java:
+  <<: *default
+
+python:
+  <<: *default

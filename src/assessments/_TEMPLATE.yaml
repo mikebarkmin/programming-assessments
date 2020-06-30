@@ -1,0 +1,21 @@
+title: A template
+category: 0
+items:
+  count: 23
+  formats:
+    - multiple_choice
+target_groups:
+  - highschool
+  - university
+classifications:
+  commp_model:
+    cognitive_processes:
+      - interpreting
+    language:
+      - java.syntax
+      - java.semantic
+    high_level_paradigm:
+      - object_oriented.principles.abstraction
+resources:
+  - title: Assessment
+    link: http://url.to/assessment

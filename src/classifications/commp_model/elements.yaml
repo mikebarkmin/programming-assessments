@@ -1,0 +1,121 @@
+program_components:
+  _meta:
+    description: >
+      Program components are the main building block of every program.
+      They are used to determine the overall form of a program.
+  expressions:
+    _meta:
+      description: >
+        An expression computes another value, based on the
+        interpretation of a combination of variables, subprograms and
+        operators. In most languages the evaluation order of an
+        expression can be controlled by parenthesis. Expressions are
+        used to control the flow of a program.
+  subprograms:
+    _meta:
+      description: >
+        They are identified by name and exchange information with the
+        rest of the program using parameters and return values.
+        Depending on the high-level paradigm they can also be called
+        functions, procedures or methods
+  operators:
+    _meta:
+      description: >
+        An operator acts on one or more operands. These operands can be
+        infix (4 + 4), prefix (+ 4 4) or postfix (4 4 +). There are
+        arithmetic (+, -, ...), logical (!=, ==, ...), relational (>, <,
+        <=, ...) and other operators (<<, ...).
+  variables:
+    _meta:
+      description: >
+        They are named slots in memory where a value is stored.
+  statements:
+    _meta:
+      description: >
+        They can be divided into two groups. Assignment statements and
+        the statements to control the flow of a program.
+    assignment:
+      _meta:
+        description: >
+          An assignment statement provides the mechanism by which the
+          user can dynamically change the bindings of values to
+          variables
+    control:
+      _meta:
+        description: >
+          Select statements (e.g. if, switch) provide the means of
+          choosing between two or more executing paths, iterative
+          statements are causing a statement or collection to be
+          executed zero, one, or more time or unconditional branch
+          statements, which are transferring the execution control to a
+          specified location in the program.
+      iterative:
+        for:
+        while:
+      select:
+        if:
+        switch:
+      unconditional_branch:
+        call:
+        return:
+        goto:
+        break:
+        continue:
+        throw:
+  scope:
+    _meta:
+      description: >
+        The scope of a variable or subprogram is the range of statements
+        in which the variable or subprogram is visible.
+data_types:
+  scalars:
+    _meta:
+      description: >
+        A data type which only consists of a single value. Common
+        representatives: Boolean, Byte, Character, Integer, Float,
+        Pointer, Null, Undefined, Void
+    boolean:
+    byte:
+    character:
+    integer:
+    float:
+    pointer:
+    null_pointer:
+    undefined:
+    void:
+  compounds:
+    _meta:
+      description: >
+        A data type which is composed of a set of types. Common
+        representatives: Pair, Array, Associative Array, String, Record,
+        Enum, Union
+    pair:
+    array:
+    associative_array:
+    string:
+    record:
+    enum:
+    union:
+data_structures:
+  list:
+  stack:
+  queue:
+  array:
+  linked_list:
+  binary_tree:
+  binary_search_tree:
+algorithmic_paradigms:
+  _meta:
+    description: >
+      Algorithmic paradigms are a generic way to design an algorithm. On the
+      highest abstraction level an algorithm can be designed by using the
+      iterative or recursive paradigm. There are also more specific
+      algorithmic paradigms like divide and conquer, backtracking, greedy
+      algorithm and so forth. The knowledge about these algorithmic paradigms
+      helps design algorithms regardless of the high-level paradigm and the
+      concrete languages.
+  divide_and_conquer:
+  backtracking:
+  greedy_algorithm:
+  iteration:
+  recursion:
