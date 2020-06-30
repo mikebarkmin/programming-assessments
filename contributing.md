@@ -14,24 +14,27 @@ If you want to submit a new paper. Create an issue based on the template. Make s
 
 Thank you for your suggestions!
 
-## Paper Requirements and Categories
+## Assessment Requirements and Categories
 
-Papers are divided into two main categories:
-
-- Assessment papers: Papers, which present new programming assessments 
-- Assist papers: Papers, which validate a given assessment or just use it
-
-A assessment paper will be linked to one of the following categories:
+An assessment will be linked to one of the following categories:
 
 - :sunglasses: (awesome): The assessment needs to be publicly available
 - :smiley: (great): Example items need to be presented and the author will send the assessment on request
 - :blush: (good): The author will send the assessment on request
-- :confused: (neutral): An assessment is presented, but it is not available to the public or on request and no example items are shown
+- :confused: (neutral): An assessment is presented in a paper, but it is not available to the public or on request and no example items are shown
 
-A assist paper will be linked to one of the following categories:
+If a link to the assessment or the paper presenting the assessment exists, it should be provided.
 
-- :dart: (validates/replicates): A assessment is validated, the results of an assessment are replicated
-- :tea: (uses): A assessment is just used
+## Paper Requirements and Categories
+
+A paper will be linked to one of the following categories:
+
+- :dart: (validates/replicates): An assessment is validated, the results of an assessment are replicated
+- :memo: (uses): An assessment is used
+- :clapper: (presents): An assessment is introduced/presented
+
+A paper should only be linked to one cateogry. If a paper for example is introduced/presented and validated in the same paper,
+the paper should be considered for :dart: (validates/replicates).
 
 ## Updating your PR
 
