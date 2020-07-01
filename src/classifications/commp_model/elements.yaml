@@ -22,9 +22,31 @@ program_components:
     _meta:
       description: >
         An operator acts on one or more operands. These operands can be
-        infix (4 + 4), prefix (+ 4 4) or postfix (4 4 +). There are
-        arithmetic (+, -, ...), logical (!=, ==, ...), relational (>, <,
-        <=, ...) and other operators (<<, ...).
+        infix (4 + 4), prefix (+ 4 4) or postfix (4 4 +).
+    arithmetic:
+      _meta:
+        description: >
+          e.g.: +, -, *, %, ...
+    logical:
+      _meta:
+        description: >
+          e.g.: !, ||, not, &&, ?? ...
+    relational:
+      _meta:
+        description: >
+          e.g.: >, <, <=, ...
+    ternary:
+      _meta:
+        description: >
+          e.g.: _ ? _ : _
+    bitwise:
+      _meta:
+        description: >
+          e.g.: >>, <<, |, &
+    other:
+      _meta:
+        description: >
+          &hi, *hi, new
   variables:
     _meta:
       description: >

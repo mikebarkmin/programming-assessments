@@ -9,3 +9,9 @@ java:
 
 python:
   <<: *default
+
+pseudocode:
+  <<: *default
+  _meta:
+    description: >
+      The guide can be found here: http://tiny.cc/codeguide

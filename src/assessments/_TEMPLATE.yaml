@@ -1,7 +1,9 @@
 title: A template
-category: 0
+authors:
+  - barkmin_mike
+category: awesome
 items:
-  count: 23
+  count: '?'
   formats:
     - multiple_choice
 target_groups:
@@ -15,7 +17,10 @@ classifications:
       - java.syntax
       - java.semantic
     high_level_paradigm:
-      - object_oriented.principles.abstraction
+      - object_oriented.principles.structure.abstraction
 resources:
   - title: Assessment
     link: http://url.to/assessment
+papers:
+  - id: kramer_2018
+    category: uses

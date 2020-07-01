@@ -1,0 +1,13 @@
+name: Lint
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install pipenv
+        run: pip install pipenv
+      - name: Install dependencies
+        run: pipenv install
+      - name: Run ESLint
+        run: python apa.py lint

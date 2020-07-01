@@ -1,0 +1,39 @@
+assessments:
+  awesome:
+    _meta:
+      description: >
+        The assessment needs to be publicly available
+  great:
+    _meta:
+      description: >
+        Example items need to be presented and the author will send the
+        assessment on request
+  good:
+    _meta:
+      description: >
+        The author will send the assessment on request
+  neutral:
+    _meta:
+      description: >
+        An assessment is presented in a paper, but it is not available
+        to the public or on request and no example items are shown
+
+papers:
+  _meta:
+    description: >
+      The categories should be viewed in as a Venn-diagram: 
+        (presents (uses (validates)))
+      Whereas presents is the weakest and validates the strongest
+      category.
+  validates:
+    _meta:
+      description: >
+        An assessment is validated, the results are replicated
+  uses:
+    _meta:
+      description: >
+        An assessment is used
+  presents:
+    _meta:
+      description: >
+        An assessment is introduced/presented
