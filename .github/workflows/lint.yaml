@@ -10,13 +10,17 @@ jobs:
       fail-fast: true
     steps:
       - uses: actions/checkout@v2
+
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
+
       - name: Install dependencies
         run: |
-          sudo pip install pipenv
-          pipenv install
-      - name: Run Lint
-        run: pipenv run apa.py lint
+          python -m pip install pip
+          pip install pipenv
+          pipenv install --system
+
+      - name: Lint
+        run: python apa.py lint
