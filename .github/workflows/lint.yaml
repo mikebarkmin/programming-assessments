@@ -19,4 +19,6 @@ jobs:
           sudo pip install pipenv
           pipenv install
       - name: Run Lint
-        run: python apa.py lint
+        run: |
+          pipenv shell
+          python apa.py lint
