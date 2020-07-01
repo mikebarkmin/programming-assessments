@@ -2,6 +2,7 @@ import yaml
 import time
 import click
 import os
+import sys
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
@@ -341,8 +342,10 @@ class Linter(PatternMatchingEventHandler):
             print(f"\033[92mNo problems found\033[0m")
         print()
 
+        return found_problems, found_warnings, found_errors
+
     def run(self, watch):
-        self.lint()
+        problems, warnings, errors = self.lint()
         if watch:
             observer = Observer()
             observer.schedule(self, self.path, recursive=True)
@@ -354,6 +357,8 @@ class Linter(PatternMatchingEventHandler):
             except KeyboardInterrupt:
                 observer.stop()
             observer.join()
+        elif errors > 0:
+            sys.exit(1)
 
     @staticmethod
     def is_in_dict(path, d):
