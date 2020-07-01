@@ -3,11 +3,20 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+      fail-fast: true
     steps:
       - uses: actions/checkout@v2
-      - name: Install pipenv
-        run: sudo pip install pipenv
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
       - name: Install dependencies
-        run: pipenv install
-      - name: Run ESLint
+        run: |
+          sudo pip install pipenv
+          pipenv install
+      - name: Run Lint
         run: python apa.py lint
