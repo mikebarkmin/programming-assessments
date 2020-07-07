@@ -20,5 +20,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 [![CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0)
 
-To the extent possible under law, mikebarkmin has waived all copyright and
-related or neighboring rights to this work.
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
