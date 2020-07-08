@@ -6,7 +6,6 @@ import sys
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
-
 class Level:
     WARNING = "warning"
     ERROR = "error"
