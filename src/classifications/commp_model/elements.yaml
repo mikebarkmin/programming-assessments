@@ -11,7 +11,13 @@ program_components:
         operators. In most languages the evaluation order of an
         expression can be controlled by parenthesis. Expressions are
         used to control the flow of a program.
-  subprograms:
+  coroutines:
+    _meta:
+      description: >
+        Generalized subroutines for non-preemptive multitasking. They allow to
+        pause and resume the exGeneralized subroutines for non-preemptive
+        multitasking. They allow to pause and resume the execution.
+  subroutines:
     _meta:
       description: >
         They are identified by name and exchange information with the
