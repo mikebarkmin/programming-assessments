@@ -1,0 +1,48 @@
+title: Basic Data Structures (BDSI)
+openpatch:
+  status: todo
+authors:
+  - porter_leo
+  - zingaro_daniel
+  - liao_soohyun-nam
+  - taylor_cynthia
+  - webb_kevin-c
+  - lee_cynthia
+  - clancy_michael
+content:
+items:
+  count: '?'
+  formats:
+    - multiple_choice
+target_groups:
+  - highschool
+  - university
+classifications:
+  commp_model:
+    - language.pseudocode
+    - elements.program_components.variables
+    - elements.program_components.expressions
+    - elements.program_components.subroutines
+    - elements.program_components.scope
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.select.if
+    - elements.program_components.statements.control.iterative.while
+    - elements.program_components.statements.control.unconditional_branch.return
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.program_components.operators.logical
+    - elements.program_components.operators.arithmetic
+    - elements.data_types.scalars.boolean
+    - elements.data_types.scalars.integer
+    - elements.data_types.compounds.record
+    - elements.data_structures.list
+    - elements.data_structures.binary_search_tree
+    - elements.data_structures.linked_list
+    - elements.algorithmic_paradigms.iteration
+    - elements.algorithmic_paradigms.recursion
+    - high_level_paradigm.object_oriented
+resources:
+  - title: Assessment
+    link: http://url.to/assessment
+papers:
+  - id: kramer_2016
+    category: uses

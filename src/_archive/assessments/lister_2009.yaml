@@ -1,0 +1,38 @@
+title: Relationship between Explaining, Tracing and Writing
+openpatch:
+  status: todo
+authors:
+  - lister_raymond
+  - fidge_colin
+  - teague_donna
+category: awesome
+items:
+  count: 8
+  formats:
+    - multiple_choice
+    - trace
+    - short_answer
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.python.syntax
+    - language.python.semantic
+    - language.python.standard_library # max, map, len, range
+    - elements.program_components.subroutines
+    - elements.program_components.statements.control.iterative
+    - elements.program_components.statements.control.select
+    - elements.program_components.operators.relational
+    - elements.program_components.operators.arithmetic
+    - elements.data_types.scalars.integer
+    - elements.data_types.compounds.string
+    - elements.data_types.compounds.array
+    - high_level_paradigm.procedural
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.1145/1595496.1562930
+papers:
+  - id: lister_2009
+    category: validates

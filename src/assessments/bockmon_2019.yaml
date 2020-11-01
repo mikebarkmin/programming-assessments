@@ -1,0 +1,46 @@
+title: Second Computer Science 1 - Revised
+openpatch:
+  status: todo
+authors:
+  - bockmon_ryan
+  - cooper_stephen
+  - gratch_jonathan
+  - dorodchi_mohsen
+items:
+  count: 9
+  formats:
+    - short_answer
+    - multiple_choice
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.pseudocode
+    - elements.program_components.variables
+    - elements.program_components.subroutines
+    - elements.program_components.expressions
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.select.if
+    - elements.program_components.statements.control.iterative.for
+    - elements.program_components.statements.control.iterative.while
+    - elements.program_components.statements.control.unconditional_branch.return
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.program_components.operators.relational
+    - elements.program_components.operators.logical
+    - elements.program_components.operators.arithmetic
+    - elements.data_types.scalars.integer
+    - elements.data_types.scalars.character
+    - elements.data_types.compounds.array
+    - elements.data_types.compounds.string
+    - elements.algorithmic_paradigms.iteration
+    - high_level_paradigm.imperative
+resources:
+  - title: Assessment
+    link: 'https://groups.google.com/forum/#!forum/cs1-concept-inventory-and-assessment-replications'
+  - title: Pseudocode Guide
+    link: 'https://tiny.cc/codeguide'
+papers:
+  - id: bockmon_2019
+    category: original

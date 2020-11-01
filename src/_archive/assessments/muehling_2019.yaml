@@ -1,0 +1,33 @@
+title: Understanding of object structures
+openpatch:
+  status: requested
+authors:
+  - muhling_andreas
+  - schulte_carsten
+  - bennedsen_jens
+  - budde_lea
+  - grosse-bolting_gregor
+category: neutral
+items:
+  count: 9
+formats:
+  - trace
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.java.syntax
+    - language.java.semantic
+    - language.java.standard_library
+    - elements.program_components.subroutines
+    - elements.program_components.statements.control.iterative
+    - elements.program_components.statements.assignment
+    - elements.program_components.operators.arithmetic
+    - elements.data_types.compounds.record
+    - elements.data_types.scalars.integer
+    - high_level_paradigm.object_oriented
+resources:
+papers:
+  - id: muhling_2019
+    category: validates

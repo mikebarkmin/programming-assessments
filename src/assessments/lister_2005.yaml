@@ -1,0 +1,47 @@
+title: Multiple Choice Exam for First Semester
+openpatch:
+  status: todo
+authors:
+  - lister_raymond
+items:
+  count: 25
+  formats:
+    - multiple_choice
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.java.syntax
+    - language.java.semantic
+    - language.java.standard_library
+    - elements.program_components.subroutines
+    - elements.program_components.expressions
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.iterative.for
+    - elements.program_components.statements.control.iterative.while
+    - elements.program_components.statements.control.select.if
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.program_components.statements.control.unconditional_branch.return
+    - elements.program_components.operators.arithmetic
+    - elements.program_components.operators.logical
+    - elements.program_components.operators.relational
+    - elements.program_components.scope
+    - elements.data_types.scalars.integer
+    - elements.data_types.scalars.float
+    - elements.data_types.scalars.void
+    - elements.data_types.scalars.boolean
+    - elements.data_types.compounds.string
+    - elements.data_types.compounds.array
+    - elements.data_types.compounds.record
+    - elements.algorithmic_paradigms.iteration
+    - high_level_paradigm.object_oriented.principles.structure.encapsulation
+    - high_level_paradigm.object_oriented.principles.behavior.message_passing
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.5555/1082424.1082444
+papers:
+  - id: lister_2005
+    category: original

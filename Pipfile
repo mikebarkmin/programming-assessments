@@ -7,6 +7,7 @@ name = "pypi"
 pyyaml = "*"
 click = "*"
 watchdog = "*"
+jinja2 = "*"
 
 [dev-packages]
 black = "==19.10b0"

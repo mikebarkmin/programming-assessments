@@ -1,0 +1,26 @@
+title: Test 1
+openpatch:
+  status: approved
+authors:
+  - ahadi_alireza
+  - lister_raymond
+category: awesome
+items:
+  count: 10
+  formats:
+    - fill_in_the_blank
+    - short_answer
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.java
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+resources:
+  - title: Items
+    link: https://dl.acm.org/doi/10.1145/2493394.2493416
+papers:
+  - id: ahadi_2013
+    category: validates

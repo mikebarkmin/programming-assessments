@@ -2,13 +2,128 @@
 
 # Awesome Programming Assessments [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
- > A curated list of papers regarding programming asssessments
+ > A curated list of assessments, classifications and papers regarding programming asssessments
 
 ## Contents
 
-- [Section](#section)
+- [Assessments](#assessments)
+- [Classifications](#classifications)
+- [Papers](#papers)
 
-## Section
+
+## Assessments
+
+### [Caceffo et.al: Concept Inventory (CI) for Introductory Programming in C](content/assessment/caceffo_2016.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Caceffo et.al (2016)](#caceffo_2016): original
+
+### [Porter et.al: Basic Data Structures (BDSI)](content/assessment/porter_2019.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Kramer et.al (2016)](#kramer_2016): uses
+
+### [Ahadi et.al: Ahadi 2013 - 2](content/assessment/ahadi_2013_2.md) ![requested](assessment.openpatch.url)
+[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
+
+- [Ahadi et.al (2013)](#ahadi_2013): original
+
+### [Parker: Second Computer Science 1](content/assessment/parker_2016.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Parker et.al (2016)](#parker_2016): original
+
+### [Lister: Multiple Choice Exam for First Semester](content/assessment/lister_2005.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Lister (2005)](#lister_2005): original
+
+### [Clifton: Self-Assessment Procedure XXIII: Programming Languages](content/assessment/clifton_1995.md) ![rejected](assessment.openpatch.url)
+[![rejected](https://img.shields.io/badge/openpatch-rejected-red)](#)
+
+- [Clifton (1995)](#clifton_1995): original
+
+### [Izu et.al: String Manipulation](content/assessment/izu_2020.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Izu et.al (2020)](#izu_2020): original
+
+### [Simon et.al: Benchmarked Exam Questions for Introductory Programming](content/assessment/simon_2016.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Simon et.al (2016)](#simon_2016): original
+
+### [Sheard et.al: Benchmarked Exam Questions for Introductory Programming](content/assessment/sheard_2014.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Sheard et.al (2014)](#sheard_2014): original
+
+### [Ahadi et.al: Ahadi 2013 - 1](content/assessment/ahadi_2013_1.md) ![requested](assessment.openpatch.url)
+[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
+
+- [Ahadi et.al (2013)](#ahadi_2013): original
+
+### [Dierbach et.al: CS1 Assessment](content/assessment/dierbach_2005.md) ![approved](assessment.openpatch.url)
+[![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#)
+
+- [Dierbach et.al (2005)](#dierbach_2005): original
+
+### [Barkmin: Template](content/assessment/_TEMPLATE.md) ![requested](assessment.openpatch.url)
+[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
+
+- [Kramer et.al (2016)](#kramer_2016): uses
+
+### [Bockmon et.al: Second Computer Science 1 - Revised](content/assessment/bockmon_2019.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Bockmon et.al (2019)](#bockmon_2019): original
+
+### [Luxton-Reilly et.al: Developing Assessments to Determine Mastery of Programming Fundamentals](content/assessment/luxton-reilly_2018.md) ![todo](assessment.openpatch.url)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Luxton-Reilly et.al (2018)](#luxton-reilly_2018): original
+
+
+
+## Classifications
+
+- [](content/classifications/.md)
+
+
+## Papers
+
+- <a id="ahadi_2013">Ahadi et.al (2013)</a>: [Geek genes, prior knowledge, stumbling points and learning edge momentum: parts of the one elephant?](https://doi.org/10.1145/2493394.2493416)
+- <a id="bockmon_2019">Bockmon et.al (2019)</a>: [(Re)Validating Cognitive Introductory Computing Instruments](https://doi.org/10.1145/3287324.3287372)
+- <a id="caceffo_2016">Caceffo et.al (2016)</a>: [Developing a Computer Science Concept Inventory for Introductory Programming](https://doi.org/10.1145/2839509.2844559)
+- <a id="clifton_1995">Clifton (1995)</a>: [Self-Assessment Procedure XXIII: programming languages](https://doi.org/10.1145/203356.203378)
+- <a id="dierbach_2005">Dierbach et.al (2005)</a>: [Experiences with a CS0 course targeted for CS1 success](https://doi.org/10.1145/1047344.1047453)
+- <a id="farghally_2017">Farghally et.al (2017)</a>: [Towards a Concept Inventory for Algorithm Analysis Topics](https://doi.org/10.1145/3017680.3017756)
+- <a id="grover_2020">Grover (2020)</a>: [Designing an Assessment for Introductory Programming Concepts in Middle School Computer Science](https://doi.org/10.1145/3328778.3366896)
+- <a id="grover_2017">Grover et.al (2017)</a>: [Measuring Student Learning in Introductory Block-Based Programming: Examining Misconceptions of Loops, Variables, and Boolean Logic](https://doi.org/10.1145/3017680.3017723)
+- <a id="henry_2020">Henry et.al (2020)</a>: [Developing an Assessment to Profile Students based on their Understanding of the Variable Programming Concept](https://doi.org/10.1145/3341525.3387400)
+- <a id="izu_2020">Izu et.al (2020)</a>: [Assessing CS1 Design Skills with a String Manipulation Task](https://doi.org/10.1145/3341525.3387382)
+- <a id="kramer_2016">Kramer et.al (2016)</a>: [On the way to a test instrument for object-oriented programming competencies](https://doi.org/10.1145/2999541.2999544)
+- <a id="lee_2015">Lee et.al (2015)</a>: [Comparing the Effectiveness of Online Learning Approaches on CS1 Learning Outcomes](https://doi.org/10.1145/2787622.2787709)
+- <a id="lister_2005">Lister (2005)</a>: [One small step toward a culture of peer review and multi-institutional sharing of educational resources: a multiple choice exam for first semester programming students](https://doi.org/10.5555/1082424.1082444)
+- <a id="luxton-reilly_2018">Luxton-Reilly et.al (2018)</a>: [Developing Assessments to Determine Mastery of Programming Fundamentals](https://doi.org/10.1145/3174781.3174784)
+- <a id="mirolo_2012">Mirolo (2012)</a>: [Is iteration really easier to learn than recursion for CS1 students?](https://doi.org/10.1145/2361276.2361296)
+- <a id="muhling_2015">Mühling et.al (2015)</a>: [Design and First Results of a Psychometric Test for Measuring Basic Programming Abilities](https://doi.org/10.1145/2818314.2818320)
+- <a id="muhling_2019">Mühling et.al (2019)</a>: [Assessing students&#39; understanding of object structures](https://doi.org/10.1145/3364510.3364511)
+- <a id="parker_2016">Parker et.al (2016)</a>: [Replication, Validation, and Use of a Language Independent CS1 Knowledge Assessment](https://doi.org/10.1145/2960310.2960316)
+- <a id="porter_2019">Porter et.al (2019)</a>: [BDSI: A Validated Concept Inventory for Basic Data Structures](https://doi.org/10.1145/3291279.3339404)
+- <a id="sheard_2014">Sheard et.al (2014)</a>: [Benchmarking a set of exam questions for introductory programming](https://doi.org/10.5555/2667490.2667504)
+- <a id="simon_2016">Simon et.al (2016)</a>: [Benchmarking Introductory Programming Exams: Some Preliminary Results](https://doi.org/10.1145/2960310.2960337)
+- <a id="tew_2010">Tew et.al (2010)</a>: [Developing a validated assessment of fundamental CS1 concepts](https://doi.org/10.1145/1734263.1734297)
+- <a id="weintrop_2015">Weintrop et.al (2015)</a>: [Using Commutative Assessments to Compare Conceptual Understanding in Blocks-based and Text-based Programs](https://doi.org/10.1145/2787622.2787721)
+
+
+## Contributors
+
+
+|  [<img alt="Mike Barkmin" src="https://avatars1.githubusercontent.com/u/2592379?s=460&u=d599a9f90b2c8e8b3d328d3f02bce36043bcfe76&v=4" width="100px">](https://www.barkmin.eu) |
+|-------------- | 
+| [Mike Barkmin](https://www.barkmin.eu) | 
+
 
 
 ## Contribute

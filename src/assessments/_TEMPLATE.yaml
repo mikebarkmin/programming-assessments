@@ -1,7 +1,9 @@
-title: A template
+title: Template
+openpatch:
+  status: requested
 authors:
   - barkmin_mike
-category: awesome
+content:
 items:
   count: '?'
   formats:
@@ -11,16 +13,13 @@ target_groups:
   - university
 classifications:
   commp_model:
-    cognitive_processes:
-      - interpreting
-    language:
-      - java.syntax
-      - java.semantic
-    high_level_paradigm:
-      - object_oriented.principles.structure.abstraction
+    - cognitive_processes.interpreting
+    - language.java.syntax
+    - language.java.semantic
+    - high_level_paradigm.object_oriented.principles.structure.abstraction
 resources:
   - title: Assessment
     link: http://url.to/assessment
 papers:
-  - id: kramer_2018
+  - id: kramer_2016
     category: uses

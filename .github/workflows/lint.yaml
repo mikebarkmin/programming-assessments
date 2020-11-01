@@ -23,4 +23,4 @@ jobs:
           pipenv install --system
 
       - name: Lint
-        run: python apa.py lint
+        run: python -m apa.cli lint

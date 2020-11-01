@@ -1,0 +1,43 @@
+title: Benchmarked Exam Questions for Introductory Programming
+openpatch:
+  status: todo
+authors:
+  - sheard_judy
+  - simon
+  - dermoudy_julian
+  - d'souza_daryl
+  - hu_minjie
+  - parsons_dale
+items:
+  count: 11
+  formats:
+    - multiple_choice
+    - coding
+    - short_answer
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.java.syntax
+    - language.java.semantic
+    - elements.program_components.expressions
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+    - elements.program_components.operators.arithmetic
+    - elements.program_components.operators.relational
+    - elements.program_components.operators.logical
+    - elements.program_components.statements.control.iterative.for
+    - elements.program_components.statements.control.select.if
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.data_types.compounds.array
+    - elements.data_types.scalars.integer
+    - elements.algorithmic_paradigms.iteration
+    - high_level_paradigm.imperative
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.5555/2667490.2667504
+papers:
+  - id: sheard_2014
+    category: original

@@ -1,0 +1,26 @@
+title: Variables Concept Inventory
+openpatch:
+  status: todo
+authors:
+  - dehnadi_saeed
+category: awesome
+items:
+  count: 12
+  formats:
+    - multiple_choice
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.c
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+resources:
+  - title: Assessment
+    link: https://core.ac.uk/reader/17301046
+papers:
+  - id: dehnadi_2009
+    category: validates
+  - id: henry_2020
+    category: validates

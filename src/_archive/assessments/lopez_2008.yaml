@@ -1,0 +1,35 @@
+title: Relationships Between Reading, Tracing and Writing
+openpatch:
+  status: todo
+authors:
+  - lopez_mike
+category: awesome
+items:
+  count: 13
+  formats:
+    - multiple_choice
+    - highlight
+    - parsons_puzzle
+    - trace
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.java.syntax
+    - language.java.semantic
+    - elements.data_types.scalars.integer
+    - elements.data_types.compounds.string
+    - elements.data_types.compounds.array
+    - elements.data_types.compounds.record
+    - elements.program_components.statements.control.iterative
+    - elements.program_components.statements.control.select
+    - elements.program_components.statements.control.unconditional_branch
+    - high_level_paradigm.object_oriented.principles
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.1145/1404520.1404531
+papers:
+  - id: lopez_2008
+    category: validates

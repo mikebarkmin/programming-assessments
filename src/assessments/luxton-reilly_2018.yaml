@@ -1,0 +1,56 @@
+title: Developing Assessments to Determine Mastery of Programming Fundamentals
+openpatch:
+  status: todo
+authors:
+  - luxton-reilly_andrew
+  - becker_brett-a
+  - cao_yingjun
+  - mcdermott_roger
+  - mirolo_claudio
+  - muhling_andreas
+  - petersen_andrew
+  - sanders_kate
+  - simon
+  - whalley_jacqueline
+items:
+  count: 21
+  formats:
+    - multiple_choice
+    - short_answer
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.java.syntax
+    - language.java.semantic
+    - elements.program_components.expressions
+    - elements.program_components.operators.relational
+    - elements.program_components.operators.arithmetic
+    - elements.program_components.operators.logical
+    - elements.program_components.variables
+    - elements.program_components.subroutines
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.iterative.while
+    - elements.program_components.statements.control.iterative.for
+    - elements.program_components.statements.control.select.if
+    - elements.program_components.statements.control.select.switch
+    - elements.program_components.statements.control.unconditional_branch.break
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.program_components.operators.relational
+    - elements.program_components.operators.arithmetic
+    - elements.data_types.scalars.integer
+    - elements.data_types.scalars.boolean
+    - elements.data_types.scalars.null_pointer
+    - elements.data_types.scalars.character
+    - elements.data_types.compounds.record
+    - elements.data_types.compounds.array
+    - elements.data_types.compounds.string
+    - elements.algorithmic_paradigms.iteration
+    - high_level_paradigm.imperative
+resources:
+  - title: Assessment
+    link: https://doi.org/10.1145/3174781.3174784
+papers:
+  - id: luxton-reilly_2018
+    category: original

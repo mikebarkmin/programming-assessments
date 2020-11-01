@@ -1,0 +1,26 @@
+title: Ahadi 2013 - 1
+openpatch:
+  status: requested
+authors:
+  - ahadi_alireza
+  - lister_raymond
+content:
+  - assignment
+items:
+  count: 9
+  formats:
+    - coding
+    - short_answer
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - language.java.syntax
+    - language.java.semantic
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+    - elements.data_types.scalars.integer
+    - high_level_paradigm.imperative
+papers:
+  - id: ahadi_2013
+    category: original

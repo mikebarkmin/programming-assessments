@@ -1,0 +1,39 @@
+title: Fundamental CS1 Concepts
+openpatch:
+  status: todo
+authors:
+  - tew_allison-elliott
+  - guzdial_mark
+category: neutral
+items:
+  count: 27
+  formats:
+    - short_answer
+    - multiple_choice
+    - code
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.pseudocode
+    - elements.program_components.variables
+    - elements.program_components.subroutines
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.select
+    - elements.program_components.statements.control.iterative
+    - elements.program_components.statements.control.unconditional_branch.return
+    - elements.program_components.operators
+    - elements.algorithmic_paradigms.recursion
+    - elements.data_types.compounds.array
+    - elements.data_types.scalars.integer
+    - high_level_paradigm.procedural
+resources:
+papers:
+  - id: tew_2010
+    category: presents
+  - id: tew_2011
+    category: validates
+  - id: utting_2013
+    category: uses

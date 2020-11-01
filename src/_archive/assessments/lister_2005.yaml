@@ -1,0 +1,33 @@
+title: Multiple Choice Exam for First Semester
+openpatch:
+  status: todo
+authors:
+  - lister_raymond
+category: awesome
+items:
+  count: 25
+  formats:
+    - multiple_choice
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.java.syntax
+    - language.java.semantic
+    - language.java.standard_library
+    - elements.program_components.subroutines
+    - elements.program_components.statements.control.iterative
+    - elements.program_components.statements.control.select
+    - elements.data_types.scalars.integer
+    - elements.data_types.compounds.string
+    - elements.data_types.compounds.array
+    - high_level_paradigm.object_oriented.principles.structure.encapsulation
+    - high_level_paradigm.object_oriented.principles.behavior.message_passing
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.5555/1082424.1082444
+papers:
+  - id: lister_2005
+    category: validates

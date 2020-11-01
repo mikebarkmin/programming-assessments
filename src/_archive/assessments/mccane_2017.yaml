@@ -1,0 +1,29 @@
+title: COMP-Java
+openpatch:
+  status: requested
+authors:
+  - mccane_brendan
+  - ott_claudia
+  - meek_nick
+  - robins_anthony
+category: neutral
+items:
+  count: 46
+  formats:
+    - multiple_choice
+    - short_answer
+    - code
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.java
+    - elements.program_components
+    - elements.data_types
+    - high_level_paradigm.object_oriented
+resources:
+papers:
+  - id: mccane_2017
+    category: validates

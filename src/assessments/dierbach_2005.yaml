@@ -1,0 +1,42 @@
+title: CS1 Assessment
+openpatch:
+  status: approved
+authors:
+  - dierbach_charles
+  - taylor_blair
+  - zhou_harry
+  - zimand_iliana
+items:
+  count: 10
+  formats:
+    - coding
+    - multiple_choice
+    - short_answer # tracing give the output
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.pseudocode.syntax
+    - language.pseudocode.semantic
+    - language.pseudocode.standard_library # write, read
+    - elements.program_components.subroutines
+    - elements.program_components.variables
+    - elements.program_components.expressions
+    - elements.program_components.operators.arithmetic
+    - elements.program_components.operators.relational
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.select.if
+    - elements.program_components.statements.control.iterative.for
+    - elements.program_components.statements.control.iterative.while
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.data_types.scalars.integer
+    - elements.data_types.compounds.array
+    - high_level_paradigm.procedural
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.1145/1047344.1047453
+papers:
+  - id: dierbach_2005
+    category: original

@@ -1,0 +1,25 @@
+title: Template
+openpatch:
+  status: requested
+authors:
+  - barkmin_mike
+category: awesome
+items:
+  count: '?'
+  formats:
+    - multiple_choice
+target_groups:
+  - highschool
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.java.syntax
+    - language.java.semantic
+    - high_level_paradigm.object_oriented.principles.structure.abstraction
+resources:
+  - title: Assessment
+    link: http://url.to/assessment
+papers:
+  - id: kramer_2016
+    category: uses

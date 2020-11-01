@@ -1,0 +1,48 @@
+title: 'Self-Assessment Procedure XXIII: Programming Languages'
+openpatch:
+  status: rejected
+authors:
+  - clifton_mitchell-h
+category: awesome
+items:
+  count: 41
+  formats:
+    - multiple_choice
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.default.syntax # BNF for abstract syntax
+    - language.default.semantic
+    - language.pascal.syntax
+    - language.pascal.semantic
+    - language.lisp.semantic
+    - language.lisp.standard_library
+    - language.prolog.semantic
+    - language.prolog.syntax
+    - elements.program_components.variables
+    - elements.program_components.scope
+    - elements.program_components.statements
+    - elements.program_components.expressions
+    - elements.data_types.scalars.integer
+    - elements.data_types.scalars.float # Real
+    - elements.data_types.scalars.boolean
+    - elements.data_types.compounds.array
+    - elements.data_types.compounds.record
+    - elements.data_types.compounds.enum
+    - high_level_paradigm.logical.principles
+    - high_level_paradigm.functional.principles.first_class_functions
+    - high_level_paradigm.object_oriented.application
+    - high_level_paradigm.object_oriented.principles.structure.class
+    - high_level_paradigm.object_oriented.principles.structure.encapsulation
+    - high_level_paradigm.object_oriented.principles.structure.inheritance
+    - high_level_paradigm.object_oriented.principles.behavior.polymorphism
+    - high_level_paradigm.object_oriented.principles.behavior.message_passing
+    - high_level_paradigm.object_oriented.principles.behavior.method
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.1145/203356.203378
+papers:
+  - id: clifton_1995
+    category: presents

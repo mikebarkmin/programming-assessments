@@ -1,0 +1,23 @@
+ISBN: '9781450346986'
+accessed: 2020-06-24
+authors:
+- grover_shuchi
+- basu_satabdi
+collection_number: null
+collection_title: SIGCSE '17
+container_title: Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer
+  Science Education
+event_place: Seattle, Washington, USA
+id: 10.1145/3017680.3017723
+issue: null
+issued: 2017-03-08
+number: null
+number_of_pages: 6
+original_date: 2017-03-08
+page: 267-272
+publisher: Association for Computing Machinery
+publisher_place: New York, NY, USA
+title: 'Measuring Student Learning in Introductory Block-Based Programming: Examining
+  Misconceptions of Loops, Variables, and Boolean Logic'
+type: PAPER_CONFERENCE
+volume: null

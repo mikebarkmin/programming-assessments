@@ -1,0 +1,117 @@
+====================================SUMMARY=====================================
+Category............:	34	1.0
+ > great............:	5	0.15
+ > neutral..........:	10	0.29
+ > awesome..........:	18	0.53
+ > good.............:	1	0.03
+Items...............:	488	14.35
+Formats.............:	66	1.94
+ > multiple_choice..:	20	0.3
+ > trace............:	9	0.14
+ > short_answer.....:	18	0.27
+ > code.............:	13	0.2
+ > fill_in_the_bla..:	3	0.05
+ > highlight........:	2	0.03
+ > parsons_puzzle...:	1	0.02
+Target..............:	36	1.06
+ > highschool.......:	4	0.11
+ > university.......:	28	0.78
+ > middle_school....:	4	0.11
+Papers..............:	42	1.24
+ > validates........:	29	0.69
+ > uses.............:	5	0.12
+ > presents.........:	8	0.19
+
+==========================CLASSIFICATION: commp_model===========================
+cognitive_processes: 35
+    interpreting: 35
+    producing: 18
+elements: 34
+    program_components: 34
+        expressions: 7
+        coroutines: None
+        subroutines: 14
+        operators: 16
+            arithmetic: 11
+            logical: 6
+            relational: 8
+            ternary: None
+            bitwise: None
+            other: None
+        variables: 20
+        statements: 30
+            assignment: 21
+            control: 24
+        scope: 1
+    data_types: 21
+        scalars: 17
+            boolean: 1
+            character: 2
+            integer: 16
+            float: 2
+            void: 1
+        compounds: 17
+            array: 13
+            string: 10
+            record: 6
+            enum: 1
+    data_structures: None
+    algorithmic_paradigms: 6
+        iteration: 4
+        recursion: 4
+high_level_paradigm: 26
+    default: None
+    object_oriented: 11
+        application: 1
+        principles: 7
+            structure: 3
+            behavior: 3
+    functional: 1
+        principles: 1
+            first_class_functions: 1
+            referential_transparency: None
+            immutability: None
+            closure: None
+            recursion: None
+            lazy_evaluation: None
+            currying: None
+            pattern_matching: None
+            polymorphism: None
+    procedural: 15
+    logical: 1
+        principles: 1
+language: 35
+    default: 1
+        syntax: 1
+        semantic: 1
+    java: 16
+        syntax: 10
+        semantic: 10
+        standard_library: 4
+    python: 1
+        syntax: 1
+        semantic: 1
+        standard_library: 1
+    scratch: 6
+    c: 5
+        syntax: 3
+        semantic: 3
+        standard_library: 3
+    c++: None
+    smalltalk: None
+    lisp: 1
+        semantic: 1
+        standard_library: 1
+    pascal: 1
+        syntax: 1
+        semantic: 1
+    prolog: 1
+        syntax: 1
+        semantic: 1
+    javascript: 2
+        syntax: 1
+        semantic: 1
+    pseudocode: 6
+        syntax: 1
+        semantic: 1
+        standard_library: 1

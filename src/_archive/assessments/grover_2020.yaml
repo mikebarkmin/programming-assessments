@@ -1,0 +1,34 @@
+title: Introductory Programming Concepts
+openpatch:
+  status: requested
+authors:
+  - grover_shuchi
+category: neutral
+items:
+  count: 9
+  formats:
+    - multiple_choice
+    - short_answer
+    - code
+target_groups:
+  - middle_school
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.scratch
+    - elements.program_components.expressions
+    - elements.program_components.operators.logical
+    - elements.program_components.operators.arithmetic
+    - elements.program_components.operators.relational
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+    - elements.program_components.statements.control.select
+    - elements.program_components.statements.control.iterative
+    - high_level_paradigm.procedural
+resources:
+  - title: Example Items
+    link: https://doi.org/10.1145/3328778.3366896
+papers:
+  - id: grover_2020
+    category: validates

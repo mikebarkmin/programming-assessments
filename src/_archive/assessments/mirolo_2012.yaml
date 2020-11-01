@@ -1,0 +1,26 @@
+title: Recursion vs Iteration
+openpatch:
+  status: approved
+authors:
+  - mirolo_claudio
+category: neutral
+items:
+  count: 14
+  formats:
+    - short_answer
+    - trace
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - language.java
+    - elements.program_components
+    - elements.data_types
+    - elements.algorithmic_paradigms.iteration
+    - elements.algorithmic_paradigms.recursion
+    - high_level_paradigm.object_oriented
+resources:
+papers:
+  - id: mirolo_2012
+    category: validates

@@ -1,0 +1,35 @@
+title: String Manipulation
+openpatch:
+  status: todo
+authors:
+  - izu_cruz
+  - weerasignhe_amali
+items:
+  count: 1
+  formats:
+    - coding
+target_groups:
+  - university
+classifications:
+  commp_model:
+    - cognitive_processes.interpreting
+    - cognitive_processes.producing
+    - language.c.syntax
+    - language.c.semantic
+    - language.c.standard_library # strlen, printf
+    - elements.program_components.variables
+    - elements.program_components.statements.assignment
+    - elements.program_components.operators.arithmetic
+    - elements.program_components.operators.relational
+    - elements.program_components.statements.control.iterative.for
+    - elements.program_components.statements.control.iterative.while
+    - elements.program_components.statements.control.unconditional_branch.call
+    - elements.data_types.scalars.character
+    - elements.data_types.compounds.string
+    - high_level_paradigm.procedural
+resources:
+  - title: Assessment
+    link: https://dl.acm.org/doi/10.1145/3341525.3387382
+papers:
+  - id: izu_2020
+    category: original
