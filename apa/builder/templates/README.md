@@ -14,7 +14,7 @@
 ## Assessments
 
 {% for assessment in assessments -%}
-### [{{ assessment.citekey }}: {{ assessment.title | e }}](content/assessment/{{ assessment.file }}.md) ![{{ assessment.openpatch.status }}](assessment.openpatch.url)
+### [{{ assessment.citekey }}: {{ assessment.title | e }}](src/assessments/{{ assessment.file }}.yaml)
 {{ assessment.badges|badges }}
 
 {% for paper in assessment.papers -%}
@@ -25,7 +25,7 @@
 ## Classifications
 
 {% for classification in classifications -%}
-- [{{ classification.title | e }}](content/classifications/{{ classification.id }}.md)
+- [{{ classification.title | e }}](src/classifications/{{ classification.id }}.yaml)
 {% endfor %}
 
 ## Papers

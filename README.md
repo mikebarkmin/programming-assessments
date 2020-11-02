@@ -13,81 +13,80 @@
 
 ## Assessments
 
-### [Caceffo et.al: Concept Inventory (CI) for Introductory Programming in C](content/assessment/caceffo_2016.md) ![todo](assessment.openpatch.url)
+### [Caceffo et.al: Concept Inventory (CI) for Introductory Programming in C](src/assessments/caceffo_2016.yaml)
 [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
 
 - [Caceffo et.al (2016)](#caceffo_2016): original
 
-### [Porter et.al: Basic Data Structures (BDSI)](content/assessment/porter_2019.md) ![todo](assessment.openpatch.url)
-[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
-
-- [Kramer et.al (2016)](#kramer_2016): uses
-
-### [Ahadi et.al: Ahadi 2013 - 2](content/assessment/ahadi_2013_2.md) ![requested](assessment.openpatch.url)
-[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
-
-- [Ahadi et.al (2013)](#ahadi_2013): original
-
-### [Parker: Second Computer Science 1](content/assessment/parker_2016.md) ![todo](assessment.openpatch.url)
-[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
-
-- [Parker et.al (2016)](#parker_2016): original
-
-### [Lister: Multiple Choice Exam for First Semester](content/assessment/lister_2005.md) ![todo](assessment.openpatch.url)
-[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
-
-- [Lister (2005)](#lister_2005): original
-
-### [Clifton: Self-Assessment Procedure XXIII: Programming Languages](content/assessment/clifton_1995.md) ![rejected](assessment.openpatch.url)
-[![rejected](https://img.shields.io/badge/openpatch-rejected-red)](#)
-
-- [Clifton (1995)](#clifton_1995): original
-
-### [Izu et.al: String Manipulation](content/assessment/izu_2020.md) ![todo](assessment.openpatch.url)
-[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
-
-- [Izu et.al (2020)](#izu_2020): original
-
-### [Simon et.al: Benchmarked Exam Questions for Introductory Programming](content/assessment/simon_2016.md) ![todo](assessment.openpatch.url)
-[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
-
-- [Simon et.al (2016)](#simon_2016): original
-
-### [Sheard et.al: Benchmarked Exam Questions for Introductory Programming](content/assessment/sheard_2014.md) ![todo](assessment.openpatch.url)
-[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
-
-- [Sheard et.al (2014)](#sheard_2014): original
-
-### [Ahadi et.al: Ahadi 2013 - 1](content/assessment/ahadi_2013_1.md) ![requested](assessment.openpatch.url)
-[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
-
-- [Ahadi et.al (2013)](#ahadi_2013): original
-
-### [Dierbach et.al: CS1 Assessment](content/assessment/dierbach_2005.md) ![approved](assessment.openpatch.url)
-[![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#)
-
-- [Dierbach et.al (2005)](#dierbach_2005): original
-
-### [Barkmin: Template](content/assessment/_TEMPLATE.md) ![requested](assessment.openpatch.url)
-[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
-
-- [Kramer et.al (2016)](#kramer_2016): uses
-
-### [Bockmon et.al: Second Computer Science 1 - Revised](content/assessment/bockmon_2019.md) ![todo](assessment.openpatch.url)
+### [Bockmon et.al: Second Computer Science 1 - Revised](src/assessments/bockmon_2019.yaml)
 [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
 
 - [Bockmon et.al (2019)](#bockmon_2019): original
 
-### [Luxton-Reilly et.al: Developing Assessments to Determine Mastery of Programming Fundamentals](content/assessment/luxton-reilly_2018.md) ![todo](assessment.openpatch.url)
+### [Porter et.al: Basic Data Structures (BDSI)](src/assessments/porter_2019.yaml)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+
+### [Izu et.al: String Manipulation](src/assessments/izu_2020.yaml)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Izu et.al (2020)](#izu_2020): original
+
+### [Sheard et.al: Benchmarked Exam Questions for Introductory Programming](src/assessments/sheard_2014.yaml)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Sheard et.al (2014)](#sheard_2014): original
+
+### [Barkmin: Template](src/assessments/_TEMPLATE.yaml)
+[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
+
+- [Kramer et.al (2016)](#kramer_2016): uses
+
+### [Simon et.al: Benchmarked Exam Questions for Introductory Programming](src/assessments/simon_2016.yaml)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Simon et.al (2016)](#simon_2016): original
+
+### [Lister: Multiple Choice Exam for First Semester](src/assessments/lister_2005.yaml)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Lister (2005)](#lister_2005): original
+
+### [Ahadi et.al: Ahadi 2013 - 2](src/assessments/ahadi_2013_2.yaml)
+[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
+
+- [Ahadi et.al (2013)](#ahadi_2013): original
+
+### [Clifton: Self-Assessment Procedure XXIII: Programming Languages](src/assessments/clifton_1995.yaml)
+[![rejected](https://img.shields.io/badge/openpatch-rejected-red)](#)
+
+- [Clifton (1995)](#clifton_1995): original
+
+### [Parker: Second Computer Science 1](src/assessments/parker_2016.yaml)
+[![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
+
+- [Parker et.al (2016)](#parker_2016): original
+
+### [Dierbach et.al: CS1 Assessment](src/assessments/dierbach_2005.yaml)
+[![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#)
+
+- [Dierbach et.al (2005)](#dierbach_2005): original
+
+### [Luxton-Reilly et.al: Developing Assessments to Determine Mastery of Programming Fundamentals](src/assessments/luxton-reilly_2018.yaml)
 [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
 
 - [Luxton-Reilly et.al (2018)](#luxton-reilly_2018): original
+
+### [Ahadi et.al: Ahadi 2013 - 1](src/assessments/ahadi_2013_1.yaml)
+[![requested](https://img.shields.io/badge/openpatch-requested-yellow)](#)
+
+- [Ahadi et.al (2013)](#ahadi_2013): original
 
 
 
 ## Classifications
 
-- [](content/classifications/.md)
+- [](src/classifications/.yaml)
 
 
 ## Papers

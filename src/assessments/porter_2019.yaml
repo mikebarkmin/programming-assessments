@@ -11,7 +11,7 @@ authors:
   - clancy_michael
 content:
 items:
-  count: '?'
+  count: "?"
   formats:
     - multiple_choice
 target_groups:
@@ -44,5 +44,5 @@ resources:
   - title: Assessment
     link: http://url.to/assessment
 papers:
-  - id: kramer_2016
-    category: uses
+  - id: porter_2016
+    category: original

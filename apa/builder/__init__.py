@@ -35,58 +35,27 @@ class Builder(Loader):
             assessment["citekey"] = self.gen_citekey(authors)
             papers = assessment.get("papers", [])
             openpatch = assessment.get("openpatch", {})
-            category = assessment.get("category")
 
             badges = []
 
-            if category == "awesome":
-                badges.append(
-                    {
-                        "img": "https://img.shields.io/badge/category-awesome-cca6c4",
-                        "alt": "awesome",
-                    }
-                )
-            elif category == "great":
-                badges.append(
-                    {
-                        "img": "https://img.shields.io/badge/category-great-green",
-                        "alt": "great",
-                    }
-                )
-            elif category == "good":
-                badges.append(
-                    {
-                        "img": "https://img.shields.io/badge/category-good-yellow",
-                        "alt": "good",
-                    }
-                )
-            elif category == "neutral":
-                badges.append(
-                    {
-                        "img": "https://img.shields.io/badge/category-neutral-lightgrey",
-                        "alt": "neutral",
-                    }
-                )
+            badge = {"alt": openpatch.get("status")}
+            if openpatch.get("status") == "approved":
+                badge[
+                    "img"
+                ] = "https://img.shields.io/badge/openpatch-approved-98ff98"
+                badge["url"] = openpatch.get("url", "#")
+            elif openpatch.get("status") == "rejected":
+                badge["img"] = "https://img.shields.io/badge/openpatch-rejected-red"
+            elif openpatch.get("status") == "requested":
+                badge[
+                    "img"
+                ] = "https://img.shields.io/badge/openpatch-requested-yellow"
+            elif openpatch.get("status") == "todo":
+                badge[
+                    "img"
+                ] = "https://img.shields.io/badge/openpatch-todo-lightgrey"
 
-            if openpatch:
-                badge = {"alt": openpatch.get("status")}
-                if openpatch.get("status") == "approved":
-                    badge[
-                        "img"
-                    ] = "https://img.shields.io/badge/openpatch-approved-98ff98"
-                    badge["url"] = openpatch.get("url", "#")
-                elif openpatch.get("status") == "rejected":
-                    badge["img"] = "https://img.shields.io/badge/openpatch-rejected-red"
-                elif openpatch.get("status") == "requested":
-                    badge[
-                        "img"
-                    ] = "https://img.shields.io/badge/openpatch-requested-yellow"
-                elif openpatch.get("status") == "todo":
-                    badge[
-                        "img"
-                    ] = "https://img.shields.io/badge/openpatch-todo-lightgrey"
-
-                badges.append(badge)
+            badges.append(badge)
 
             assessment["badges"] = badges
 
