@@ -25,7 +25,7 @@
 ## Classifications
 
 {% for classification in classifications -%}
-- [{{ classification._meta.title | e }}](src/classifications/{{ classification.id }}.yaml)
+- [{{ classification._meta.title | e }}](src/classifications/{{ classification.file }}.yaml)
 {% endfor %}
 
 ## Papers

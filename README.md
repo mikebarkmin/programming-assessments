@@ -87,7 +87,7 @@
 
 ## Classifications
 
-- [Competency Structure Model for Programming (COMM_P)](src/classifications/.yaml)
+- [Competency Structure Model for Programming (COMM_P)](src/classifications/commp_model.yaml)
 
 
 ## Papers
