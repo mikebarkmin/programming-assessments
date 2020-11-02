@@ -26,6 +26,7 @@
 ### [Porter et.al: Basic Data Structures (BDSI)](src/assessments/porter_2019.yaml)
 [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
 
+- [](#porter_2016): original
 
 ### [Izu et.al: String Manipulation](src/assessments/izu_2020.yaml)
 [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#)
@@ -86,7 +87,7 @@
 
 ## Classifications
 
-- [](src/classifications/.yaml)
+- [Competency Structure Model for Programming (COMM_P)](src/classifications/.yaml)
 
 
 ## Papers
