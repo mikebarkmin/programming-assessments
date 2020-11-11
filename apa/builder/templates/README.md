@@ -13,13 +13,11 @@
 
 ## Assessments
 
+| Title | Authors | Badges | Related Papers |
+| ----- | ------- | --------- | -------------- |
 {% for assessment in assessments -%}
-### [{{ assessment.citekey }}: {{ assessment.title | e }}](src/assessments/{{ assessment.file }}.yaml)
-{{ assessment.badges|badges }}
-
-{% for paper in assessment.papers -%}
-- [{{ paper.citekey }}](#{{ paper.id }}): {{ paper.category}}
-{% endfor %}
+| [{{ assessment.title | e }}](src/assessments/{{ assessment.file }}.yaml) | {{ assessment.citekey }} | {{ assessment.badges|badges }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
+{%- endfor %} |
 {% endfor %}
 
 ## Classifications

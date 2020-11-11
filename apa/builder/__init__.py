@@ -21,6 +21,8 @@ class Builder(Loader):
 
         script_dir = os.path.dirname(__file__)
 
+        categories = self.load_single("", "categories")
+
         papers_extended = self.load_flat("papers", full=True)
         for paper in papers_extended:
             authors = paper.get("authors", [])
@@ -30,6 +32,7 @@ class Builder(Loader):
         papers_extended.sort(key=lambda p: p["citekey"])
 
         assessments_extended = self.load_flat("assessments", full=True)
+        assessments_extended.sort(key=lambda p: p["title"])
         for assessment in assessments_extended:
             authors = assessment.get("authors", [])
             assessment["citekey"] = self.gen_citekey(authors)
@@ -62,7 +65,9 @@ class Builder(Loader):
             for paper in papers:
                 ps = [p for p in papers_extended if p["file"] == paper["id"]]
                 if len(ps) > 0:
+                    category = paper["category"]
                     paper["citekey"] = ps[0]["citekey"]
+                    paper["category"] = categories["papers"][category]["short"]
 
         # create README
         with open("README.md", "w") as readme:

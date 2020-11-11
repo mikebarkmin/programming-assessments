@@ -11,7 +11,7 @@ authors:
   - clancy_michael
 content:
 items:
-  count: "?"
+  count: 13
   formats:
     - multiple_choice
 target_groups:
@@ -42,7 +42,7 @@ classifications:
     - high_level_paradigm.object_oriented
 resources:
   - title: Assessment
-    link: http://url.to/assessment
+    link: https://groups.google.com/forum/\#!forum/cs2-bdsi-concept-inventory
 papers:
-  - id: porter_2016
+  - id: porter_2019
     category: original
