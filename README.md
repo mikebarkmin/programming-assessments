@@ -23,7 +23,7 @@
 | [CS1 Assessment](src/assessments/dierbach_2005.yaml) | Dierbach et.al | [![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#) | - [Dierbach et.al (2005) (O)](#dierbach_2005) |
 | [Concept Inventory (CI) for Introductory Programming in C](src/assessments/caceffo_2016.yaml) | Caceffo et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Caceffo et.al (2016) (O)](#caceffo_2016) |
 | [Developing Assessments to Determine Mastery of Programming Fundamentals](src/assessments/luxton-reilly_2018.yaml) | Luxton-Reilly et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Luxton-Reilly et.al (2018) (O)](#luxton-reilly_2018) |
-| [Multiple Choice Exam for First Semester](src/assessments/lister_2005.yaml) | Lister | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Lister (2005) (O)](#lister_2005) |
+| [Multiple Choice Exam for First Semester](src/assessments/lister_2005.yaml) | Lister | [![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#) | - [Lister (2005) (O)](#lister_2005) |
 | [Second Computer Science 1](src/assessments/parker_2016.yaml) | Parker | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Parker et.al (2016) (O)](#parker_2016) |
 | [Second Computer Science 1 - Revised](src/assessments/bockmon_2019.yaml) | Bockmon et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Bockmon et.al (2019) (O)](#bockmon_2019) |
 | [Self-Assessment Procedure XXIII: Programming Languages](src/assessments/clifton_1995.yaml) | Clifton | [![rejected](https://img.shields.io/badge/openpatch-rejected-red)](#) | - [Clifton (1995) (O)](#clifton_1995) |
