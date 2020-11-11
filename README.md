@@ -1,6 +1,6 @@
 ![Lint](https://github.com/mikebarkmin/awesome-programming-assessments/workflows/Lint/badge.svg)
 
-# Programming Assessments
+# Awesome Programming Assessments [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
  > A curated list of assessments, classifications and papers regarding programming asssessments
 
