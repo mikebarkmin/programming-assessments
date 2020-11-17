@@ -1,6 +1,6 @@
 ![Lint](https://github.com/mikebarkmin/awesome-programming-assessments/workflows/Lint/badge.svg)
 
-# Awesome Programming Assessments [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Programming Assessments
 
  > A curated list of assessments, classifications and papers regarding programming asssessments
 
@@ -13,13 +13,11 @@
 
 ## Assessments
 
+| Title | Authors | Badges | Related Papers |
+| ----- | ------- | --------- | -------------- |
 {% for assessment in assessments -%}
-### [{{ assessment.citekey }}: {{ assessment.title | e }}](src/assessments/{{ assessment.file }}.yaml)
-{{ assessment.badges|badges }}
-
-{% for paper in assessment.papers -%}
-- [{{ paper.citekey }}](#{{ paper.id }}): {{ paper.category}}
-{% endfor %}
+| [{{ assessment.title | e }}](src/assessments/{{ assessment.file }}.yaml) | {{ assessment.citekey }} | {{ assessment.badges|badges }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
+{%- endfor %} |
 {% endfor %}
 
 ## Classifications
