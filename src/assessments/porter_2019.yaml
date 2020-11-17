@@ -44,5 +44,5 @@ resources:
   - title: Assessment
     link: http://url.to/assessment
 papers:
-  - id: porter_2016
+  - id: porter_2019
     category: original
