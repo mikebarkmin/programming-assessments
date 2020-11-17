@@ -81,8 +81,6 @@ class Analyzer(Loader):
                         d["count"] += 1
                         classified.append(path)
 
-        print(classification)
-
         self.report_classification(classification, level=0)
 
     def report_classification(self, classification, level=0):

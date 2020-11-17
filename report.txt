@@ -38,17 +38,17 @@ elements: 13
             assignment: 13
             control: 11
                 iterative: 10
-                    for: 0
+                    for: 9
                     for_each: 0
-                    while: 0
+                    while: 8
                 select: 10
-                    if: 0
-                    switch: 0
+                    if: 10
+                    switch: 2
                 unconditional_branch: 11
-                    call: 0
-                    return: 0
+                    call: 11
+                    return: 7
                     goto: 0
-                    break: 0
+                    break: 1
                     continue: 0
                     throw: 0
         scope: 3
