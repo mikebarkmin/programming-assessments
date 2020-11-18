@@ -3,9 +3,9 @@ _meta:
   description: This is a description
   authors:
     - barkmin_mike
+  papers:
 
 cognitive_processes:
-  problem_solving_stage:
   interpreting:
     remember:
     understand:

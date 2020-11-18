@@ -1,5 +1,6 @@
 from .loader import Loader
 from .helper import get_in_dict
+from uuid import uuid4
 
 
 class Analyzer(Loader):
@@ -56,10 +57,8 @@ class Analyzer(Loader):
         for classification in classifications:
             self.analyze_classification(classification, assessments)
 
-    def analyze_classification(self, classification, assessments):
-        print()
-        print(f"CLASSIFICATION: {classification.get('file')}".center(80, "="))
-
+    @classmethod
+    def count_classification(cls, classification, assessments):
         for assessment in assessments:
             if assessment.get("file") == "_TEMPLATE":
                 continue
@@ -69,7 +68,7 @@ class Analyzer(Loader):
                 entries = classifications.get(classification.get("file"))
                 for c in entries:
                     # trim path
-                    parts = c.split(".")[: self.max_level]
+                    parts = c.split(".")
                     for i in range(len(parts)):
                         path = ".".join(c.split(".")[: i + 1])
                         # count every classification only once
@@ -80,8 +79,14 @@ class Analyzer(Loader):
                             d["count"] = 0
                         d["count"] += 1
                         classified.append(path)
+        return classification
 
-        self.report_classification(classification, level=0)
+    def analyze_classification(self, classification, assessments):
+        print()
+        print(f"CLASSIFICATION: {classification.get('file')}".center(80, "="))
+
+        self.report_classification(self.count_classification(
+            classification, assessments), level=0)
 
     def report_classification(self, classification, level=0):
         for k, v in classification.items():

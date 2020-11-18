@@ -1,0 +1,30 @@
+
+{% extends "layout.html.j2" %}
+{% block body %}
+<h1>Programming Assessments</h1>
+
+<h2>Classifications</h2>
+<ul>
+{% for classification in classifications %}
+<li>{{ classification.citekey }}: <a href="classifications/{{ classification.file | e }}.html">{{ classification._meta.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Assessments</h2>
+<ul>{% for assessment in assessments %}
+<li>{{ assessment.citekey }}: <a href="assessments/{{ assessment.file }}.html">{{ assessment.title | e }}</a></li>
+{%- endfor %}
+</ul>
+
+<h2>Answer Formats</h2>
+<ul>{% for answer_format in answer_formats %}
+<li><a href="answer_formats/{{ answer_format[0] | e }}.html">{{ answer_format[1].title }}</a></li>
+{%- endfor %}
+</ul>
+
+<h2>Target Groups</h2>
+<ul>{% for target_group in target_groups %}
+<li><a href="target_groups/{{ target_group[0] | e }}.html">{{ target_group[1].title }}</a></li>
+{%- endfor %}
+</ul>
+{% endblock %}

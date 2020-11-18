@@ -1,0 +1,47 @@
+{% extends "layout.html.j2" %}
+{% block body %}
+<h1>{{ classification._meta.title }}</h1>
+<p>{{ classification._meta.description }}</p>
+<h2>Network</h2>
+<div id="network"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    {% for node in nodes %}
+        { id: "{{ node.id }}", label: "{{ node.label }}", value: {{ node.size }} },
+    {% endfor %}
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    {% for edge in edges %}
+        { from: "{{ edge.from }}", to: "{{ edge.to }}" },
+    {% endfor %}
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+{% endblock %}

@@ -1,4 +1,8 @@
 primary_school:
+  title: Primary School
 middle_school:
+  title: Middle School
 high_school:
+  title: High School
 university:
+  title: University

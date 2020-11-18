@@ -1,12 +1,25 @@
 import pathlib
+import shutil
+from distutils.dir_util import copy_tree
 
 
-def make_dir(path):
-    pathlib.Path(path).mkdir(parents=True, exist_ok=True)
+def make_dir(path, clean=False):
+    dir_path = pathlib.Path(path)
+    if clean and dir_path.exists():
+        shutil.rmtree(dir_path)
+    dir_path.mkdir(parents=True, exist_ok=True)
+
+
+def copy_dir(source, target):
+    copy_tree(source, target)
+
+
+def copy_file(source, target):
+    shutil.copyfile(source, target)
 
 
 def split_list(list, x):
-    return [list[i : i + x] for i in range(0, len(list), x)]
+    return [list[i: i + x] for i in range(0, len(list), x)]
 
 
 def is_in_dict(path, d):

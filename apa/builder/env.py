@@ -66,6 +66,10 @@ def get_img(c):
     return template.format(name, img, c.get("url"))
 
 
+def get_static(c):
+    return "http://www.barkmin.eu/programming-assessments/static/" + c
+
+
 def get_name(c):
     name = format_name(c)
     template = "[{}]({})"
@@ -88,4 +92,3 @@ def contributor_table_filter(contributors, per_row=6):
 env.filters["author_table"] = author_table_filter
 env.filters["contributor_table"] = contributor_table_filter
 env.filters["badges"] = badges_filter
-
