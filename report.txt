@@ -1,117 +1,187 @@
 ====================================SUMMARY=====================================
-Category............:	34	1.0
- > great............:	5	0.15
- > neutral..........:	10	0.29
- > awesome..........:	18	0.53
- > good.............:	1	0.03
-Items...............:	488	14.35
-Formats.............:	66	1.94
- > multiple_choice..:	20	0.3
- > trace............:	9	0.14
- > short_answer.....:	18	0.27
- > code.............:	13	0.2
- > fill_in_the_bla..:	3	0.05
- > highlight........:	2	0.03
- > parsons_puzzle...:	1	0.02
-Target..............:	36	1.06
- > highschool.......:	4	0.11
- > university.......:	28	0.78
- > middle_school....:	4	0.11
-Papers..............:	42	1.24
- > validates........:	29	0.69
- > uses.............:	5	0.12
- > presents.........:	8	0.19
+Items...............:	206	15.85
+Formats.............:	26	2.0
+ > coding...........:	8	0.31
+ > short_answer.....:	9	0.35
+ > multiple_choice..:	9	0.35
+Target..............:	14	1.08
+ > university.......:	13	0.93
+ > highschool.......:	1	0.07
+Papers..............:	13	1.0
+ > original.........:	13	1.0
 
 ==========================CLASSIFICATION: commp_model===========================
-cognitive_processes: 35
-    interpreting: 35
-    producing: 18
-elements: 34
-    program_components: 34
-        expressions: 7
-        coroutines: None
-        subroutines: 14
-        operators: 16
+cognitive_processes: 10
+    problem_solving_stage: 0
+    interpreting: 10
+        remember: 0
+        understand: 0
+        analyze: 0
+        evaluate: 0
+    producing: 8
+        apply: 0
+        create: 0
+elements: 13
+    program_components: 13
+        expressions: 10
+        coroutines: 1
+        subroutines: 8
+        operators: 11
             arithmetic: 11
-            logical: 6
-            relational: 8
-            ternary: None
-            bitwise: None
-            other: None
-        variables: 20
-        statements: 30
-            assignment: 21
-            control: 24
-        scope: 1
-    data_types: 21
-        scalars: 17
-            boolean: 1
-            character: 2
-            integer: 16
+            logical: 9
+            relational: 10
+            ternary: 0
+            bitwise: 0
+            other: 1
+        variables: 13
+        statements: 13
+            assignment: 13
+            control: 11
+                iterative: 10
+                    for: 9
+                    for_each: 0
+                    while: 8
+                select: 10
+                    if: 10
+                    switch: 2
+                unconditional_branch: 11
+                    call: 11
+                    return: 7
+                    goto: 0
+                    break: 1
+                    continue: 0
+                    throw: 0
+        scope: 3
+    data_types: 13
+        scalars: 13
+            boolean: 4
+            byte: 0
+            character: 4
+            integer: 12
             float: 2
-            void: 1
-        compounds: 17
-            array: 13
-            string: 10
-            record: 6
+            pointer: 1
+            null_pointer: 1
+            undefined: 0
+            void: 2
+        compounds: 11
+            pair: 0
+            array: 8
+            associative_array: 0
+            string: 6
+            record: 5
             enum: 1
-    data_structures: None
-    algorithmic_paradigms: 6
-        iteration: 4
-        recursion: 4
-high_level_paradigm: 26
-    default: None
-    object_oriented: 11
+            union: 0
+    data_structures: 1
+        list: 1
+        stack: 0
+        queue: 0
+        graph: 0
+        linked_list: 1
+        binary_tree: 0
+        binary_search_tree: 1
+    algorithmic_paradigms: 9
+        divide_and_conquer: 0
+        backtracking: 0
+        greedy_algorithm: 0
+        iteration: 9
+        recursion: 2
+high_level_paradigm: 13
+    default: 0
+        application: 0
+        principles: 0
+    imperative: 7
+        application: 0
+        principles: 0
+    object_oriented: 3
         application: 1
-        principles: 7
-            structure: 3
-            behavior: 3
+        principles: 2
+            structure: 2
+                abstraction: 0
+                class: 1
+                encapsulation: 2
+                inheritance: 1
+                object: 0
+            behavior: 2
+                message_passing: 2
+                method: 1
+                polymorphism: 1
     functional: 1
+        application: 0
         principles: 1
             first_class_functions: 1
-            referential_transparency: None
-            immutability: None
-            closure: None
-            recursion: None
-            lazy_evaluation: None
-            currying: None
-            pattern_matching: None
-            polymorphism: None
-    procedural: 15
+            referential_transparency: 0
+            immutability: 0
+            closure: 0
+            recursion: 0
+            lazy_evaluation: 0
+            currying: 0
+            pattern_matching: 0
+            polymorphism: 0
+    procedural: 3
+        application: 0
+        principles: 0
     logical: 1
+        application: 0
         principles: 1
-language: 35
+language: 13
     default: 1
+        build_and_run: 0
         syntax: 1
         semantic: 1
-    java: 16
-        syntax: 10
-        semantic: 10
-        standard_library: 4
-    python: 1
-        syntax: 1
-        semantic: 1
+        standard_library: 0
+    java: 6
+        build_and_run: 0
+        syntax: 6
+        semantic: 6
         standard_library: 1
-    scratch: 6
-    c: 5
-        syntax: 3
-        semantic: 3
-        standard_library: 3
-    c++: None
-    smalltalk: None
+    python: 0
+        build_and_run: 0
+        syntax: 0
+        semantic: 0
+        standard_library: 0
+    scratch: 0
+        build_and_run: 0
+        syntax: 0
+        semantic: 0
+        standard_library: 0
+    c: 2
+        build_and_run: 0
+        syntax: 2
+        semantic: 2
+        standard_library: 2
+    c++: 0
+        build_and_run: 0
+        syntax: 0
+        semantic: 0
+        standard_library: 0
+    smalltalk: 0
+        build_and_run: 0
+        syntax: 0
+        semantic: 0
+        standard_library: 0
     lisp: 1
+        build_and_run: 0
+        syntax: 0
         semantic: 1
         standard_library: 1
     pascal: 1
+        build_and_run: 0
         syntax: 1
         semantic: 1
+        standard_library: 0
     prolog: 1
+        build_and_run: 0
         syntax: 1
         semantic: 1
-    javascript: 2
-        syntax: 1
-        semantic: 1
-    pseudocode: 6
+        standard_library: 0
+    javascript: 0
+        build_and_run: 0
+        syntax: 0
+        semantic: 0
+        standard_library: 0
+    pseudocode: 4
+        build_and_run: 0
         syntax: 1
         semantic: 1
         standard_library: 1
+file: 0
