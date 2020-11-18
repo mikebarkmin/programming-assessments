@@ -15,3 +15,7 @@ mypy = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+lint = "python3 -m apa.cli lint"
+build = "python3 -m apa.cli build all"

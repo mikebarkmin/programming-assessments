@@ -5,7 +5,7 @@ from ..helper import make_dir
 
 
 class Builder(Loader):
-    def __init__(self, path="src", output="content"):
+    def __init__(self, path="src", output="build"):
         super().__init__(path=path)
         self.output = output
 
@@ -71,7 +71,7 @@ class Builder(Loader):
 
         # create README
         with open("README.md", "w") as readme:
-            template = env.get_template("README.md")
+            template = env.get_template("README.md.j2")
 
             readme.write(
                 template.render(
