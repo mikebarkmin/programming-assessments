@@ -3,6 +3,7 @@ import click
 from .linter import Linter
 from .builder import Builder
 from .analyzer import Analyzer
+from .importer import add_paper
 
 
 @click.group()
@@ -44,6 +45,16 @@ def site():
 @build.command()
 def all():
     Builder(path="src").build()
+
+
+@apa.group()
+def add():
+    pass
+
+
+@add.command()
+def paper():
+    add_paper(path="src")
 
 
 if __name__ == "__main__":

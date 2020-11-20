@@ -8,6 +8,8 @@ pyyaml = "*"
 click = "*"
 watchdog = "*"
 jinja2 = "*"
+bibtexparser = "*"
+unidecode = "*"
 
 [dev-packages]
 black = "==19.10b0"
@@ -19,3 +21,7 @@ python_version = "3.8"
 [scripts]
 lint = "python3 -m apa.cli lint"
 build = "python3 -m apa.cli build all"
+add_paper = "python3 -m apa.cli add paper"
+
+[pipenv]
+allow_prereleases = true

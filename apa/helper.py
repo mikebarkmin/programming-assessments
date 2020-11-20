@@ -1,6 +1,24 @@
 import pathlib
 import shutil
+import tempfile
+import os
+import subprocess
 from distutils.dir_util import copy_tree
+
+
+def editor_input(initial_message):
+    EDITOR = os.environ.get("EDITOR", "vim")
+    message = initial_message.encode("utf-8")
+
+    with tempfile.NamedTemporaryFile(suffix=".tmp") as tf:
+        tf.write(message)
+        tf.flush()
+        subprocess.call([EDITOR, tf.name])
+
+        tf.seek(0)
+        message = tf.read()
+
+    return message.decode("utf-8")
 
 
 def make_dir(path, clean=False):
