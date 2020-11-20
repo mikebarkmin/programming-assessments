@@ -33,7 +33,7 @@
 
 ## Classifications
 
-- [Competency Structure Model for Programming (COMM_P)](src/classifications/commp_model.yaml)
+- [Competency Structure Model for Programming (COMM_P)](http://www.barkmin.eu/programming-assessments/classifications/commp_model.html)
 
 
 ## Papers
