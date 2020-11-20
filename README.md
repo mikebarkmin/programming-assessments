@@ -1,4 +1,5 @@
 ![Lint](https://github.com/mikebarkmin/awesome-programming-assessments/workflows/Lint/badge.svg)
+![Build](https://github.com/mikebarkmin/awesome-programming-assessments/workflows/Build/badge.svg)
 
 # Programming Assessments
 
@@ -13,21 +14,21 @@
 
 ## Assessments
 
-| Title | Authors | Badges | Related Papers |
+| Title | Authors | Related Papers |
 | ----- | ------- | --------- | -------------- |
-| [Ahadi 2013 - 1](src/assessments/ahadi_2013_1.yaml) | Ahadi et.al | [![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#) | - [Ahadi et.al (2013) (O)](#ahadi_2013) |
-| [Ahadi 2013 - 2](src/assessments/ahadi_2013_2.yaml) | Ahadi et.al | [![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#) | - [Ahadi et.al (2013) (O)](#ahadi_2013) |
-| [Basic Data Structures (BDSI)](src/assessments/porter_2019.yaml) | Porter et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Porter et.al (2019) (O)](#porter_2019) |
-| [Benchmarked Exam Questions for Introductory Programming](src/assessments/simon_2016.yaml) | Simon et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Simon et.al (2016) (O)](#simon_2016) |
-| [Benchmarked Exam Questions for Introductory Programming](src/assessments/sheard_2014.yaml) | Sheard et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Sheard et.al (2014) (O)](#sheard_2014) |
-| [CS1 Assessment](src/assessments/dierbach_2005.yaml) | Dierbach et.al | [![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#) | - [Dierbach et.al (2005) (O)](#dierbach_2005) |
-| [Concept Inventory (CI) for Introductory Programming in C](src/assessments/caceffo_2016.yaml) | Caceffo et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Caceffo et.al (2016) (O)](#caceffo_2016) |
-| [Developing Assessments to Determine Mastery of Programming Fundamentals](src/assessments/luxton-reilly_2018.yaml) | Luxton-Reilly et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Luxton-Reilly et.al (2018) (O)](#luxton-reilly_2018) |
-| [Multiple Choice Exam for First Semester](src/assessments/lister_2005.yaml) | Lister | [![approved](https://img.shields.io/badge/openpatch-approved-98ff98)](#) | - [Lister (2005) (O)](#lister_2005) |
-| [Second Computer Science 1](src/assessments/parker_2016.yaml) | Parker | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Parker et.al (2016) (O)](#parker_2016) |
-| [Second Computer Science 1 - Revised](src/assessments/bockmon_2019.yaml) | Bockmon et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Bockmon et.al (2019) (O)](#bockmon_2019) |
-| [Self-Assessment Procedure XXIII: Programming Languages](src/assessments/clifton_1995.yaml) | Clifton | [![rejected](https://img.shields.io/badge/openpatch-rejected-red)](#) | - [Clifton (1995) (O)](#clifton_1995) |
-| [String Manipulation](src/assessments/izu_2020.yaml) | Izu et.al | [![todo](https://img.shields.io/badge/openpatch-todo-lightgrey)](#) | - [Izu et.al (2020) (O)](#izu_2020) |
+| [Ahadi 2013 - 1](http://www.barkmin.eu/programming-assessments/assessments/ahadi_2013_1.html) | Ahadi et.al | - [Ahadi et.al (2013) (O)](#ahadi_2013) |
+| [Ahadi 2013 - 2](http://www.barkmin.eu/programming-assessments/assessments/ahadi_2013_2.html) | Ahadi et.al | - [Ahadi et.al (2013) (O)](#ahadi_2013) |
+| [Basic Data Structures (BDSI)](http://www.barkmin.eu/programming-assessments/assessments/porter_2019.html) | Porter et.al | - [Porter et.al (2019) (O)](#porter_2019) |
+| [Benchmarked Exam Questions for Introductory Programming](http://www.barkmin.eu/programming-assessments/assessments/simon_2016.html) | Simon et.al | - [Simon et.al (2016) (O)](#simon_2016) |
+| [Benchmarked Exam Questions for Introductory Programming](http://www.barkmin.eu/programming-assessments/assessments/sheard_2014.html) | Sheard et.al | - [Sheard et.al (2014) (O)](#sheard_2014) |
+| [CS1 Assessment](http://www.barkmin.eu/programming-assessments/assessments/dierbach_2005.html) | Dierbach et.al | - [Dierbach et.al (2005) (O)](#dierbach_2005) |
+| [Concept Inventory (CI) for Introductory Programming in C](http://www.barkmin.eu/programming-assessments/assessments/caceffo_2016.html) | Caceffo et.al | - [Caceffo et.al (2016) (O)](#caceffo_2016) |
+| [Developing Assessments to Determine Mastery of Programming Fundamentals](http://www.barkmin.eu/programming-assessments/assessments/luxton-reilly_2018.html) | Luxton-Reilly et.al | - [Luxton-Reilly et.al (2018) (O)](#luxton-reilly_2018) |
+| [Multiple Choice Exam for First Semester](http://www.barkmin.eu/programming-assessments/assessments/lister_2005.html) | Lister | - [Lister (2005) (O)](#lister_2005) |
+| [Second Computer Science 1](http://www.barkmin.eu/programming-assessments/assessments/parker_2016.html) | Parker | - [Parker et.al (2016) (O)](#parker_2016) |
+| [Second Computer Science 1 - Revised](http://www.barkmin.eu/programming-assessments/assessments/bockmon_2019.html) | Bockmon et.al | - [Bockmon et.al (2019) (O)](#bockmon_2019) |
+| [Self-Assessment Procedure XXIII: Programming Languages](http://www.barkmin.eu/programming-assessments/assessments/clifton_1995.html) | Clifton | - [Clifton (1995) (O)](#clifton_1995) |
+| [String Manipulation](http://www.barkmin.eu/programming-assessments/assessments/izu_2020.html) | Izu et.al | - [Izu et.al (2020) (O)](#izu_2020) |
 
 
 ## Classifications
