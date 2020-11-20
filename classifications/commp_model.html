@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Programming Assessments</title>
-    <link rel=stylesheet type=text/css href="http://www.barkmin.eu/programming-assessments/static//static/css/styles.css">
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
 
     <script
         type="text/javascript"
@@ -10,12 +10,33 @@
     ></script>
   </head>
   <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
     
 <h1>Competency Structure Model for Programming (COMM_P)</h1>
-<p>This is a description</p>
+<p>
+Barkmin, Mike
+</p>
+<p>The learning of programming can take manifold starting points, e.g. via friends or family, a school course, a compulsory requirement in vocational education (e.g. industrial robotics) or even in an academic setting (e.g. formalization and execution of mathematical algorithms in numerical mathematics). Within these approaches, context-specific programming languages are used, which might support different paradigms. In this paper, a proposal for a language and paradigm overarching competency structure model is developed from theoretical considerations. By analyzing different programming languages, textbooks and papers three content dimensions are derived.  <br><br> Principles and the application of <b>high-Level paradigms</b> build the first dimension. <br><br> The second dimension <b>elements</b> represents paradigm and language independent concepts of program components, data types, basic data structures and algorithmic paradigms. <br><br> The last content dimension <b>language</b> is defined by syntax, semantics, standard library and the build/compile and run process of programming languages.
+</p>
 <h2>Network</h2>
 <div id="network"></div>
+<caption>The size of the nodes represents how often this concepts was tag. Red nodes are roots.</caption>
 
+
+<h2>Related Papers</h2>
+<ul>
+
+<li>Barkmin: <a href="https://doi.org/10.1145/3421590.3421591">Competency Structure Model for Programming for the Transition from School to University</a>
+
+</ul>
+
+
+    </main>
   </body>
 
   
@@ -23,520 +44,520 @@
 // create an array with nodes
     var nodes = new vis.DataSet([
     
-        { id: "f759bdd092954aa8a8f7942c01ca87a4", label: "cognitive_processes", value: 10 },
+        { id: "616e36c9d48c40a09474844b04b64e3c", label: "cognitive_processes", value: 10, color: "palevioletred" },
     
-        { id: "18b2779b9d12419e8c59fb0b11234f13", label: "interpreting", value: 10 },
+        { id: "32b176c8cf4b4dca92c5f8e6ed4642ca", label: "interpreting", value: 10, color: "#769a76" },
     
-        { id: "9379c72abf0b44c781540748a5b98277", label: "producing", value: 8 },
+        { id: "47f48e2058164a2683a6b98cefd4e763", label: "producing", value: 8, color: "#769a76" },
     
-        { id: "749b4a907dd44b0485290bc079d26d0a", label: "elements", value: 13 },
+        { id: "4e868da9e5a24064a2e00c33826e2bee", label: "elements", value: 13, color: "palevioletred" },
     
-        { id: "385e3daf1f844927be18e94c986e54ba", label: "program_components", value: 13 },
+        { id: "3a3d1a282cfc49d2a764354d6da5b1c9", label: "program_components", value: 13, color: "#769a76" },
     
-        { id: "5e96e75d829542238132a1c4224a4f60", label: "expressions", value: 10 },
+        { id: "5b6b9f15b5954e1ba3cc56ffffa7bdf8", label: "expressions", value: 10, color: "#769a76" },
     
-        { id: "b1c0104f6922481997208d9c65a6dba3", label: "coroutines", value: 1 },
+        { id: "e9e889f2ec704432b3ba2b7811bdb3e6", label: "coroutines", value: 1, color: "#769a76" },
     
-        { id: "4ce3349b19c84ffcb9c98b9c3772dc7d", label: "subroutines", value: 8 },
+        { id: "302c5b2ac2db49fb9b22e64d6740b439", label: "subroutines", value: 8, color: "#769a76" },
     
-        { id: "a6692f29379c482eba1d85803a680adb", label: "operators", value: 11 },
+        { id: "d7d6ebb74ee642a2b06283228b159c7d", label: "operators", value: 11, color: "#769a76" },
     
-        { id: "9a17fa0c346e475090528ce158a55d6e", label: "arithmetic", value: 11 },
+        { id: "59ff1dee128b4a1a944c3a8ece8016be", label: "arithmetic", value: 11, color: "#769a76" },
     
-        { id: "1e2ff4adade84a06952e22986a6107bb", label: "logical", value: 9 },
+        { id: "73c8b812467e49e788e339c34fdb375c", label: "logical", value: 9, color: "#769a76" },
     
-        { id: "e46d75d41daf48a894360e90d1159ec1", label: "relational", value: 10 },
+        { id: "4a13d2adbebf4dc1afe94bba7d119ca9", label: "relational", value: 10, color: "#769a76" },
     
-        { id: "a84d6a8dbfbd4d9187e09785a07d9ec4", label: "ternary", value: 0 },
+        { id: "f4a43cc674c443b78fa059e0f620b557", label: "ternary", value: 0, color: "#769a76" },
     
-        { id: "80c8509c2de1424f833e2f7ea4603648", label: "bitwise", value: 0 },
+        { id: "4039516074834147ae3e42250073ca50", label: "bitwise", value: 0, color: "#769a76" },
     
-        { id: "bd5d43af9be2479e929a7c95ba41371d", label: "other", value: 1 },
+        { id: "3c27288e66734ca88df2c32b56931c4c", label: "other", value: 1, color: "#769a76" },
     
-        { id: "186e5eb27e8d4a3c865494496e902aa7", label: "variables", value: 13 },
+        { id: "811f405e440e4b54aeec42cfeb8b49d9", label: "variables", value: 13, color: "#769a76" },
     
-        { id: "fec5904243fb4db08fc8b0a54e6ef0ad", label: "statements", value: 13 },
+        { id: "d2fd9b36a2ac421091f1a53d26a39c8d", label: "statements", value: 13, color: "#769a76" },
     
-        { id: "8c2840b906b34b9c884adeee9214e17b", label: "assignment", value: 13 },
+        { id: "4b4ecf20c65a492e8dedacf61d4cc678", label: "assignment", value: 13, color: "#769a76" },
     
-        { id: "9de54dc16969473294e74e059a9b489c", label: "control", value: 11 },
+        { id: "d0e6bb2d2d784efaa8f52b17c0ada9b1", label: "control", value: 11, color: "#769a76" },
     
-        { id: "7e7fe8ceeb2e4448bb65afb4e554e80c", label: "iterative", value: 10 },
+        { id: "37f12dd7735c4f94ba12f869d586e216", label: "iterative", value: 10, color: "#769a76" },
     
-        { id: "4fc778e5640244c2b4fe66e40d6e0e8d", label: "for", value: 9 },
+        { id: "cfb6e00d09e049399042f40e3b612369", label: "for", value: 9, color: "#769a76" },
     
-        { id: "2c15ffda902840d3ba5504d7ba4d1d45", label: "while", value: 8 },
+        { id: "2ae3655e04e346c4b10dd54910a4fa50", label: "while", value: 8, color: "#769a76" },
     
-        { id: "56e80ab5c72b46f29c691e446b1937f4", label: "select", value: 10 },
+        { id: "bdd6edf1f5034cb1aefdd25336bef397", label: "select", value: 10, color: "#769a76" },
     
-        { id: "c35f348839524b5d8395159887244302", label: "if", value: 10 },
+        { id: "2a513b48b8814dc39027f651433fdcde", label: "if", value: 10, color: "#769a76" },
     
-        { id: "965cd356e0d14ca69ca4df70bd807d54", label: "switch", value: 2 },
+        { id: "08f1331702824f4ebb324bb969d5fb00", label: "switch", value: 2, color: "#769a76" },
     
-        { id: "976ad840df5e44a0be19e3e3a552b522", label: "unconditional_branch", value: 11 },
+        { id: "6163f9d3b2fb4879b6530acdb5a767ac", label: "unconditional_branch", value: 11, color: "#769a76" },
     
-        { id: "5712b8115db84f8eb4d51a974930d86c", label: "call", value: 11 },
+        { id: "7621810500b2471485a42a109b6242c2", label: "call", value: 11, color: "#769a76" },
     
-        { id: "05f29d6456ae4b9b8f19af755a02aedc", label: "return", value: 7 },
+        { id: "2013ab1c1af448cf99634593966f4219", label: "return", value: 7, color: "#769a76" },
     
-        { id: "8001e878a79945ada241fcded93ac7b9", label: "break", value: 1 },
+        { id: "6ed5ed78001a4514b96d6627f30ad824", label: "break", value: 1, color: "#769a76" },
     
-        { id: "fcb51a9ccfdb43f3924778aeb5a2f4e7", label: "scope", value: 3 },
+        { id: "fe4ad957f6984415a9eac5c88ebda74a", label: "scope", value: 3, color: "#769a76" },
     
-        { id: "9fa8e0176f2f477fa565a1169da1dcdf", label: "data_types", value: 13 },
+        { id: "e7a084daed434d469073a54102fd6c75", label: "data_types", value: 13, color: "#769a76" },
     
-        { id: "8a3f750598fb4213b0127e9dce4c18c7", label: "scalars", value: 13 },
+        { id: "72702b68ece148308f1c878e8b6f426c", label: "scalars", value: 13, color: "#769a76" },
     
-        { id: "f15a0a69a380451ebccdc396d574e7df", label: "boolean", value: 4 },
+        { id: "87d5130292fa45738040ab3502b34a7b", label: "boolean", value: 4, color: "#769a76" },
     
-        { id: "30e73be72ce6414da39c55a434f239a1", label: "character", value: 4 },
+        { id: "817cbb2bb9d543a7841a587f0baf3faa", label: "character", value: 4, color: "#769a76" },
     
-        { id: "88d91fccbcf64fe09c9bf4290a36026d", label: "integer", value: 12 },
+        { id: "b5d8f9ba73c94dc6ac0f0ade775efa5d", label: "integer", value: 12, color: "#769a76" },
     
-        { id: "ca825dbe677249b78a58a9dc0a682069", label: "float", value: 2 },
+        { id: "f0efe976d2a54ba7805471e08cc46de0", label: "float", value: 2, color: "#769a76" },
     
-        { id: "b94ea662c2c04a9c843e7ec03c72f54b", label: "pointer", value: 1 },
+        { id: "98f1bfb8ab2647328686be519fb39058", label: "pointer", value: 1, color: "#769a76" },
     
-        { id: "e0bc767b6f9a49078af772cc98ba93a1", label: "null_pointer", value: 1 },
+        { id: "abae14edbec84dfa91d01df243027d50", label: "null_pointer", value: 1, color: "#769a76" },
     
-        { id: "de9cbf11a1af486186fea52249f4578b", label: "void", value: 2 },
+        { id: "0a41c48153454553867f33cc91071f39", label: "void", value: 2, color: "#769a76" },
     
-        { id: "5a7840e5c0f843909aed64fed308d4aa", label: "compounds", value: 11 },
+        { id: "b840f0adb31c4fb382c3aa684596c5e8", label: "compounds", value: 11, color: "#769a76" },
     
-        { id: "d1cad0ad7a8d453db5c6bc8beb15e370", label: "array", value: 8 },
+        { id: "96ecccb90cd54bce92d0a0de3ad018ad", label: "array", value: 8, color: "#769a76" },
     
-        { id: "4a416811f6284bd585bd6460c9544329", label: "string", value: 6 },
+        { id: "fc94aaa8882d40babaf0b112e8432988", label: "string", value: 6, color: "#769a76" },
     
-        { id: "2e981813c64a407a928580bfb4985edd", label: "record", value: 5 },
+        { id: "27e9ea750ce540ba99eca24a872c0d5f", label: "record", value: 5, color: "#769a76" },
     
-        { id: "022f3bfd904844e598d88f5d9a769207", label: "enum", value: 1 },
+        { id: "204fc70de6964802b1507f806e3d9c9b", label: "enum", value: 1, color: "#769a76" },
     
-        { id: "d6a25137682d44619dd0b24af7b103f0", label: "data_structures", value: 1 },
+        { id: "d40acee89f6a4b7c86ff300118299eba", label: "data_structures", value: 1, color: "#769a76" },
     
-        { id: "bf95b90e4e1648508913ed67b86bb0b7", label: "list", value: 1 },
+        { id: "c3141d654a7c42c2aa314bf03e24cf42", label: "list", value: 1, color: "#769a76" },
     
-        { id: "bf41b928e0994964a395ff2cd15aa74a", label: "linked_list", value: 1 },
+        { id: "3e9f6596c7a64270a005c58691cb2fae", label: "linked_list", value: 1, color: "#769a76" },
     
-        { id: "373c0e0d8cf241018ce0c062f63f59ca", label: "binary_search_tree", value: 1 },
+        { id: "4b6ebb4bb8f84851aa002570044bd648", label: "binary_search_tree", value: 1, color: "#769a76" },
     
-        { id: "40464961025643afbb0d9c4134c184ac", label: "algorithmic_paradigms", value: 9 },
+        { id: "89837dd592204aee8740c22201bd3930", label: "algorithmic_paradigms", value: 9, color: "#769a76" },
     
-        { id: "e5277984db5d499995d9f4402f7912d4", label: "iteration", value: 9 },
+        { id: "d364d352c4c046ad83e648364ca2243b", label: "iteration", value: 9, color: "#769a76" },
     
-        { id: "3f6a77b903fa49188c0f86d529b15657", label: "recursion", value: 2 },
+        { id: "ede3e4c873c840818d69a79b7cd3d7e8", label: "recursion", value: 2, color: "#769a76" },
     
-        { id: "2e0edfb1e7b142a5baf199c8f5b94431", label: "high_level_paradigm", value: 13 },
+        { id: "748ab108107b4d6d8712fe110c917e71", label: "high_level_paradigm", value: 13, color: "palevioletred" },
     
-        { id: "a4f62e773ede4d65b1d396c5ce068330", label: "default", value: 0 },
+        { id: "dd425e05b6584c6c8a2c7eb9688329cd", label: "default", value: 0, color: "#769a76" },
     
-        { id: "2c6948d4bec642b490d31005766a25f7", label: "imperative", value: 7 },
+        { id: "2ce3b7edc2424ce99911b75d95f93dac", label: "imperative", value: 7, color: "#769a76" },
     
-        { id: "e8c4a675885849a09d1fc08efcc9dadc", label: "object_oriented", value: 3 },
+        { id: "7aa0e48770684eb88a64e86058d7a8c2", label: "object_oriented", value: 3, color: "#769a76" },
     
-        { id: "2fd1f3c620f54894be0ca48f8bf69c40", label: "application", value: 1 },
+        { id: "02ce3e71fd664b308fbb1a72c70a1823", label: "application", value: 1, color: "#769a76" },
     
-        { id: "e5d76ff81c644d5c83e891c6f868846f", label: "principles", value: 2 },
+        { id: "60c4fbffb66842a8b38b604b7e0e3e3e", label: "principles", value: 2, color: "#769a76" },
     
-        { id: "f86eb0fc85ae4737b05a983421e5f1f3", label: "structure", value: 2 },
+        { id: "1c5bd911c4fd4e1980a686e749b42fb5", label: "structure", value: 2, color: "#769a76" },
     
-        { id: "0b5dfed843d64966a775f6d5f3787d2e", label: "abstraction", value: 0 },
+        { id: "e07942862da74c248100f2364f9f8629", label: "abstraction", value: 0, color: "#769a76" },
     
-        { id: "c3d04d357a44479da7ade6eb908cd74e", label: "class", value: 1 },
+        { id: "fb87dd19c5534a5f99a601fbd5108a12", label: "class", value: 1, color: "#769a76" },
     
-        { id: "75abb8277b184c62bde6b11a91e6017e", label: "encapsulation", value: 2 },
+        { id: "6d3fc9e4ad2d4e50b707dd9c627685d7", label: "encapsulation", value: 2, color: "#769a76" },
     
-        { id: "43b7de44d9684ef29841ad07481f516c", label: "inheritance", value: 1 },
+        { id: "96c27aca8b204bda9bc57f84fd501d65", label: "inheritance", value: 1, color: "#769a76" },
     
-        { id: "d9b0d5522eec4ae5a34791963d4add5d", label: "object", value: 0 },
+        { id: "21a7ad96282f42d18e6a519b1fcb0c17", label: "object", value: 0, color: "#769a76" },
     
-        { id: "9e87cdfdb3af48b680c8724ed664d021", label: "behavior", value: 2 },
+        { id: "3811aa295da94406877e4050e03f2e08", label: "behavior", value: 2, color: "#769a76" },
     
-        { id: "17e06932dc2c407fbd7a0f4f2522330f", label: "message_passing", value: 2 },
+        { id: "244cc642d507498bafbd79d2ce9ae5a7", label: "message_passing", value: 2, color: "#769a76" },
     
-        { id: "a4a970e76516400da6646beda7c0d7a5", label: "method", value: 1 },
+        { id: "0e493030080e49b49242d6486c7b4dc4", label: "method", value: 1, color: "#769a76" },
     
-        { id: "cfb66773afba48f9bd5dfa21c1871717", label: "polymorphism", value: 1 },
+        { id: "6d2a27adac3d463aa86798b90eb88004", label: "polymorphism", value: 1, color: "#769a76" },
     
-        { id: "88d7ef22b8a544049670eb431ed9dacc", label: "functional", value: 1 },
+        { id: "8e5b9d93b936405bbc0740bfb091aa68", label: "functional", value: 1, color: "#769a76" },
     
-        { id: "2898ae5256534eadb587251db5f2def5", label: "principles", value: 1 },
+        { id: "97c64832803246988e3d904d194b6968", label: "principles", value: 1, color: "#769a76" },
     
-        { id: "798ab7aca92a4a1798d8bb01048fe50b", label: "first_class_functions", value: 1 },
+        { id: "d1b2c883c6224967b60b57535e7bad2c", label: "first_class_functions", value: 1, color: "#769a76" },
     
-        { id: "0bcdaeb623d64591baf7df09c9b05d04", label: "referential_transparency", value: 0 },
+        { id: "c207b867b9db44d994f9f51d681d5101", label: "referential_transparency", value: 0, color: "#769a76" },
     
-        { id: "2a98e412d3f54f96a2a6be92e1b0b1ab", label: "immutability", value: 0 },
+        { id: "404b8d2c39d347e686c2d8b2ac89eacc", label: "immutability", value: 0, color: "#769a76" },
     
-        { id: "9a9422193ea34efc98bc6b6f40088772", label: "closure", value: 0 },
+        { id: "1e0a6ec05a2c41e4a55dbe668647b0b2", label: "closure", value: 0, color: "#769a76" },
     
-        { id: "5890bdec11d645128f156b91064cc4ef", label: "recursion", value: 0 },
+        { id: "d464562c8a9c4616863bc7b65738fe73", label: "recursion", value: 0, color: "#769a76" },
     
-        { id: "bfbe5e50ce044d1289f8f0d9b6b523f9", label: "lazy_evaluation", value: 0 },
+        { id: "74ecdecdd756438ab32cfd94e4ea3ebf", label: "lazy_evaluation", value: 0, color: "#769a76" },
     
-        { id: "cef902acc4304f22a990fd05ddb412c4", label: "currying", value: 0 },
+        { id: "6524f01384b14761bbfecda8e195f3cb", label: "currying", value: 0, color: "#769a76" },
     
-        { id: "195c9227133b41edbb89183226da616e", label: "pattern_matching", value: 0 },
+        { id: "c538eb3ad4ee414788ca99261403985e", label: "pattern_matching", value: 0, color: "#769a76" },
     
-        { id: "f4ce78bbcf35481abd92764cfd5eb025", label: "polymorphism", value: 0 },
+        { id: "78bf1b6ea7ca48fe9bd1d93a8a184e5e", label: "polymorphism", value: 0, color: "#769a76" },
     
-        { id: "fc3e459f593c4b3c9f74217fd22f1eda", label: "procedural", value: 3 },
+        { id: "bc0945a732274114abe4ffb420715504", label: "procedural", value: 3, color: "#769a76" },
     
-        { id: "207f4706e33444be8537040d42755fee", label: "logical", value: 1 },
+        { id: "d96bd416b0a440d185970e226d4945f7", label: "logical", value: 1, color: "#769a76" },
     
-        { id: "4e176878fe544edc9fc19f74cbd3dae9", label: "principles", value: 1 },
+        { id: "58ca0bf23dfb4eabbc268b92484efb0a", label: "principles", value: 1, color: "#769a76" },
     
-        { id: "bf1e68005e9944589942505b5718f64a", label: "language", value: 13 },
+        { id: "be656e35d99f41cdbb7022d0cce05b44", label: "language", value: 13, color: "palevioletred" },
     
-        { id: "1da23fde4e854b3a8e916be7d54983d4", label: "default", value: 1 },
+        { id: "c21f404b8d434297baa2dc7c85488d97", label: "default", value: 1, color: "#769a76" },
     
-        { id: "7f70aad116a0405f931a9527e302a4c5", label: "syntax", value: 1 },
+        { id: "582261bdc6d04b6ca52ea38ad5bcdc9d", label: "syntax", value: 1, color: "#769a76" },
     
-        { id: "7ed2e80610304887aee1ca23ae3b5066", label: "semantic", value: 1 },
+        { id: "6c6ece238de8467691eee1ce8988014f", label: "semantic", value: 1, color: "#769a76" },
     
-        { id: "7b3da8cd58134af3b112a0982ce8af92", label: "java", value: 6 },
+        { id: "197e2c5e20e842d3ad91d4635d77f33c", label: "java", value: 6, color: "#769a76" },
     
-        { id: "99d2f78648de414488085a1a19539250", label: "syntax", value: 6 },
+        { id: "cee6fb2c222146258f709e3deadf21dc", label: "syntax", value: 6, color: "#769a76" },
     
-        { id: "eb3501ea1db5406497c3818c63d79222", label: "semantic", value: 6 },
+        { id: "7920799f44fc4c95a3649a549539afee", label: "semantic", value: 6, color: "#769a76" },
     
-        { id: "719662784fd848259c08098bcd2d3a53", label: "standard_library", value: 1 },
+        { id: "b1baea4a4c0249f3b8dd5f2cd0869a9d", label: "standard_library", value: 1, color: "#769a76" },
     
-        { id: "cc8003cd190f4a4abe312a6d5b91eab8", label: "python", value: 0 },
+        { id: "8153fea2b75c46f180d694eab6a905c8", label: "python", value: 0, color: "#769a76" },
     
-        { id: "3520f3c2630c4911b2c7418d581645d8", label: "scratch", value: 0 },
+        { id: "5001a3e7adaf49df847815ece9f9e2bb", label: "scratch", value: 0, color: "#769a76" },
     
-        { id: "83c982863b114da5a0d7e1141a1daf82", label: "c", value: 2 },
+        { id: "15ab7d1bd0664f25aafc608a2995f7f3", label: "c", value: 2, color: "#769a76" },
     
-        { id: "60384a8b0ba248119ab2b9a8e960f9e5", label: "syntax", value: 2 },
+        { id: "4752c091ce5947349a7dd17f34f43e0a", label: "syntax", value: 2, color: "#769a76" },
     
-        { id: "a2f56df0514549078c172d813a59f1dd", label: "semantic", value: 2 },
+        { id: "4e6b6e0e433345afae1975a4ba58aa5a", label: "semantic", value: 2, color: "#769a76" },
     
-        { id: "cae947a4b2634ec3a09db6a19aa03002", label: "standard_library", value: 2 },
+        { id: "d4ed0759dad049a8a7f6ed702ed6b94c", label: "standard_library", value: 2, color: "#769a76" },
     
-        { id: "5927d605b13149e78dedea75d14360bd", label: "c++", value: 0 },
+        { id: "ab5bc5393db04ac3b1529a1e6263d91a", label: "c++", value: 0, color: "#769a76" },
     
-        { id: "bcaab6749ddc4df99c63b8f3bb471fb7", label: "smalltalk", value: 0 },
+        { id: "0fc9dd871080414284c8c9472de1bd17", label: "smalltalk", value: 0, color: "#769a76" },
     
-        { id: "f747d40d87ce4e3b96d2fdf9625e4f92", label: "lisp", value: 1 },
+        { id: "2a1ea4c03d2e41a6a7b3bbdd16e8d813", label: "lisp", value: 1, color: "#769a76" },
     
-        { id: "7c5f02d5ecae48acbb9142bdfe6ec13c", label: "semantic", value: 1 },
+        { id: "ce7a2d93953b4283b8bf9d09dd100432", label: "semantic", value: 1, color: "#769a76" },
     
-        { id: "bfecefe73f754d10b5e97ed8ccf7cdd5", label: "standard_library", value: 1 },
+        { id: "6fb2a0056f8b4296989d0c82b2ee4a89", label: "standard_library", value: 1, color: "#769a76" },
     
-        { id: "d98d383eb31f458a87d28b67428f5b81", label: "pascal", value: 1 },
+        { id: "f6223086bae445dab765447a26d9b744", label: "pascal", value: 1, color: "#769a76" },
     
-        { id: "086311d54f734c1f91234e5e2799e612", label: "syntax", value: 1 },
+        { id: "3482ce5a06504ed6961bc513479be38e", label: "syntax", value: 1, color: "#769a76" },
     
-        { id: "cfa456519fb644c9826acccadc4c3b16", label: "semantic", value: 1 },
+        { id: "53822cd0d342435bbd07030537675aaf", label: "semantic", value: 1, color: "#769a76" },
     
-        { id: "36ccd3f03ad0448b821d03316fdcf9b9", label: "prolog", value: 1 },
+        { id: "0cbef022f6364833be3d81c2f4e1ed06", label: "prolog", value: 1, color: "#769a76" },
     
-        { id: "4f65ed3b0ba84abb89e65e152deb4d6b", label: "syntax", value: 1 },
+        { id: "4ee6d6f6049648d7900f8b887eb21fd4", label: "syntax", value: 1, color: "#769a76" },
     
-        { id: "8899945c92e34ae39be3840794c60e56", label: "semantic", value: 1 },
+        { id: "820c5d6c97904a53a28b1368fb486ba2", label: "semantic", value: 1, color: "#769a76" },
     
-        { id: "acca916dd77a44efa824c94ce3cd71b6", label: "javascript", value: 0 },
+        { id: "b0c9330a276842a0a9ece153b1e9d956", label: "javascript", value: 0, color: "#769a76" },
     
-        { id: "00f154523c3b4af2a990a03e57eeaea1", label: "pseudocode", value: 4 },
+        { id: "134ddb61a7b340d5835627fce40e13e7", label: "pseudocode", value: 4, color: "#769a76" },
     
-        { id: "0eb3893682fa4d2d9e6992d348b86d28", label: "syntax", value: 1 },
+        { id: "710069ee92b94e5793d04ad5b1b2843a", label: "syntax", value: 1, color: "#769a76" },
     
-        { id: "878be1e36f884308b8ade60256c6fb35", label: "semantic", value: 1 },
+        { id: "909769b937494e40b862dba89dc63e50", label: "semantic", value: 1, color: "#769a76" },
     
-        { id: "f5d36a7388974b8c9b1fc75f9c4691df", label: "standard_library", value: 1 },
+        { id: "c433c4b1b00f4684b3290a14cbc10355", label: "standard_library", value: 1, color: "#769a76" },
     
     ]);
 
     // create an array with edges
     var edges = new vis.DataSet([
     
-        { from: "f759bdd092954aa8a8f7942c01ca87a4", to: "18b2779b9d12419e8c59fb0b11234f13" },
+        { from: "616e36c9d48c40a09474844b04b64e3c", to: "32b176c8cf4b4dca92c5f8e6ed4642ca" },
     
-        { from: "f759bdd092954aa8a8f7942c01ca87a4", to: "9379c72abf0b44c781540748a5b98277" },
+        { from: "616e36c9d48c40a09474844b04b64e3c", to: "47f48e2058164a2683a6b98cefd4e763" },
     
-        { from: "749b4a907dd44b0485290bc079d26d0a", to: "385e3daf1f844927be18e94c986e54ba" },
+        { from: "4e868da9e5a24064a2e00c33826e2bee", to: "3a3d1a282cfc49d2a764354d6da5b1c9" },
     
-        { from: "749b4a907dd44b0485290bc079d26d0a", to: "9fa8e0176f2f477fa565a1169da1dcdf" },
+        { from: "4e868da9e5a24064a2e00c33826e2bee", to: "e7a084daed434d469073a54102fd6c75" },
     
-        { from: "749b4a907dd44b0485290bc079d26d0a", to: "d6a25137682d44619dd0b24af7b103f0" },
+        { from: "4e868da9e5a24064a2e00c33826e2bee", to: "d40acee89f6a4b7c86ff300118299eba" },
     
-        { from: "749b4a907dd44b0485290bc079d26d0a", to: "40464961025643afbb0d9c4134c184ac" },
+        { from: "4e868da9e5a24064a2e00c33826e2bee", to: "89837dd592204aee8740c22201bd3930" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "e3618a651a864e9b97228f38a03dce29" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "cd89928da9914e2db0bf43eb5871ea03" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "5e96e75d829542238132a1c4224a4f60" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "5b6b9f15b5954e1ba3cc56ffffa7bdf8" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "b1c0104f6922481997208d9c65a6dba3" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "e9e889f2ec704432b3ba2b7811bdb3e6" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "4ce3349b19c84ffcb9c98b9c3772dc7d" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "302c5b2ac2db49fb9b22e64d6740b439" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "a6692f29379c482eba1d85803a680adb" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "d7d6ebb74ee642a2b06283228b159c7d" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "186e5eb27e8d4a3c865494496e902aa7" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "811f405e440e4b54aeec42cfeb8b49d9" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "fec5904243fb4db08fc8b0a54e6ef0ad" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "d2fd9b36a2ac421091f1a53d26a39c8d" },
     
-        { from: "385e3daf1f844927be18e94c986e54ba", to: "fcb51a9ccfdb43f3924778aeb5a2f4e7" },
+        { from: "3a3d1a282cfc49d2a764354d6da5b1c9", to: "fe4ad957f6984415a9eac5c88ebda74a" },
     
-        { from: "5e96e75d829542238132a1c4224a4f60", to: "8a3b902202d84ed5b966899970dd8241" },
+        { from: "5b6b9f15b5954e1ba3cc56ffffa7bdf8", to: "8d619136c9f84efba702f66c39bd0fba" },
     
-        { from: "b1c0104f6922481997208d9c65a6dba3", to: "ab82388340844d1fa27553ffc2f5173f" },
+        { from: "e9e889f2ec704432b3ba2b7811bdb3e6", to: "7e43186d2e2e4ff4a250aef26ec95c04" },
     
-        { from: "4ce3349b19c84ffcb9c98b9c3772dc7d", to: "9097866523e540069a46e5b65d6db7d1" },
+        { from: "302c5b2ac2db49fb9b22e64d6740b439", to: "89f6a26e23ff44f6a1a941c243437bda" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "e8769002899340939f86a860e89ddbb9" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "2b9033d66cb44d03b95f6fd5dba73aeb" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "9a17fa0c346e475090528ce158a55d6e" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "59ff1dee128b4a1a944c3a8ece8016be" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "1e2ff4adade84a06952e22986a6107bb" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "73c8b812467e49e788e339c34fdb375c" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "e46d75d41daf48a894360e90d1159ec1" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "4a13d2adbebf4dc1afe94bba7d119ca9" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "a84d6a8dbfbd4d9187e09785a07d9ec4" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "f4a43cc674c443b78fa059e0f620b557" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "80c8509c2de1424f833e2f7ea4603648" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "4039516074834147ae3e42250073ca50" },
     
-        { from: "a6692f29379c482eba1d85803a680adb", to: "bd5d43af9be2479e929a7c95ba41371d" },
+        { from: "d7d6ebb74ee642a2b06283228b159c7d", to: "3c27288e66734ca88df2c32b56931c4c" },
     
-        { from: "9a17fa0c346e475090528ce158a55d6e", to: "df41c4061b7d40b49834321d78019293" },
+        { from: "59ff1dee128b4a1a944c3a8ece8016be", to: "16cdf32a8db94a76864aa643421f329a" },
     
-        { from: "1e2ff4adade84a06952e22986a6107bb", to: "80766f9c76ee4de2bb879f5613b95cf5" },
+        { from: "73c8b812467e49e788e339c34fdb375c", to: "663aeadf03c14cc082ae9c17846b79aa" },
     
-        { from: "e46d75d41daf48a894360e90d1159ec1", to: "2a3593ae929b4f909785827e7b5e6c36" },
+        { from: "4a13d2adbebf4dc1afe94bba7d119ca9", to: "e6f1387049f44c4abbe19fac1d68937f" },
     
-        { from: "a84d6a8dbfbd4d9187e09785a07d9ec4", to: "5f8db71018a345abb52f45cb1c403b5f" },
+        { from: "f4a43cc674c443b78fa059e0f620b557", to: "9eb130027a4f4a37844a9d2db7dc97ce" },
     
-        { from: "80c8509c2de1424f833e2f7ea4603648", to: "809955a7c42741c596a4c0f1ce8f3a9a" },
+        { from: "4039516074834147ae3e42250073ca50", to: "91250cd4c80f4ac6a774a50a8dcc8773" },
     
-        { from: "bd5d43af9be2479e929a7c95ba41371d", to: "24c74df4d44d4ed88d384781d91fb3a6" },
+        { from: "3c27288e66734ca88df2c32b56931c4c", to: "04799ff5fa9c4db786661306ccff90e1" },
     
-        { from: "186e5eb27e8d4a3c865494496e902aa7", to: "22f86f198b614a398ec2440af7ed594f" },
+        { from: "811f405e440e4b54aeec42cfeb8b49d9", to: "bafde00dee4047469e7774d858c32fff" },
     
-        { from: "fec5904243fb4db08fc8b0a54e6ef0ad", to: "b0cf41db271c4dbaba549b42ef550dac" },
+        { from: "d2fd9b36a2ac421091f1a53d26a39c8d", to: "f1d0919426e54abcbe561d65202fb9cb" },
     
-        { from: "fec5904243fb4db08fc8b0a54e6ef0ad", to: "8c2840b906b34b9c884adeee9214e17b" },
+        { from: "d2fd9b36a2ac421091f1a53d26a39c8d", to: "4b4ecf20c65a492e8dedacf61d4cc678" },
     
-        { from: "fec5904243fb4db08fc8b0a54e6ef0ad", to: "9de54dc16969473294e74e059a9b489c" },
+        { from: "d2fd9b36a2ac421091f1a53d26a39c8d", to: "d0e6bb2d2d784efaa8f52b17c0ada9b1" },
     
-        { from: "8c2840b906b34b9c884adeee9214e17b", to: "7d76cdba3d334164bd2d1624b3609078" },
+        { from: "4b4ecf20c65a492e8dedacf61d4cc678", to: "d7cbb51a07784e7e9d05f2a70215b0f1" },
     
-        { from: "9de54dc16969473294e74e059a9b489c", to: "747e2e666ce6458fb3ea938c949ad71a" },
+        { from: "d0e6bb2d2d784efaa8f52b17c0ada9b1", to: "6363c6ebc17746c28b51306bafcc2a55" },
     
-        { from: "9de54dc16969473294e74e059a9b489c", to: "7e7fe8ceeb2e4448bb65afb4e554e80c" },
+        { from: "d0e6bb2d2d784efaa8f52b17c0ada9b1", to: "37f12dd7735c4f94ba12f869d586e216" },
     
-        { from: "9de54dc16969473294e74e059a9b489c", to: "56e80ab5c72b46f29c691e446b1937f4" },
+        { from: "d0e6bb2d2d784efaa8f52b17c0ada9b1", to: "bdd6edf1f5034cb1aefdd25336bef397" },
     
-        { from: "9de54dc16969473294e74e059a9b489c", to: "976ad840df5e44a0be19e3e3a552b522" },
+        { from: "d0e6bb2d2d784efaa8f52b17c0ada9b1", to: "6163f9d3b2fb4879b6530acdb5a767ac" },
     
-        { from: "7e7fe8ceeb2e4448bb65afb4e554e80c", to: "4fc778e5640244c2b4fe66e40d6e0e8d" },
+        { from: "37f12dd7735c4f94ba12f869d586e216", to: "cfb6e00d09e049399042f40e3b612369" },
     
-        { from: "7e7fe8ceeb2e4448bb65afb4e554e80c", to: "2c15ffda902840d3ba5504d7ba4d1d45" },
+        { from: "37f12dd7735c4f94ba12f869d586e216", to: "2ae3655e04e346c4b10dd54910a4fa50" },
     
-        { from: "56e80ab5c72b46f29c691e446b1937f4", to: "c35f348839524b5d8395159887244302" },
+        { from: "bdd6edf1f5034cb1aefdd25336bef397", to: "2a513b48b8814dc39027f651433fdcde" },
     
-        { from: "56e80ab5c72b46f29c691e446b1937f4", to: "965cd356e0d14ca69ca4df70bd807d54" },
+        { from: "bdd6edf1f5034cb1aefdd25336bef397", to: "08f1331702824f4ebb324bb969d5fb00" },
     
-        { from: "976ad840df5e44a0be19e3e3a552b522", to: "5712b8115db84f8eb4d51a974930d86c" },
+        { from: "6163f9d3b2fb4879b6530acdb5a767ac", to: "7621810500b2471485a42a109b6242c2" },
     
-        { from: "976ad840df5e44a0be19e3e3a552b522", to: "05f29d6456ae4b9b8f19af755a02aedc" },
+        { from: "6163f9d3b2fb4879b6530acdb5a767ac", to: "2013ab1c1af448cf99634593966f4219" },
     
-        { from: "976ad840df5e44a0be19e3e3a552b522", to: "8001e878a79945ada241fcded93ac7b9" },
+        { from: "6163f9d3b2fb4879b6530acdb5a767ac", to: "6ed5ed78001a4514b96d6627f30ad824" },
     
-        { from: "fcb51a9ccfdb43f3924778aeb5a2f4e7", to: "ae5b024cffeb4ac08614364ed87645e6" },
+        { from: "fe4ad957f6984415a9eac5c88ebda74a", to: "3401ed0dee8e403dbbafbf5e753f32c1" },
     
-        { from: "9fa8e0176f2f477fa565a1169da1dcdf", to: "8a3f750598fb4213b0127e9dce4c18c7" },
+        { from: "e7a084daed434d469073a54102fd6c75", to: "72702b68ece148308f1c878e8b6f426c" },
     
-        { from: "9fa8e0176f2f477fa565a1169da1dcdf", to: "5a7840e5c0f843909aed64fed308d4aa" },
+        { from: "e7a084daed434d469073a54102fd6c75", to: "b840f0adb31c4fb382c3aa684596c5e8" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "66c4e8d869b442a1838f08f6537a662b" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "a570f125cccd48e0a6c2eaa59cceda28" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "f15a0a69a380451ebccdc396d574e7df" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "87d5130292fa45738040ab3502b34a7b" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "30e73be72ce6414da39c55a434f239a1" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "817cbb2bb9d543a7841a587f0baf3faa" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "88d91fccbcf64fe09c9bf4290a36026d" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "b5d8f9ba73c94dc6ac0f0ade775efa5d" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "ca825dbe677249b78a58a9dc0a682069" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "f0efe976d2a54ba7805471e08cc46de0" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "b94ea662c2c04a9c843e7ec03c72f54b" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "98f1bfb8ab2647328686be519fb39058" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "e0bc767b6f9a49078af772cc98ba93a1" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "abae14edbec84dfa91d01df243027d50" },
     
-        { from: "8a3f750598fb4213b0127e9dce4c18c7", to: "de9cbf11a1af486186fea52249f4578b" },
+        { from: "72702b68ece148308f1c878e8b6f426c", to: "0a41c48153454553867f33cc91071f39" },
     
-        { from: "5a7840e5c0f843909aed64fed308d4aa", to: "6ed00eaf77e5471d93b271fc5a6ac3bf" },
+        { from: "b840f0adb31c4fb382c3aa684596c5e8", to: "a0f7386141bf4664b03d97be8a1578cb" },
     
-        { from: "5a7840e5c0f843909aed64fed308d4aa", to: "d1cad0ad7a8d453db5c6bc8beb15e370" },
+        { from: "b840f0adb31c4fb382c3aa684596c5e8", to: "96ecccb90cd54bce92d0a0de3ad018ad" },
     
-        { from: "5a7840e5c0f843909aed64fed308d4aa", to: "4a416811f6284bd585bd6460c9544329" },
+        { from: "b840f0adb31c4fb382c3aa684596c5e8", to: "fc94aaa8882d40babaf0b112e8432988" },
     
-        { from: "5a7840e5c0f843909aed64fed308d4aa", to: "2e981813c64a407a928580bfb4985edd" },
+        { from: "b840f0adb31c4fb382c3aa684596c5e8", to: "27e9ea750ce540ba99eca24a872c0d5f" },
     
-        { from: "5a7840e5c0f843909aed64fed308d4aa", to: "022f3bfd904844e598d88f5d9a769207" },
+        { from: "b840f0adb31c4fb382c3aa684596c5e8", to: "204fc70de6964802b1507f806e3d9c9b" },
     
-        { from: "d6a25137682d44619dd0b24af7b103f0", to: "bf95b90e4e1648508913ed67b86bb0b7" },
+        { from: "d40acee89f6a4b7c86ff300118299eba", to: "c3141d654a7c42c2aa314bf03e24cf42" },
     
-        { from: "d6a25137682d44619dd0b24af7b103f0", to: "bf41b928e0994964a395ff2cd15aa74a" },
+        { from: "d40acee89f6a4b7c86ff300118299eba", to: "3e9f6596c7a64270a005c58691cb2fae" },
     
-        { from: "d6a25137682d44619dd0b24af7b103f0", to: "373c0e0d8cf241018ce0c062f63f59ca" },
+        { from: "d40acee89f6a4b7c86ff300118299eba", to: "4b6ebb4bb8f84851aa002570044bd648" },
     
-        { from: "40464961025643afbb0d9c4134c184ac", to: "d5a0c8e1197c452884dad7f3b97025bd" },
+        { from: "89837dd592204aee8740c22201bd3930", to: "fc1e4623c29448549877a3fe79356fa5" },
     
-        { from: "40464961025643afbb0d9c4134c184ac", to: "e5277984db5d499995d9f4402f7912d4" },
+        { from: "89837dd592204aee8740c22201bd3930", to: "d364d352c4c046ad83e648364ca2243b" },
     
-        { from: "40464961025643afbb0d9c4134c184ac", to: "3f6a77b903fa49188c0f86d529b15657" },
+        { from: "89837dd592204aee8740c22201bd3930", to: "ede3e4c873c840818d69a79b7cd3d7e8" },
     
-        { from: "2e0edfb1e7b142a5baf199c8f5b94431", to: "a4f62e773ede4d65b1d396c5ce068330" },
+        { from: "748ab108107b4d6d8712fe110c917e71", to: "dd425e05b6584c6c8a2c7eb9688329cd" },
     
-        { from: "2e0edfb1e7b142a5baf199c8f5b94431", to: "2c6948d4bec642b490d31005766a25f7" },
+        { from: "748ab108107b4d6d8712fe110c917e71", to: "2ce3b7edc2424ce99911b75d95f93dac" },
     
-        { from: "2e0edfb1e7b142a5baf199c8f5b94431", to: "e8c4a675885849a09d1fc08efcc9dadc" },
+        { from: "748ab108107b4d6d8712fe110c917e71", to: "7aa0e48770684eb88a64e86058d7a8c2" },
     
-        { from: "2e0edfb1e7b142a5baf199c8f5b94431", to: "88d7ef22b8a544049670eb431ed9dacc" },
+        { from: "748ab108107b4d6d8712fe110c917e71", to: "8e5b9d93b936405bbc0740bfb091aa68" },
     
-        { from: "2e0edfb1e7b142a5baf199c8f5b94431", to: "fc3e459f593c4b3c9f74217fd22f1eda" },
+        { from: "748ab108107b4d6d8712fe110c917e71", to: "bc0945a732274114abe4ffb420715504" },
     
-        { from: "2e0edfb1e7b142a5baf199c8f5b94431", to: "207f4706e33444be8537040d42755fee" },
+        { from: "748ab108107b4d6d8712fe110c917e71", to: "d96bd416b0a440d185970e226d4945f7" },
     
-        { from: "e8c4a675885849a09d1fc08efcc9dadc", to: "2fd1f3c620f54894be0ca48f8bf69c40" },
+        { from: "7aa0e48770684eb88a64e86058d7a8c2", to: "02ce3e71fd664b308fbb1a72c70a1823" },
     
-        { from: "e8c4a675885849a09d1fc08efcc9dadc", to: "e5d76ff81c644d5c83e891c6f868846f" },
+        { from: "7aa0e48770684eb88a64e86058d7a8c2", to: "60c4fbffb66842a8b38b604b7e0e3e3e" },
     
-        { from: "e5d76ff81c644d5c83e891c6f868846f", to: "f86eb0fc85ae4737b05a983421e5f1f3" },
+        { from: "60c4fbffb66842a8b38b604b7e0e3e3e", to: "1c5bd911c4fd4e1980a686e749b42fb5" },
     
-        { from: "e5d76ff81c644d5c83e891c6f868846f", to: "9e87cdfdb3af48b680c8724ed664d021" },
+        { from: "60c4fbffb66842a8b38b604b7e0e3e3e", to: "3811aa295da94406877e4050e03f2e08" },
     
-        { from: "f86eb0fc85ae4737b05a983421e5f1f3", to: "0b5dfed843d64966a775f6d5f3787d2e" },
+        { from: "1c5bd911c4fd4e1980a686e749b42fb5", to: "e07942862da74c248100f2364f9f8629" },
     
-        { from: "f86eb0fc85ae4737b05a983421e5f1f3", to: "c3d04d357a44479da7ade6eb908cd74e" },
+        { from: "1c5bd911c4fd4e1980a686e749b42fb5", to: "fb87dd19c5534a5f99a601fbd5108a12" },
     
-        { from: "f86eb0fc85ae4737b05a983421e5f1f3", to: "75abb8277b184c62bde6b11a91e6017e" },
+        { from: "1c5bd911c4fd4e1980a686e749b42fb5", to: "6d3fc9e4ad2d4e50b707dd9c627685d7" },
     
-        { from: "f86eb0fc85ae4737b05a983421e5f1f3", to: "43b7de44d9684ef29841ad07481f516c" },
+        { from: "1c5bd911c4fd4e1980a686e749b42fb5", to: "96c27aca8b204bda9bc57f84fd501d65" },
     
-        { from: "f86eb0fc85ae4737b05a983421e5f1f3", to: "d9b0d5522eec4ae5a34791963d4add5d" },
+        { from: "1c5bd911c4fd4e1980a686e749b42fb5", to: "21a7ad96282f42d18e6a519b1fcb0c17" },
     
-        { from: "0b5dfed843d64966a775f6d5f3787d2e", to: "ce241fa76f5141ee98f40e4388c22ed2" },
+        { from: "e07942862da74c248100f2364f9f8629", to: "114bdd6e834540139bdda9e95bb20b66" },
     
-        { from: "c3d04d357a44479da7ade6eb908cd74e", to: "ec34a62241fb482a9ea710e3f8a672d0" },
+        { from: "fb87dd19c5534a5f99a601fbd5108a12", to: "4bc595df96074ec3a1b62fbb80a403e0" },
     
-        { from: "75abb8277b184c62bde6b11a91e6017e", to: "696f0697d5094fb4a8a3e13f3c2aa93d" },
+        { from: "6d3fc9e4ad2d4e50b707dd9c627685d7", to: "7ee35895dcf74119b884aaa626bf7687" },
     
-        { from: "43b7de44d9684ef29841ad07481f516c", to: "85649ed83e0441c898891395d4416c3d" },
+        { from: "96c27aca8b204bda9bc57f84fd501d65", to: "d62af24247774a8f81b5f2deebea8c89" },
     
-        { from: "d9b0d5522eec4ae5a34791963d4add5d", to: "473a61b716d04d82887a6d05d9495eae" },
+        { from: "21a7ad96282f42d18e6a519b1fcb0c17", to: "845fe66abd664195a92e767fbedfbf7c" },
     
-        { from: "9e87cdfdb3af48b680c8724ed664d021", to: "17e06932dc2c407fbd7a0f4f2522330f" },
+        { from: "3811aa295da94406877e4050e03f2e08", to: "244cc642d507498bafbd79d2ce9ae5a7" },
     
-        { from: "9e87cdfdb3af48b680c8724ed664d021", to: "a4a970e76516400da6646beda7c0d7a5" },
+        { from: "3811aa295da94406877e4050e03f2e08", to: "0e493030080e49b49242d6486c7b4dc4" },
     
-        { from: "9e87cdfdb3af48b680c8724ed664d021", to: "cfb66773afba48f9bd5dfa21c1871717" },
+        { from: "3811aa295da94406877e4050e03f2e08", to: "6d2a27adac3d463aa86798b90eb88004" },
     
-        { from: "17e06932dc2c407fbd7a0f4f2522330f", to: "21108241a1c2462798f9716c1c51b4dc" },
+        { from: "244cc642d507498bafbd79d2ce9ae5a7", to: "e3c3ab85d3624bd1aba7ce66f6dac579" },
     
-        { from: "a4a970e76516400da6646beda7c0d7a5", to: "7ff18a8325ff4b59a8068089c0093338" },
+        { from: "0e493030080e49b49242d6486c7b4dc4", to: "c0fb6d7d4085450cb458a504924eca62" },
     
-        { from: "cfb66773afba48f9bd5dfa21c1871717", to: "db9a51b840834f1097c10e79ca3e79c9" },
+        { from: "6d2a27adac3d463aa86798b90eb88004", to: "fd350633a35f4f5784de33b44a7f0936" },
     
-        { from: "88d7ef22b8a544049670eb431ed9dacc", to: "2898ae5256534eadb587251db5f2def5" },
+        { from: "8e5b9d93b936405bbc0740bfb091aa68", to: "97c64832803246988e3d904d194b6968" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "798ab7aca92a4a1798d8bb01048fe50b" },
+        { from: "97c64832803246988e3d904d194b6968", to: "d1b2c883c6224967b60b57535e7bad2c" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "0bcdaeb623d64591baf7df09c9b05d04" },
+        { from: "97c64832803246988e3d904d194b6968", to: "c207b867b9db44d994f9f51d681d5101" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "2a98e412d3f54f96a2a6be92e1b0b1ab" },
+        { from: "97c64832803246988e3d904d194b6968", to: "404b8d2c39d347e686c2d8b2ac89eacc" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "9a9422193ea34efc98bc6b6f40088772" },
+        { from: "97c64832803246988e3d904d194b6968", to: "1e0a6ec05a2c41e4a55dbe668647b0b2" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "5890bdec11d645128f156b91064cc4ef" },
+        { from: "97c64832803246988e3d904d194b6968", to: "d464562c8a9c4616863bc7b65738fe73" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "bfbe5e50ce044d1289f8f0d9b6b523f9" },
+        { from: "97c64832803246988e3d904d194b6968", to: "74ecdecdd756438ab32cfd94e4ea3ebf" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "cef902acc4304f22a990fd05ddb412c4" },
+        { from: "97c64832803246988e3d904d194b6968", to: "6524f01384b14761bbfecda8e195f3cb" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "195c9227133b41edbb89183226da616e" },
+        { from: "97c64832803246988e3d904d194b6968", to: "c538eb3ad4ee414788ca99261403985e" },
     
-        { from: "2898ae5256534eadb587251db5f2def5", to: "f4ce78bbcf35481abd92764cfd5eb025" },
+        { from: "97c64832803246988e3d904d194b6968", to: "78bf1b6ea7ca48fe9bd1d93a8a184e5e" },
     
-        { from: "798ab7aca92a4a1798d8bb01048fe50b", to: "b96ff0abdb5b4215bcca6906f37ea588" },
+        { from: "d1b2c883c6224967b60b57535e7bad2c", to: "d942a1179a0544b7bed393c2758dbdf2" },
     
-        { from: "0bcdaeb623d64591baf7df09c9b05d04", to: "fe2084eba00d420cb0b7a6fc0d449f28" },
+        { from: "c207b867b9db44d994f9f51d681d5101", to: "f959d3d0f96c4aa38f859da74a33a84d" },
     
-        { from: "2a98e412d3f54f96a2a6be92e1b0b1ab", to: "aa02d4f00ecb400b8562bb01a4418a5e" },
+        { from: "404b8d2c39d347e686c2d8b2ac89eacc", to: "147a2e9f0967447d8406928fc5e2470a" },
     
-        { from: "9a9422193ea34efc98bc6b6f40088772", to: "de5643a3e27b453591294e2b69fcec5d" },
+        { from: "1e0a6ec05a2c41e4a55dbe668647b0b2", to: "f2aee9e584f8421db3d89a5b64ed22a1" },
     
-        { from: "5890bdec11d645128f156b91064cc4ef", to: "75dd5324634d4b629359067e38fe7ce7" },
+        { from: "d464562c8a9c4616863bc7b65738fe73", to: "cf7e27b8bdec40828035af8d7db6cf34" },
     
-        { from: "bfbe5e50ce044d1289f8f0d9b6b523f9", to: "961dd4a6213a4b78b3bdee0380eb9662" },
+        { from: "74ecdecdd756438ab32cfd94e4ea3ebf", to: "5314b7fc4cec467ab9bdcd38dfbd3a75" },
     
-        { from: "cef902acc4304f22a990fd05ddb412c4", to: "6bcc874bafb441c1a4cff86b024eae4c" },
+        { from: "6524f01384b14761bbfecda8e195f3cb", to: "26490e81c1d6453fa7c87dedd0ed4242" },
     
-        { from: "195c9227133b41edbb89183226da616e", to: "2ffacd7c31394cf8a2ec9adad6b128d1" },
+        { from: "c538eb3ad4ee414788ca99261403985e", to: "c79e8e5417664156a09fa0d64696e54c" },
     
-        { from: "f4ce78bbcf35481abd92764cfd5eb025", to: "5dbc117fb8f94ba382123012ae665eb7" },
+        { from: "78bf1b6ea7ca48fe9bd1d93a8a184e5e", to: "acabfdf67158417884672dfeff4c6fa6" },
     
-        { from: "207f4706e33444be8537040d42755fee", to: "4e176878fe544edc9fc19f74cbd3dae9" },
+        { from: "d96bd416b0a440d185970e226d4945f7", to: "58ca0bf23dfb4eabbc268b92484efb0a" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "1da23fde4e854b3a8e916be7d54983d4" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "c21f404b8d434297baa2dc7c85488d97" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "7b3da8cd58134af3b112a0982ce8af92" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "197e2c5e20e842d3ad91d4635d77f33c" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "cc8003cd190f4a4abe312a6d5b91eab8" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "8153fea2b75c46f180d694eab6a905c8" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "3520f3c2630c4911b2c7418d581645d8" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "5001a3e7adaf49df847815ece9f9e2bb" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "83c982863b114da5a0d7e1141a1daf82" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "15ab7d1bd0664f25aafc608a2995f7f3" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "5927d605b13149e78dedea75d14360bd" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "ab5bc5393db04ac3b1529a1e6263d91a" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "bcaab6749ddc4df99c63b8f3bb471fb7" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "0fc9dd871080414284c8c9472de1bd17" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "f747d40d87ce4e3b96d2fdf9625e4f92" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "2a1ea4c03d2e41a6a7b3bbdd16e8d813" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "d98d383eb31f458a87d28b67428f5b81" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "f6223086bae445dab765447a26d9b744" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "36ccd3f03ad0448b821d03316fdcf9b9" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "0cbef022f6364833be3d81c2f4e1ed06" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "acca916dd77a44efa824c94ce3cd71b6" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "b0c9330a276842a0a9ece153b1e9d956" },
     
-        { from: "bf1e68005e9944589942505b5718f64a", to: "00f154523c3b4af2a990a03e57eeaea1" },
+        { from: "be656e35d99f41cdbb7022d0cce05b44", to: "134ddb61a7b340d5835627fce40e13e7" },
     
-        { from: "1da23fde4e854b3a8e916be7d54983d4", to: "7f70aad116a0405f931a9527e302a4c5" },
+        { from: "c21f404b8d434297baa2dc7c85488d97", to: "582261bdc6d04b6ca52ea38ad5bcdc9d" },
     
-        { from: "1da23fde4e854b3a8e916be7d54983d4", to: "7ed2e80610304887aee1ca23ae3b5066" },
+        { from: "c21f404b8d434297baa2dc7c85488d97", to: "6c6ece238de8467691eee1ce8988014f" },
     
-        { from: "7b3da8cd58134af3b112a0982ce8af92", to: "99d2f78648de414488085a1a19539250" },
+        { from: "197e2c5e20e842d3ad91d4635d77f33c", to: "cee6fb2c222146258f709e3deadf21dc" },
     
-        { from: "7b3da8cd58134af3b112a0982ce8af92", to: "eb3501ea1db5406497c3818c63d79222" },
+        { from: "197e2c5e20e842d3ad91d4635d77f33c", to: "7920799f44fc4c95a3649a549539afee" },
     
-        { from: "7b3da8cd58134af3b112a0982ce8af92", to: "719662784fd848259c08098bcd2d3a53" },
+        { from: "197e2c5e20e842d3ad91d4635d77f33c", to: "b1baea4a4c0249f3b8dd5f2cd0869a9d" },
     
-        { from: "83c982863b114da5a0d7e1141a1daf82", to: "60384a8b0ba248119ab2b9a8e960f9e5" },
+        { from: "15ab7d1bd0664f25aafc608a2995f7f3", to: "4752c091ce5947349a7dd17f34f43e0a" },
     
-        { from: "83c982863b114da5a0d7e1141a1daf82", to: "a2f56df0514549078c172d813a59f1dd" },
+        { from: "15ab7d1bd0664f25aafc608a2995f7f3", to: "4e6b6e0e433345afae1975a4ba58aa5a" },
     
-        { from: "83c982863b114da5a0d7e1141a1daf82", to: "cae947a4b2634ec3a09db6a19aa03002" },
+        { from: "15ab7d1bd0664f25aafc608a2995f7f3", to: "d4ed0759dad049a8a7f6ed702ed6b94c" },
     
-        { from: "f747d40d87ce4e3b96d2fdf9625e4f92", to: "7c5f02d5ecae48acbb9142bdfe6ec13c" },
+        { from: "2a1ea4c03d2e41a6a7b3bbdd16e8d813", to: "ce7a2d93953b4283b8bf9d09dd100432" },
     
-        { from: "f747d40d87ce4e3b96d2fdf9625e4f92", to: "bfecefe73f754d10b5e97ed8ccf7cdd5" },
+        { from: "2a1ea4c03d2e41a6a7b3bbdd16e8d813", to: "6fb2a0056f8b4296989d0c82b2ee4a89" },
     
-        { from: "d98d383eb31f458a87d28b67428f5b81", to: "086311d54f734c1f91234e5e2799e612" },
+        { from: "f6223086bae445dab765447a26d9b744", to: "3482ce5a06504ed6961bc513479be38e" },
     
-        { from: "d98d383eb31f458a87d28b67428f5b81", to: "cfa456519fb644c9826acccadc4c3b16" },
+        { from: "f6223086bae445dab765447a26d9b744", to: "53822cd0d342435bbd07030537675aaf" },
     
-        { from: "36ccd3f03ad0448b821d03316fdcf9b9", to: "4f65ed3b0ba84abb89e65e152deb4d6b" },
+        { from: "0cbef022f6364833be3d81c2f4e1ed06", to: "4ee6d6f6049648d7900f8b887eb21fd4" },
     
-        { from: "36ccd3f03ad0448b821d03316fdcf9b9", to: "8899945c92e34ae39be3840794c60e56" },
+        { from: "0cbef022f6364833be3d81c2f4e1ed06", to: "820c5d6c97904a53a28b1368fb486ba2" },
     
-        { from: "00f154523c3b4af2a990a03e57eeaea1", to: "0eb3893682fa4d2d9e6992d348b86d28" },
+        { from: "134ddb61a7b340d5835627fce40e13e7", to: "710069ee92b94e5793d04ad5b1b2843a" },
     
-        { from: "00f154523c3b4af2a990a03e57eeaea1", to: "878be1e36f884308b8ade60256c6fb35" },
+        { from: "134ddb61a7b340d5835627fce40e13e7", to: "909769b937494e40b862dba89dc63e50" },
     
-        { from: "00f154523c3b4af2a990a03e57eeaea1", to: "f5d36a7388974b8c9b1fc75f9c4691df" },
+        { from: "134ddb61a7b340d5835627fce40e13e7", to: "c433c4b1b00f4684b3290a14cbc10355" },
     
-        { from: "00f154523c3b4af2a990a03e57eeaea1", to: "715d974449c84baea1581dcaa6fbade1" },
+        { from: "134ddb61a7b340d5835627fce40e13e7", to: "b8ba6f48bdc54117bfc0689f8e659009" },
     
     ]);
 
@@ -552,7 +573,6 @@
       },
       nodes: {
         shape: "dot",
-        color: "#aaaaff",
         font: "20px Arial",
         scaling: {
             min: 5,
@@ -561,6 +581,14 @@
       },
     };
     var network = new vis.Network(container, data, options);
+
+    network.on("doubleClick", function(props) {
+      if (!props.nodes.length) return;
+
+      var node = props.nodes[0];
+      var url = "https://google.de"
+      window.open(url, "_target");
+    })
 </script>
 
 </html>

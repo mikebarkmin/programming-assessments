@@ -1,3 +1,101 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+  padding: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: palevioletred;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 32px;
+}
+
 #network {
   height: 600px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.cards .card {
+  flex: 1;
+  color: white;
+  background-color: palevioletred;
+  padding: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card .title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card a,
+.card a:visited {
+  color: white;
+}
+
+.card .value {
+}
+
+.contributors {
+  display: flex;
+}
+
+.contributors img {
+  width: 100px;
+  border-color: palevioletred;
+  border-width: 4px;
+  border-style: solid;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.contributors .contributor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
 }

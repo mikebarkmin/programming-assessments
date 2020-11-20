@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Ahadi 2013 - 2</h1>
+<p>
+Ahadi, Alireza and Lister, Raymond
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">3</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/coding.html">coding</a></div>
+    
+    <div class="value"><a href="/answer_formats/short_answer.html">short_answer</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Ahadi et.al: <a href="https://doi.org/10.1145/2493394.2493416">Geek Genes, Prior Knowledge, Stumbling Points and Learning Edge Momentum: Parts of the One Elephant?</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "9b67baa4-fb6b-42cb-bba5-e9257507ef4f", label: "commp_model", color: "palevioletred" },
+    
+        { id: "67ad8acbb12a43ddb20a7fc594284345", label: "language", color: "#769a76" },
+    
+        { id: "b604af5b5a7e4f0c814d78488017a8ff", label: "java", color: "#8fbc8f" },
+    
+        { id: "db536a2115a7457da419c38d6a85f90e", label: "syntax", color: "#a2c7a1" },
+    
+        { id: "d0985aea75704509966d87a2052d2c0f", label: "semantic", color: "#a2c7a1" },
+    
+        { id: "b8fc0e6c2ab54a778308761e49923843", label: "elements", color: "#769a76" },
+    
+        { id: "c42dcca567a34923a8f73a1380c0c31a", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "56da8295c7dc4a1dbed6397d58541151", label: "variables", color: "#a2c7a1" },
+    
+        { id: "1ac33f56af2f4cd4b0a9ed12afff130a", label: "statements", color: "#a2c7a1" },
+    
+        { id: "12fb73a8697645f1b61762412ed826ff", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "d8cbae3c32724862959fe8ba0518afee", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "66a4338f70e2479eaeaac5c9abd75bbb", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "6654c7e195384625aa53bd4ad0b34583", label: "integer", color: "#b4d2b3" },
+    
+        { id: "5bc9f1591db945eea1e8e0bd494e1d21", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "df2c1777eeba4772922cb5470e3e540a", label: "imperative", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "9b67baa4-fb6b-42cb-bba5-e9257507ef4f", to: "67ad8acbb12a43ddb20a7fc594284345" },
+    
+        { from: "67ad8acbb12a43ddb20a7fc594284345", to: "b604af5b5a7e4f0c814d78488017a8ff" },
+    
+        { from: "b604af5b5a7e4f0c814d78488017a8ff", to: "db536a2115a7457da419c38d6a85f90e" },
+    
+        { from: "b604af5b5a7e4f0c814d78488017a8ff", to: "d0985aea75704509966d87a2052d2c0f" },
+    
+        { from: "9b67baa4-fb6b-42cb-bba5-e9257507ef4f", to: "b8fc0e6c2ab54a778308761e49923843" },
+    
+        { from: "b8fc0e6c2ab54a778308761e49923843", to: "c42dcca567a34923a8f73a1380c0c31a" },
+    
+        { from: "c42dcca567a34923a8f73a1380c0c31a", to: "56da8295c7dc4a1dbed6397d58541151" },
+    
+        { from: "c42dcca567a34923a8f73a1380c0c31a", to: "1ac33f56af2f4cd4b0a9ed12afff130a" },
+    
+        { from: "1ac33f56af2f4cd4b0a9ed12afff130a", to: "12fb73a8697645f1b61762412ed826ff" },
+    
+        { from: "b8fc0e6c2ab54a778308761e49923843", to: "d8cbae3c32724862959fe8ba0518afee" },
+    
+        { from: "d8cbae3c32724862959fe8ba0518afee", to: "66a4338f70e2479eaeaac5c9abd75bbb" },
+    
+        { from: "66a4338f70e2479eaeaac5c9abd75bbb", to: "6654c7e195384625aa53bd4ad0b34583" },
+    
+        { from: "9b67baa4-fb6b-42cb-bba5-e9257507ef4f", to: "5bc9f1591db945eea1e8e0bd494e1d21" },
+    
+        { from: "5bc9f1591db945eea1e8e0bd494e1d21", to: "df2c1777eeba4772922cb5470e3e540a" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

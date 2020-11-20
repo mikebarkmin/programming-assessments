@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Developing Assessments to Determine Mastery of Programming Fundamentals</h1>
+<p>
+Luxton-Reilly, Andrew and Becker, Brett A. and Cao, Yingjun and McDermott, Roger and Mirolo, Claudio and Mühling, Andreas and Petersen, Andrew and Sanders, Kate and Simon and Whalley, Jacqueline
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">21</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/multiple_choice.html">multiple_choice</a></div>
+    
+    <div class="value"><a href="/answer_formats/short_answer.html">short_answer</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="https://doi.org/10.1145/3174781.3174784">Assessment</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Luxton-Reilly et.al: <a href="https://doi.org/10.1145/3174781.3174784">Developing Assessments to Determine Mastery of Programming Fundamentals</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "bb93446b-35cc-4319-81fd-619e8343c405", label: "commp_model", color: "palevioletred" },
+    
+        { id: "ef91967265f5496f91042e35d875061e", label: "cognitive_processes", color: "#769a76" },
+    
+        { id: "c031ab2fa63c469fb2fe3b2f9266e51e", label: "interpreting", color: "#8fbc8f" },
+    
+        { id: "d3128119cdff4682b5715becb6c32904", label: "language", color: "#769a76" },
+    
+        { id: "f7510032fc6f4847823890e94629c3ee", label: "java", color: "#8fbc8f" },
+    
+        { id: "3dcb8129591646e48a868059b3c699c8", label: "syntax", color: "#a2c7a1" },
+    
+        { id: "1d7e02308b3f49c59e9aa21764312679", label: "semantic", color: "#a2c7a1" },
+    
+        { id: "8c997b31b63048fe9d61345b7c422b8f", label: "elements", color: "#769a76" },
+    
+        { id: "5c94355e64e84d0cb3526581cea9be5c", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "2c54ad664010455eb52e0038c180fe21", label: "expressions", color: "#a2c7a1" },
+    
+        { id: "60b34f25ead948d5bf4552b03ab78502", label: "operators", color: "#a2c7a1" },
+    
+        { id: "f8f86522f8894ed2b4a0f39e08bf31ca", label: "relational", color: "#b4d2b3" },
+    
+        { id: "9a983372b5024b28817e61cbc7f4247d", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "e0adc077126940a2b16e99566c598019", label: "logical", color: "#b4d2b3" },
+    
+        { id: "ebefde1b65f74c24b617d82aff86e1ce", label: "variables", color: "#a2c7a1" },
+    
+        { id: "852fc4079b5642118bbdf85d0069825d", label: "subroutines", color: "#a2c7a1" },
+    
+        { id: "874518fc95e84440862e345e1b043c5f", label: "statements", color: "#a2c7a1" },
+    
+        { id: "1ce3948c15754b1493da8ad0ccaad5ce", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "adffe8654c2a4395891568b56db754f0", label: "control", color: "#b4d2b3" },
+    
+        { id: "999fbac0656a412e9495ef8c0ed5fa3c", label: "iterative", color: "#c7ddc6" },
+    
+        { id: "265ea67948fa46588b516de60e987dea", label: "while", color: "#d9e9d9" },
+    
+        { id: "6f816748b4584cb98b5309018504775f", label: "for", color: "#d9e9d9" },
+    
+        { id: "1e6a96203c744a96afe3c03e6b0cc085", label: "select", color: "#c7ddc6" },
+    
+        { id: "214fcf186d25449a8ec28df1630ee2bd", label: "if", color: "#d9e9d9" },
+    
+        { id: "659941fa97c84ee1a4559df440aea8c2", label: "switch", color: "#d9e9d9" },
+    
+        { id: "8dcdc84f781c4540b8916b5e361ffd7a", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "0308a0b1e2944fed871b163076c2a222", label: "break", color: "#d9e9d9" },
+    
+        { id: "14c1076bc6da402289d60ab6f85eaf47", label: "call", color: "#d9e9d9" },
+    
+        { id: "bffeae90faa34ecd98d2d4ce3c78c07d", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "0f71fb130829493bace3bd0e3e4f1d07", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "4f79604b01ef4f45ba351789c56743ea", label: "integer", color: "#b4d2b3" },
+    
+        { id: "d1191f34f044463481e2e84a836450a0", label: "boolean", color: "#b4d2b3" },
+    
+        { id: "93cbd031da32429db6ac7323ec787780", label: "null_pointer", color: "#b4d2b3" },
+    
+        { id: "6ec5e442756349fd840353cf8a62379a", label: "character", color: "#b4d2b3" },
+    
+        { id: "7205c45639e744648fc5e885298071ad", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "abe8bcba85db4429b986ae35d35f8389", label: "record", color: "#b4d2b3" },
+    
+        { id: "8687200a39794d62882864af07ee7928", label: "array", color: "#b4d2b3" },
+    
+        { id: "dfbe5859f73941368fd1e404dcf8441d", label: "string", color: "#b4d2b3" },
+    
+        { id: "70829e23ed954c3dae92647b57c3e525", label: "algorithmic_paradigms", color: "#8fbc8f" },
+    
+        { id: "2af949f64a224c85b707a77a3f81b0e1", label: "iteration", color: "#a2c7a1" },
+    
+        { id: "dc5325ed705b46cea54fa2a00ee58653", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "b555e1d4897f45efa106337569f3e5a0", label: "imperative", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "bb93446b-35cc-4319-81fd-619e8343c405", to: "ef91967265f5496f91042e35d875061e" },
+    
+        { from: "ef91967265f5496f91042e35d875061e", to: "c031ab2fa63c469fb2fe3b2f9266e51e" },
+    
+        { from: "bb93446b-35cc-4319-81fd-619e8343c405", to: "d3128119cdff4682b5715becb6c32904" },
+    
+        { from: "d3128119cdff4682b5715becb6c32904", to: "f7510032fc6f4847823890e94629c3ee" },
+    
+        { from: "f7510032fc6f4847823890e94629c3ee", to: "3dcb8129591646e48a868059b3c699c8" },
+    
+        { from: "f7510032fc6f4847823890e94629c3ee", to: "1d7e02308b3f49c59e9aa21764312679" },
+    
+        { from: "bb93446b-35cc-4319-81fd-619e8343c405", to: "8c997b31b63048fe9d61345b7c422b8f" },
+    
+        { from: "8c997b31b63048fe9d61345b7c422b8f", to: "5c94355e64e84d0cb3526581cea9be5c" },
+    
+        { from: "5c94355e64e84d0cb3526581cea9be5c", to: "2c54ad664010455eb52e0038c180fe21" },
+    
+        { from: "5c94355e64e84d0cb3526581cea9be5c", to: "60b34f25ead948d5bf4552b03ab78502" },
+    
+        { from: "60b34f25ead948d5bf4552b03ab78502", to: "f8f86522f8894ed2b4a0f39e08bf31ca" },
+    
+        { from: "60b34f25ead948d5bf4552b03ab78502", to: "9a983372b5024b28817e61cbc7f4247d" },
+    
+        { from: "60b34f25ead948d5bf4552b03ab78502", to: "e0adc077126940a2b16e99566c598019" },
+    
+        { from: "5c94355e64e84d0cb3526581cea9be5c", to: "ebefde1b65f74c24b617d82aff86e1ce" },
+    
+        { from: "5c94355e64e84d0cb3526581cea9be5c", to: "852fc4079b5642118bbdf85d0069825d" },
+    
+        { from: "5c94355e64e84d0cb3526581cea9be5c", to: "874518fc95e84440862e345e1b043c5f" },
+    
+        { from: "874518fc95e84440862e345e1b043c5f", to: "1ce3948c15754b1493da8ad0ccaad5ce" },
+    
+        { from: "874518fc95e84440862e345e1b043c5f", to: "adffe8654c2a4395891568b56db754f0" },
+    
+        { from: "adffe8654c2a4395891568b56db754f0", to: "999fbac0656a412e9495ef8c0ed5fa3c" },
+    
+        { from: "999fbac0656a412e9495ef8c0ed5fa3c", to: "265ea67948fa46588b516de60e987dea" },
+    
+        { from: "999fbac0656a412e9495ef8c0ed5fa3c", to: "6f816748b4584cb98b5309018504775f" },
+    
+        { from: "adffe8654c2a4395891568b56db754f0", to: "1e6a96203c744a96afe3c03e6b0cc085" },
+    
+        { from: "1e6a96203c744a96afe3c03e6b0cc085", to: "214fcf186d25449a8ec28df1630ee2bd" },
+    
+        { from: "1e6a96203c744a96afe3c03e6b0cc085", to: "659941fa97c84ee1a4559df440aea8c2" },
+    
+        { from: "adffe8654c2a4395891568b56db754f0", to: "8dcdc84f781c4540b8916b5e361ffd7a" },
+    
+        { from: "8dcdc84f781c4540b8916b5e361ffd7a", to: "0308a0b1e2944fed871b163076c2a222" },
+    
+        { from: "8dcdc84f781c4540b8916b5e361ffd7a", to: "14c1076bc6da402289d60ab6f85eaf47" },
+    
+        { from: "8c997b31b63048fe9d61345b7c422b8f", to: "bffeae90faa34ecd98d2d4ce3c78c07d" },
+    
+        { from: "bffeae90faa34ecd98d2d4ce3c78c07d", to: "0f71fb130829493bace3bd0e3e4f1d07" },
+    
+        { from: "0f71fb130829493bace3bd0e3e4f1d07", to: "4f79604b01ef4f45ba351789c56743ea" },
+    
+        { from: "0f71fb130829493bace3bd0e3e4f1d07", to: "d1191f34f044463481e2e84a836450a0" },
+    
+        { from: "0f71fb130829493bace3bd0e3e4f1d07", to: "93cbd031da32429db6ac7323ec787780" },
+    
+        { from: "0f71fb130829493bace3bd0e3e4f1d07", to: "6ec5e442756349fd840353cf8a62379a" },
+    
+        { from: "bffeae90faa34ecd98d2d4ce3c78c07d", to: "7205c45639e744648fc5e885298071ad" },
+    
+        { from: "7205c45639e744648fc5e885298071ad", to: "abe8bcba85db4429b986ae35d35f8389" },
+    
+        { from: "7205c45639e744648fc5e885298071ad", to: "8687200a39794d62882864af07ee7928" },
+    
+        { from: "7205c45639e744648fc5e885298071ad", to: "dfbe5859f73941368fd1e404dcf8441d" },
+    
+        { from: "8c997b31b63048fe9d61345b7c422b8f", to: "70829e23ed954c3dae92647b57c3e525" },
+    
+        { from: "70829e23ed954c3dae92647b57c3e525", to: "2af949f64a224c85b707a77a3f81b0e1" },
+    
+        { from: "bb93446b-35cc-4319-81fd-619e8343c405", to: "dc5325ed705b46cea54fa2a00ee58653" },
+    
+        { from: "dc5325ed705b46cea54fa2a00ee58653", to: "b555e1d4897f45efa106337569f3e5a0" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

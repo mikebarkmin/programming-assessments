@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Benchmarked Exam Questions for Introductory Programming</h1>
+<p>
+Simon and Sheard, Judy and D'Souza, Daryl and Klemperer, Peter and Porter, Leo and Sorva, Juha and Stegeman, Martijn and Zingaro, Daniel
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">10</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/multiple_choice.html">multiple_choice</a></div>
+    
+    <div class="value"><a href="/answer_formats/coding.html">coding</a></div>
+    
+    <div class="value"><a href="/answer_formats/short_answer.html">short_answer</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="https://dl.acm.org/doi/10.1145/2960310.2960337">Assessment</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Simon et.al: <a href="https://doi.org/10.1145/2960310.2960337">Benchmarking Introductory Programming Exams: Some Preliminary Results</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "46fd4a45-e836-477e-aa62-56eda03af9c2", label: "commp_model", color: "palevioletred" },
+    
+        { id: "178549fe988d4ef89ff375ceadcdf1d9", label: "cognitive_processes", color: "#769a76" },
+    
+        { id: "fbda614beec6462881ca786f5e493d98", label: "interpreting", color: "#8fbc8f" },
+    
+        { id: "93ed4de8323948f39765c3d08ad97c2f", label: "producing", color: "#8fbc8f" },
+    
+        { id: "0bcae6579f8d4f09b517245c154d7b78", label: "language", color: "#769a76" },
+    
+        { id: "a3288a74ac5b45a688118a2eaa079ac9", label: "java", color: "#8fbc8f" },
+    
+        { id: "67d7da2aaec84b62b1531f81da26e6fa", label: "syntax", color: "#a2c7a1" },
+    
+        { id: "69b158fe72ee4a8096d8a3f40aea4583", label: "semantic", color: "#a2c7a1" },
+    
+        { id: "ffe92bad06a34c77967433275af03685", label: "elements", color: "#769a76" },
+    
+        { id: "d9f96fee590d4818b1dd0524709efe89", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "92e5adf0a94848fb8892a11fa324d276", label: "expressions", color: "#a2c7a1" },
+    
+        { id: "467dfa2ea42042f6b1935e7270d4e6a7", label: "variables", color: "#a2c7a1" },
+    
+        { id: "5708187afa6746aca2f337b2b3bc213c", label: "statements", color: "#a2c7a1" },
+    
+        { id: "9f9e40183ab5400295e1740a0d48ba6f", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "f9610e726710444cbec6c3137c1a5fe2", label: "operators", color: "#a2c7a1" },
+    
+        { id: "4cf2c7994c6643eeb97a8cf2cb785db1", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "57d423d2e77246f28b8e3beff2a151b8", label: "relational", color: "#b4d2b3" },
+    
+        { id: "42ddbeb05b03468aa361314c1584654a", label: "logical", color: "#b4d2b3" },
+    
+        { id: "e0af28a3724747f2b4699d21c886a956", label: "control", color: "#b4d2b3" },
+    
+        { id: "ebe7278c35994ad1aa0fdee577cf2d69", label: "iterative", color: "#c7ddc6" },
+    
+        { id: "12e909ce91164550aca2be8c15edb595", label: "for", color: "#d9e9d9" },
+    
+        { id: "9e7f4f46a3f940aa9dfbabd63c990a36", label: "select", color: "#c7ddc6" },
+    
+        { id: "380afb02d1904c808d9c718e046fcd9f", label: "if", color: "#d9e9d9" },
+    
+        { id: "b3a68cdf6353410e81cbd08133029c7d", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "59ddc2470dfb4d208ddcce764a68a259", label: "call", color: "#d9e9d9" },
+    
+        { id: "0c1788b0d92e4e54a443a6411b0aadbe", label: "return", color: "#d9e9d9" },
+    
+        { id: "a02f6091aa694c079531532db4d85b84", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "b6a1490d7913490c9a135826e836d104", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "b9a3273e133b4088a0c695eb7c2f10de", label: "array", color: "#b4d2b3" },
+    
+        { id: "5eec6f5fd918440f8eb94e483470e70f", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "b2d2c2e0fc4a4aef99c64b282305b7dc", label: "integer", color: "#b4d2b3" },
+    
+        { id: "bff2337e7366443cbe2857ae50754848", label: "algorithmic_paradigms", color: "#8fbc8f" },
+    
+        { id: "08a60310a8c34bb7849e8d1735293fce", label: "iteration", color: "#a2c7a1" },
+    
+        { id: "e593b619327d4e0a9f55efdb5a46d847", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "6b7f020b99e745398230e7d1e3c4e286", label: "imperative", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "46fd4a45-e836-477e-aa62-56eda03af9c2", to: "178549fe988d4ef89ff375ceadcdf1d9" },
+    
+        { from: "178549fe988d4ef89ff375ceadcdf1d9", to: "fbda614beec6462881ca786f5e493d98" },
+    
+        { from: "178549fe988d4ef89ff375ceadcdf1d9", to: "93ed4de8323948f39765c3d08ad97c2f" },
+    
+        { from: "46fd4a45-e836-477e-aa62-56eda03af9c2", to: "0bcae6579f8d4f09b517245c154d7b78" },
+    
+        { from: "0bcae6579f8d4f09b517245c154d7b78", to: "a3288a74ac5b45a688118a2eaa079ac9" },
+    
+        { from: "a3288a74ac5b45a688118a2eaa079ac9", to: "67d7da2aaec84b62b1531f81da26e6fa" },
+    
+        { from: "a3288a74ac5b45a688118a2eaa079ac9", to: "69b158fe72ee4a8096d8a3f40aea4583" },
+    
+        { from: "46fd4a45-e836-477e-aa62-56eda03af9c2", to: "ffe92bad06a34c77967433275af03685" },
+    
+        { from: "ffe92bad06a34c77967433275af03685", to: "d9f96fee590d4818b1dd0524709efe89" },
+    
+        { from: "d9f96fee590d4818b1dd0524709efe89", to: "92e5adf0a94848fb8892a11fa324d276" },
+    
+        { from: "d9f96fee590d4818b1dd0524709efe89", to: "467dfa2ea42042f6b1935e7270d4e6a7" },
+    
+        { from: "d9f96fee590d4818b1dd0524709efe89", to: "5708187afa6746aca2f337b2b3bc213c" },
+    
+        { from: "5708187afa6746aca2f337b2b3bc213c", to: "9f9e40183ab5400295e1740a0d48ba6f" },
+    
+        { from: "d9f96fee590d4818b1dd0524709efe89", to: "f9610e726710444cbec6c3137c1a5fe2" },
+    
+        { from: "f9610e726710444cbec6c3137c1a5fe2", to: "4cf2c7994c6643eeb97a8cf2cb785db1" },
+    
+        { from: "f9610e726710444cbec6c3137c1a5fe2", to: "57d423d2e77246f28b8e3beff2a151b8" },
+    
+        { from: "f9610e726710444cbec6c3137c1a5fe2", to: "42ddbeb05b03468aa361314c1584654a" },
+    
+        { from: "5708187afa6746aca2f337b2b3bc213c", to: "e0af28a3724747f2b4699d21c886a956" },
+    
+        { from: "e0af28a3724747f2b4699d21c886a956", to: "ebe7278c35994ad1aa0fdee577cf2d69" },
+    
+        { from: "ebe7278c35994ad1aa0fdee577cf2d69", to: "12e909ce91164550aca2be8c15edb595" },
+    
+        { from: "e0af28a3724747f2b4699d21c886a956", to: "9e7f4f46a3f940aa9dfbabd63c990a36" },
+    
+        { from: "9e7f4f46a3f940aa9dfbabd63c990a36", to: "380afb02d1904c808d9c718e046fcd9f" },
+    
+        { from: "e0af28a3724747f2b4699d21c886a956", to: "b3a68cdf6353410e81cbd08133029c7d" },
+    
+        { from: "b3a68cdf6353410e81cbd08133029c7d", to: "59ddc2470dfb4d208ddcce764a68a259" },
+    
+        { from: "b3a68cdf6353410e81cbd08133029c7d", to: "0c1788b0d92e4e54a443a6411b0aadbe" },
+    
+        { from: "ffe92bad06a34c77967433275af03685", to: "a02f6091aa694c079531532db4d85b84" },
+    
+        { from: "a02f6091aa694c079531532db4d85b84", to: "b6a1490d7913490c9a135826e836d104" },
+    
+        { from: "b6a1490d7913490c9a135826e836d104", to: "b9a3273e133b4088a0c695eb7c2f10de" },
+    
+        { from: "a02f6091aa694c079531532db4d85b84", to: "5eec6f5fd918440f8eb94e483470e70f" },
+    
+        { from: "5eec6f5fd918440f8eb94e483470e70f", to: "b2d2c2e0fc4a4aef99c64b282305b7dc" },
+    
+        { from: "ffe92bad06a34c77967433275af03685", to: "bff2337e7366443cbe2857ae50754848" },
+    
+        { from: "bff2337e7366443cbe2857ae50754848", to: "08a60310a8c34bb7849e8d1735293fce" },
+    
+        { from: "46fd4a45-e836-477e-aa62-56eda03af9c2", to: "e593b619327d4e0a9f55efdb5a46d847" },
+    
+        { from: "e593b619327d4e0a9f55efdb5a46d847", to: "6b7f020b99e745398230e7d1e3c4e286" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

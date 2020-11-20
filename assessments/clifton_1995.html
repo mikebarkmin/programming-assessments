@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Self-Assessment Procedure XXIII: Programming Languages</h1>
+<p>
+Clifton, Mitchell H.
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">41</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/multiple_choice.html">multiple_choice</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="https://dl.acm.org/doi/10.1145/203356.203378">Assessment</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Clifton: <a href="https://doi.org/10.1145/203356.203378">Self-Assessment Procedure XXIII: Programming Languages</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "e7b7927f-101b-4262-8c37-405dbee649a3", label: "commp_model", color: "palevioletred" },
+    
+        { id: "82fef11f5dce46f1b9c1d7f80e65b08f", label: "cognitive_processes", color: "#769a76" },
+    
+        { id: "d76846b0e52145efb29eef06c22bff4d", label: "interpreting", color: "#8fbc8f" },
+    
+        { id: "7ffa3d93e6e44c57a20377b8e71423dd", label: "language", color: "#769a76" },
+    
+        { id: "b858dfa0d2dc4bdb88647c3363bb6602", label: "default", color: "#8fbc8f" },
+    
+        { id: "7efead48583d4e9da6fed48dd76d810b", label: "syntax", color: "#a2c7a1" },
+    
+        { id: "fa2d160cafef45a3a3813c7719add666", label: "semantic", color: "#a2c7a1" },
+    
+        { id: "2749066cf5064b18a0899e19a30b8e3f", label: "pascal", color: "#8fbc8f" },
+    
+        { id: "75ed54c1306046ce9a3612a221491f37", label: "lisp", color: "#8fbc8f" },
+    
+        { id: "8e2fa52479b941d4826bfe1437445d58", label: "standard_library", color: "#a2c7a1" },
+    
+        { id: "2a96c72e6ece4df1ba2f9396e4d1da48", label: "prolog", color: "#8fbc8f" },
+    
+        { id: "41fa7b47a6b64e77857c0ad61fe9764e", label: "elements", color: "#769a76" },
+    
+        { id: "ae429ac117d64b0ba80910a5a9eab6e3", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "6aca8cfea3394a25b2e4895dcdd34e1b", label: "subroutines", color: "#a2c7a1" },
+    
+        { id: "9a71d5aae8684d3fa4a59cbd1ff37da2", label: "coroutines", color: "#a2c7a1" },
+    
+        { id: "a2f384f1cb254ef18b9018b1e859cecd", label: "variables", color: "#a2c7a1" },
+    
+        { id: "7416f3c3a1e64c539791d646257c90c3", label: "scope", color: "#a2c7a1" },
+    
+        { id: "1a4826e9d9e14f1c94a3a2f1f2b7f02d", label: "operators", color: "#a2c7a1" },
+    
+        { id: "5495f5cfb59c4e1b9ee5d92b4111b49d", label: "logical", color: "#b4d2b3" },
+    
+        { id: "5d37f655d60340929bea2e31ad0b8eac", label: "relational", color: "#b4d2b3" },
+    
+        { id: "214267cad2de45618fdda6f52190b4e4", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "625f6d41a6674a16b504238880225092", label: "statements", color: "#a2c7a1" },
+    
+        { id: "b2f884f729d541cb9a693ec7dd2d8cfc", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "7dfe7a2200314319ab9621c942a62a15", label: "control", color: "#b4d2b3" },
+    
+        { id: "83c1db28145e4e72a0c43fb6e2b3063f", label: "select", color: "#c7ddc6" },
+    
+        { id: "b430dc2a2d68463dbbdb91e398dfca99", label: "if", color: "#d9e9d9" },
+    
+        { id: "413a152796144d28accb3c6467add915", label: "switch", color: "#d9e9d9" },
+    
+        { id: "5b7ce92678a543418b403bff9f3c015d", label: "iterative", color: "#c7ddc6" },
+    
+        { id: "a7d2423237f74c39b3864a96e050a2c3", label: "for", color: "#d9e9d9" },
+    
+        { id: "fcc1b3651b8845a8b16d308a00d05a2c", label: "while", color: "#d9e9d9" },
+    
+        { id: "6aa14b43fb9f4c38ba6462f81e94608e", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "b3610ea15754440dbb6c129691f47568", label: "call", color: "#d9e9d9" },
+    
+        { id: "012165e51e6d45dfa6793d39ea5fb235", label: "return", color: "#d9e9d9" },
+    
+        { id: "0c268aecea77460288195deb12ab5849", label: "expressions", color: "#a2c7a1" },
+    
+        { id: "803598f7912146aeaa40fbee54f486e0", label: "algorithmic_paradigms", color: "#8fbc8f" },
+    
+        { id: "f667c138731e49369b81f9ace3a72a1d", label: "iteration", color: "#a2c7a1" },
+    
+        { id: "759fc79728454ce0a1327da6582f529f", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "91cee4d7da024b2e80ed2353dc909998", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "d04aa9b4cc4a4573b8cb4b27784ff1e0", label: "integer", color: "#b4d2b3" },
+    
+        { id: "d40a8095f6b3483583be0c026c2c07bb", label: "float", color: "#b4d2b3" },
+    
+        { id: "d8bbee72a6394bf4bf0829e75d74f116", label: "boolean", color: "#b4d2b3" },
+    
+        { id: "2b6035c247d04c39aa1fa5ff1f80c964", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "84a5a7d6a2ca48f0a42c0e0d67309a4b", label: "array", color: "#b4d2b3" },
+    
+        { id: "498cdeef36c54d268905a1811b481b3c", label: "record", color: "#b4d2b3" },
+    
+        { id: "d28d288dc518492da83fc6eb7a29562f", label: "enum", color: "#b4d2b3" },
+    
+        { id: "3acbb4d6017c4f828469ee3e25fd1594", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "9bb84dc9905e4f37842ffbb1f85bd0b8", label: "principles", color: "#a2c7a1" },
+    
+        { id: "6b4c947000564735873aad14c60c2489", label: "functional", color: "#8fbc8f" },
+    
+        { id: "41199b954fdc41d6a773827cf035a54b", label: "first_class_functions", color: "#b4d2b3" },
+    
+        { id: "1ab6b96de7684875a9335deed311eea7", label: "object_oriented", color: "#8fbc8f" },
+    
+        { id: "a12b66bd97b947998a81cec384e5ea90", label: "application", color: "#a2c7a1" },
+    
+        { id: "36354f782837426cb9fdd524906761c8", label: "structure", color: "#b4d2b3" },
+    
+        { id: "8eac8d6ad2084373b6fabd4b7067a7a6", label: "class", color: "#c7ddc6" },
+    
+        { id: "df311e022d454db4ac2b46b79053b368", label: "encapsulation", color: "#c7ddc6" },
+    
+        { id: "8cb2bd7c2c9f48f28195f621cf439539", label: "inheritance", color: "#c7ddc6" },
+    
+        { id: "395f4cb7263f41a0923e40679051d2fd", label: "behavior", color: "#b4d2b3" },
+    
+        { id: "17b1eed1974b4ef591123c8ac8749c37", label: "polymorphism", color: "#c7ddc6" },
+    
+        { id: "1e9ce69d13d44f13b3815ed186ee0342", label: "message_passing", color: "#c7ddc6" },
+    
+        { id: "6d01ee2e40eb450288b4f6c7e2983c55", label: "method", color: "#c7ddc6" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "e7b7927f-101b-4262-8c37-405dbee649a3", to: "82fef11f5dce46f1b9c1d7f80e65b08f" },
+    
+        { from: "82fef11f5dce46f1b9c1d7f80e65b08f", to: "d76846b0e52145efb29eef06c22bff4d" },
+    
+        { from: "e7b7927f-101b-4262-8c37-405dbee649a3", to: "7ffa3d93e6e44c57a20377b8e71423dd" },
+    
+        { from: "7ffa3d93e6e44c57a20377b8e71423dd", to: "b858dfa0d2dc4bdb88647c3363bb6602" },
+    
+        { from: "b858dfa0d2dc4bdb88647c3363bb6602", to: "7efead48583d4e9da6fed48dd76d810b" },
+    
+        { from: "b858dfa0d2dc4bdb88647c3363bb6602", to: "fa2d160cafef45a3a3813c7719add666" },
+    
+        { from: "7ffa3d93e6e44c57a20377b8e71423dd", to: "2749066cf5064b18a0899e19a30b8e3f" },
+    
+        { from: "2749066cf5064b18a0899e19a30b8e3f", to: "7efead48583d4e9da6fed48dd76d810b" },
+    
+        { from: "2749066cf5064b18a0899e19a30b8e3f", to: "fa2d160cafef45a3a3813c7719add666" },
+    
+        { from: "7ffa3d93e6e44c57a20377b8e71423dd", to: "75ed54c1306046ce9a3612a221491f37" },
+    
+        { from: "75ed54c1306046ce9a3612a221491f37", to: "fa2d160cafef45a3a3813c7719add666" },
+    
+        { from: "75ed54c1306046ce9a3612a221491f37", to: "8e2fa52479b941d4826bfe1437445d58" },
+    
+        { from: "7ffa3d93e6e44c57a20377b8e71423dd", to: "2a96c72e6ece4df1ba2f9396e4d1da48" },
+    
+        { from: "2a96c72e6ece4df1ba2f9396e4d1da48", to: "fa2d160cafef45a3a3813c7719add666" },
+    
+        { from: "2a96c72e6ece4df1ba2f9396e4d1da48", to: "7efead48583d4e9da6fed48dd76d810b" },
+    
+        { from: "e7b7927f-101b-4262-8c37-405dbee649a3", to: "41fa7b47a6b64e77857c0ad61fe9764e" },
+    
+        { from: "41fa7b47a6b64e77857c0ad61fe9764e", to: "ae429ac117d64b0ba80910a5a9eab6e3" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "6aca8cfea3394a25b2e4895dcdd34e1b" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "9a71d5aae8684d3fa4a59cbd1ff37da2" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "a2f384f1cb254ef18b9018b1e859cecd" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "7416f3c3a1e64c539791d646257c90c3" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "1a4826e9d9e14f1c94a3a2f1f2b7f02d" },
+    
+        { from: "1a4826e9d9e14f1c94a3a2f1f2b7f02d", to: "5495f5cfb59c4e1b9ee5d92b4111b49d" },
+    
+        { from: "1a4826e9d9e14f1c94a3a2f1f2b7f02d", to: "5d37f655d60340929bea2e31ad0b8eac" },
+    
+        { from: "1a4826e9d9e14f1c94a3a2f1f2b7f02d", to: "214267cad2de45618fdda6f52190b4e4" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "625f6d41a6674a16b504238880225092" },
+    
+        { from: "625f6d41a6674a16b504238880225092", to: "b2f884f729d541cb9a693ec7dd2d8cfc" },
+    
+        { from: "625f6d41a6674a16b504238880225092", to: "7dfe7a2200314319ab9621c942a62a15" },
+    
+        { from: "7dfe7a2200314319ab9621c942a62a15", to: "83c1db28145e4e72a0c43fb6e2b3063f" },
+    
+        { from: "83c1db28145e4e72a0c43fb6e2b3063f", to: "b430dc2a2d68463dbbdb91e398dfca99" },
+    
+        { from: "83c1db28145e4e72a0c43fb6e2b3063f", to: "413a152796144d28accb3c6467add915" },
+    
+        { from: "7dfe7a2200314319ab9621c942a62a15", to: "5b7ce92678a543418b403bff9f3c015d" },
+    
+        { from: "5b7ce92678a543418b403bff9f3c015d", to: "a7d2423237f74c39b3864a96e050a2c3" },
+    
+        { from: "5b7ce92678a543418b403bff9f3c015d", to: "fcc1b3651b8845a8b16d308a00d05a2c" },
+    
+        { from: "7dfe7a2200314319ab9621c942a62a15", to: "6aa14b43fb9f4c38ba6462f81e94608e" },
+    
+        { from: "6aa14b43fb9f4c38ba6462f81e94608e", to: "b3610ea15754440dbb6c129691f47568" },
+    
+        { from: "6aa14b43fb9f4c38ba6462f81e94608e", to: "012165e51e6d45dfa6793d39ea5fb235" },
+    
+        { from: "ae429ac117d64b0ba80910a5a9eab6e3", to: "0c268aecea77460288195deb12ab5849" },
+    
+        { from: "41fa7b47a6b64e77857c0ad61fe9764e", to: "803598f7912146aeaa40fbee54f486e0" },
+    
+        { from: "803598f7912146aeaa40fbee54f486e0", to: "f667c138731e49369b81f9ace3a72a1d" },
+    
+        { from: "41fa7b47a6b64e77857c0ad61fe9764e", to: "759fc79728454ce0a1327da6582f529f" },
+    
+        { from: "759fc79728454ce0a1327da6582f529f", to: "91cee4d7da024b2e80ed2353dc909998" },
+    
+        { from: "91cee4d7da024b2e80ed2353dc909998", to: "d04aa9b4cc4a4573b8cb4b27784ff1e0" },
+    
+        { from: "91cee4d7da024b2e80ed2353dc909998", to: "d40a8095f6b3483583be0c026c2c07bb" },
+    
+        { from: "91cee4d7da024b2e80ed2353dc909998", to: "d8bbee72a6394bf4bf0829e75d74f116" },
+    
+        { from: "759fc79728454ce0a1327da6582f529f", to: "2b6035c247d04c39aa1fa5ff1f80c964" },
+    
+        { from: "2b6035c247d04c39aa1fa5ff1f80c964", to: "84a5a7d6a2ca48f0a42c0e0d67309a4b" },
+    
+        { from: "2b6035c247d04c39aa1fa5ff1f80c964", to: "498cdeef36c54d268905a1811b481b3c" },
+    
+        { from: "2b6035c247d04c39aa1fa5ff1f80c964", to: "d28d288dc518492da83fc6eb7a29562f" },
+    
+        { from: "e7b7927f-101b-4262-8c37-405dbee649a3", to: "3acbb4d6017c4f828469ee3e25fd1594" },
+    
+        { from: "3acbb4d6017c4f828469ee3e25fd1594", to: "5495f5cfb59c4e1b9ee5d92b4111b49d" },
+    
+        { from: "5495f5cfb59c4e1b9ee5d92b4111b49d", to: "9bb84dc9905e4f37842ffbb1f85bd0b8" },
+    
+        { from: "3acbb4d6017c4f828469ee3e25fd1594", to: "6b4c947000564735873aad14c60c2489" },
+    
+        { from: "6b4c947000564735873aad14c60c2489", to: "9bb84dc9905e4f37842ffbb1f85bd0b8" },
+    
+        { from: "9bb84dc9905e4f37842ffbb1f85bd0b8", to: "41199b954fdc41d6a773827cf035a54b" },
+    
+        { from: "3acbb4d6017c4f828469ee3e25fd1594", to: "1ab6b96de7684875a9335deed311eea7" },
+    
+        { from: "1ab6b96de7684875a9335deed311eea7", to: "a12b66bd97b947998a81cec384e5ea90" },
+    
+        { from: "1ab6b96de7684875a9335deed311eea7", to: "9bb84dc9905e4f37842ffbb1f85bd0b8" },
+    
+        { from: "9bb84dc9905e4f37842ffbb1f85bd0b8", to: "36354f782837426cb9fdd524906761c8" },
+    
+        { from: "36354f782837426cb9fdd524906761c8", to: "8eac8d6ad2084373b6fabd4b7067a7a6" },
+    
+        { from: "36354f782837426cb9fdd524906761c8", to: "df311e022d454db4ac2b46b79053b368" },
+    
+        { from: "36354f782837426cb9fdd524906761c8", to: "8cb2bd7c2c9f48f28195f621cf439539" },
+    
+        { from: "9bb84dc9905e4f37842ffbb1f85bd0b8", to: "395f4cb7263f41a0923e40679051d2fd" },
+    
+        { from: "395f4cb7263f41a0923e40679051d2fd", to: "17b1eed1974b4ef591123c8ac8749c37" },
+    
+        { from: "395f4cb7263f41a0923e40679051d2fd", to: "1e9ce69d13d44f13b3815ed186ee0342" },
+    
+        { from: "395f4cb7263f41a0923e40679051d2fd", to: "6d01ee2e40eb450288b4f6c7e2983c55" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

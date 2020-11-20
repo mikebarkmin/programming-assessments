@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>String Manipulation</h1>
+<p>
+Izu, Cruz and Weerasignhe, Amali
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">1</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/coding.html">coding</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="https://dl.acm.org/doi/10.1145/3341525.3387382">Assessment</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Izu et.al: <a href="https://doi.org/10.1145/3341525.3387382">Assessing CS1 Design Skills with a String Manipulation Task</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "782a824a-61c2-4152-97dd-6b0c06b02914", label: "commp_model", color: "palevioletred" },
+    
+        { id: "7f5221af298641f98103124d8f6c750d", label: "cognitive_processes", color: "#769a76" },
+    
+        { id: "313a20b8694445d9b29010b0a7070000", label: "interpreting", color: "#8fbc8f" },
+    
+        { id: "182b16c8042442f494b3e461609e47c1", label: "producing", color: "#8fbc8f" },
+    
+        { id: "fd936c46579b41a68cd0fc6db9509fcc", label: "language", color: "#769a76" },
+    
+        { id: "c96cf16606ad4152a5512030d40fb148", label: "c", color: "#8fbc8f" },
+    
+        { id: "0e781d96d042431aacfbc03906421a50", label: "syntax", color: "#a2c7a1" },
+    
+        { id: "b5299f78fbf9411b9afa24c2b0f9444d", label: "semantic", color: "#a2c7a1" },
+    
+        { id: "6b31e5fdacdd44c2bf66bfcb3beb6d54", label: "standard_library", color: "#a2c7a1" },
+    
+        { id: "c96ffd9447f34169a95af45d28ffd150", label: "elements", color: "#769a76" },
+    
+        { id: "c08f567dd85a430ba15c8dddf212c109", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "1c1253728058415a8edd22dcc327b5e3", label: "variables", color: "#a2c7a1" },
+    
+        { id: "b44df60a07a44f39b55d52ec20415ef1", label: "statements", color: "#a2c7a1" },
+    
+        { id: "d970627d698c487f9391092b2e87cf50", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "c4d46331c26f41c4a855aa82fc68ebef", label: "operators", color: "#a2c7a1" },
+    
+        { id: "3481f4f450354e8ab5d9033109bd04e2", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "4b1460d977314bc89ae234053b4628b3", label: "relational", color: "#b4d2b3" },
+    
+        { id: "d4ca1639509e42409511b6df87d1dfaa", label: "control", color: "#b4d2b3" },
+    
+        { id: "bf6e2921e25c4898b017a4072fe9e7f3", label: "iterative", color: "#c7ddc6" },
+    
+        { id: "0c7c2e09f22a4393911734d84b65c212", label: "for", color: "#d9e9d9" },
+    
+        { id: "299b278cae74458e98c565fc1e24bb5f", label: "while", color: "#d9e9d9" },
+    
+        { id: "33f0a644c75740b095a0553ac3bd72c7", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "ef4f490ae4a74dcb9576ac038fb06c3d", label: "call", color: "#d9e9d9" },
+    
+        { id: "37ad4834725e40ef9f511febecbbdaf7", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "1b9b28c77993416dbfe984b0f71da727", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "b0a0c807df64402ca798bc38bcf42d34", label: "character", color: "#b4d2b3" },
+    
+        { id: "206a17644e264eb58671e5a6a1b6d7c7", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "c9fe2245d87b4cefb4e299e26bf98aec", label: "string", color: "#b4d2b3" },
+    
+        { id: "cacfa6e5ea0f45e6bd39ed3fbbdbaf89", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "968e1e03348e4243abcb39b4bcb39b3d", label: "procedural", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "782a824a-61c2-4152-97dd-6b0c06b02914", to: "7f5221af298641f98103124d8f6c750d" },
+    
+        { from: "7f5221af298641f98103124d8f6c750d", to: "313a20b8694445d9b29010b0a7070000" },
+    
+        { from: "7f5221af298641f98103124d8f6c750d", to: "182b16c8042442f494b3e461609e47c1" },
+    
+        { from: "782a824a-61c2-4152-97dd-6b0c06b02914", to: "fd936c46579b41a68cd0fc6db9509fcc" },
+    
+        { from: "fd936c46579b41a68cd0fc6db9509fcc", to: "c96cf16606ad4152a5512030d40fb148" },
+    
+        { from: "c96cf16606ad4152a5512030d40fb148", to: "0e781d96d042431aacfbc03906421a50" },
+    
+        { from: "c96cf16606ad4152a5512030d40fb148", to: "b5299f78fbf9411b9afa24c2b0f9444d" },
+    
+        { from: "c96cf16606ad4152a5512030d40fb148", to: "6b31e5fdacdd44c2bf66bfcb3beb6d54" },
+    
+        { from: "782a824a-61c2-4152-97dd-6b0c06b02914", to: "c96ffd9447f34169a95af45d28ffd150" },
+    
+        { from: "c96ffd9447f34169a95af45d28ffd150", to: "c08f567dd85a430ba15c8dddf212c109" },
+    
+        { from: "c08f567dd85a430ba15c8dddf212c109", to: "1c1253728058415a8edd22dcc327b5e3" },
+    
+        { from: "c08f567dd85a430ba15c8dddf212c109", to: "b44df60a07a44f39b55d52ec20415ef1" },
+    
+        { from: "b44df60a07a44f39b55d52ec20415ef1", to: "d970627d698c487f9391092b2e87cf50" },
+    
+        { from: "c08f567dd85a430ba15c8dddf212c109", to: "c4d46331c26f41c4a855aa82fc68ebef" },
+    
+        { from: "c4d46331c26f41c4a855aa82fc68ebef", to: "3481f4f450354e8ab5d9033109bd04e2" },
+    
+        { from: "c4d46331c26f41c4a855aa82fc68ebef", to: "4b1460d977314bc89ae234053b4628b3" },
+    
+        { from: "b44df60a07a44f39b55d52ec20415ef1", to: "d4ca1639509e42409511b6df87d1dfaa" },
+    
+        { from: "d4ca1639509e42409511b6df87d1dfaa", to: "bf6e2921e25c4898b017a4072fe9e7f3" },
+    
+        { from: "bf6e2921e25c4898b017a4072fe9e7f3", to: "0c7c2e09f22a4393911734d84b65c212" },
+    
+        { from: "bf6e2921e25c4898b017a4072fe9e7f3", to: "299b278cae74458e98c565fc1e24bb5f" },
+    
+        { from: "d4ca1639509e42409511b6df87d1dfaa", to: "33f0a644c75740b095a0553ac3bd72c7" },
+    
+        { from: "33f0a644c75740b095a0553ac3bd72c7", to: "ef4f490ae4a74dcb9576ac038fb06c3d" },
+    
+        { from: "c96ffd9447f34169a95af45d28ffd150", to: "37ad4834725e40ef9f511febecbbdaf7" },
+    
+        { from: "37ad4834725e40ef9f511febecbbdaf7", to: "1b9b28c77993416dbfe984b0f71da727" },
+    
+        { from: "1b9b28c77993416dbfe984b0f71da727", to: "b0a0c807df64402ca798bc38bcf42d34" },
+    
+        { from: "37ad4834725e40ef9f511febecbbdaf7", to: "206a17644e264eb58671e5a6a1b6d7c7" },
+    
+        { from: "206a17644e264eb58671e5a6a1b6d7c7", to: "c9fe2245d87b4cefb4e299e26bf98aec" },
+    
+        { from: "782a824a-61c2-4152-97dd-6b0c06b02914", to: "cacfa6e5ea0f45e6bd39ed3fbbdbaf89" },
+    
+        { from: "cacfa6e5ea0f45e6bd39ed3fbbdbaf89", to: "968e1e03348e4243abcb39b4bcb39b3d" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

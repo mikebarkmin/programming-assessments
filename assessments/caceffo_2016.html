@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Concept Inventory (CI) for Introductory Programming in C</h1>
+<p>
+Caceffo, Ricardo and Wolfman, Steve and Booth, Kellogg S. and Azevedo, Rodolfo
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">26</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/coding.html">coding</a></div>
+    
+    <div class="value"><a href="/answer_formats/short_answer.html">short_answer</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="http://www.ricardocaceffo.com/concept-inventory">Assessment</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+<caption>This is based on the assessment found at http://www.ricardocaceffo.com/concept.inventory, because it differs from the one presented in the paper caceffo_2016. For example not multiple-choice questions are present.
+</caption>
+
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Caceffo et.al: <a href="https://doi.org/10.1145/2839509.2844559">Developing a Computer Science Concept Inventory for Introductory Programming</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "d7144a80-a1f8-4bbd-a869-41ddeda6cece", label: "commp_model", color: "palevioletred" },
+    
+        { id: "e50cb6436e884ea2b13dee8a88876060", label: "cognitive_processes", color: "#769a76" },
+    
+        { id: "7ea9aafd0ffb40a79a735983feb1bf74", label: "interpreting", color: "#8fbc8f" },
+    
+        { id: "79e2ab6d21874e58aac33770cb0f565e", label: "producing", color: "#8fbc8f" },
+    
+        { id: "5dc81020571a4b11908c942db52471af", label: "language", color: "#769a76" },
+    
+        { id: "dd504279d66d48a8aaadc3f527b87683", label: "c", color: "#8fbc8f" },
+    
+        { id: "31c36dfe7e28497f9e99361c909f3a25", label: "syntax", color: "#a2c7a1" },
+    
+        { id: "4c7fd6c48cd74d858e97260fe5cd1cba", label: "semantic", color: "#a2c7a1" },
+    
+        { id: "daac487e8a48426a9cb71e62dd1417ff", label: "standard_library", color: "#a2c7a1" },
+    
+        { id: "b494c1c9389440189f74230d4d40865a", label: "elements", color: "#769a76" },
+    
+        { id: "f60b2defe39745ab826fb5d3bef6f75b", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "bcd4a28bd1d6407785f3524cccf782c3", label: "expressions", color: "#a2c7a1" },
+    
+        { id: "b7fd7b21cebd4abfa097773a7c19e725", label: "subroutines", color: "#a2c7a1" },
+    
+        { id: "8e5d1981a02747f0827bf9fe5eb652ef", label: "variables", color: "#a2c7a1" },
+    
+        { id: "7e264a7a3e344155b87cc373d0ceadd3", label: "statements", color: "#a2c7a1" },
+    
+        { id: "e207da6529a3426d8928738a188a79f1", label: "control", color: "#b4d2b3" },
+    
+        { id: "40a7dc4b740c4c6a884bcf1e4a9002ac", label: "select", color: "#c7ddc6" },
+    
+        { id: "8172614130784f7ba8e315a5ba92d047", label: "if", color: "#d9e9d9" },
+    
+        { id: "9716e6942cdf4d039d19ced2cc46a9a3", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "753f98ed84814f61b80cc3dd84ead0d1", label: "call", color: "#d9e9d9" },
+    
+        { id: "31a236087a834ea6b77b1b08a0d1a49e", label: "return", color: "#d9e9d9" },
+    
+        { id: "e49694c424874fe9b692684c6aac500d", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "3452a45afaab4dc2bf26e122a2205d1d", label: "operators", color: "#a2c7a1" },
+    
+        { id: "cccadefe720f4b39affb17c4d6e0d157", label: "logical", color: "#b4d2b3" },
+    
+        { id: "468568f7ec284773bddfbaa0daf94726", label: "relational", color: "#b4d2b3" },
+    
+        { id: "6e6cedf04cb84f75a26985261766ce72", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "8128a285d72b497ab04138d55c7d33c9", label: "other", color: "#b4d2b3" },
+    
+        { id: "9666fcbd30264ee3aaa23302b8141132", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "be4c6371e7eb4f9b87ca1532542b94ac", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "70f125b712cb4f5d89210039ca554c5c", label: "integer", color: "#b4d2b3" },
+    
+        { id: "06ffc200eb904fa6bc5b48585b1335ff", label: "void", color: "#b4d2b3" },
+    
+        { id: "a2c87ee79edb4531a037cef122919788", label: "pointer", color: "#b4d2b3" },
+    
+        { id: "9d86455355d04d37be50fa23d09bccbe", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "55781306a633415d8eb1adf92ff70e88", label: "record", color: "#b4d2b3" },
+    
+        { id: "c67228d24e7843ff94e35f7a9bc841e8", label: "string", color: "#b4d2b3" },
+    
+        { id: "654bbf53fdbe4091a72c8c4a4d26bf6f", label: "algorithmic_paradigms", color: "#8fbc8f" },
+    
+        { id: "9966672d49924ff1b10e490634bee71c", label: "iteration", color: "#a2c7a1" },
+    
+        { id: "4855406ed1554dbb8f8a3ccd8635fcbe", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "10760b23e00d430b86d6ba026aee9818", label: "procedural", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "d7144a80-a1f8-4bbd-a869-41ddeda6cece", to: "e50cb6436e884ea2b13dee8a88876060" },
+    
+        { from: "e50cb6436e884ea2b13dee8a88876060", to: "7ea9aafd0ffb40a79a735983feb1bf74" },
+    
+        { from: "e50cb6436e884ea2b13dee8a88876060", to: "79e2ab6d21874e58aac33770cb0f565e" },
+    
+        { from: "d7144a80-a1f8-4bbd-a869-41ddeda6cece", to: "5dc81020571a4b11908c942db52471af" },
+    
+        { from: "5dc81020571a4b11908c942db52471af", to: "dd504279d66d48a8aaadc3f527b87683" },
+    
+        { from: "dd504279d66d48a8aaadc3f527b87683", to: "31c36dfe7e28497f9e99361c909f3a25" },
+    
+        { from: "dd504279d66d48a8aaadc3f527b87683", to: "4c7fd6c48cd74d858e97260fe5cd1cba" },
+    
+        { from: "dd504279d66d48a8aaadc3f527b87683", to: "daac487e8a48426a9cb71e62dd1417ff" },
+    
+        { from: "d7144a80-a1f8-4bbd-a869-41ddeda6cece", to: "b494c1c9389440189f74230d4d40865a" },
+    
+        { from: "b494c1c9389440189f74230d4d40865a", to: "f60b2defe39745ab826fb5d3bef6f75b" },
+    
+        { from: "f60b2defe39745ab826fb5d3bef6f75b", to: "bcd4a28bd1d6407785f3524cccf782c3" },
+    
+        { from: "f60b2defe39745ab826fb5d3bef6f75b", to: "b7fd7b21cebd4abfa097773a7c19e725" },
+    
+        { from: "f60b2defe39745ab826fb5d3bef6f75b", to: "8e5d1981a02747f0827bf9fe5eb652ef" },
+    
+        { from: "f60b2defe39745ab826fb5d3bef6f75b", to: "7e264a7a3e344155b87cc373d0ceadd3" },
+    
+        { from: "7e264a7a3e344155b87cc373d0ceadd3", to: "e207da6529a3426d8928738a188a79f1" },
+    
+        { from: "e207da6529a3426d8928738a188a79f1", to: "40a7dc4b740c4c6a884bcf1e4a9002ac" },
+    
+        { from: "40a7dc4b740c4c6a884bcf1e4a9002ac", to: "8172614130784f7ba8e315a5ba92d047" },
+    
+        { from: "e207da6529a3426d8928738a188a79f1", to: "9716e6942cdf4d039d19ced2cc46a9a3" },
+    
+        { from: "9716e6942cdf4d039d19ced2cc46a9a3", to: "753f98ed84814f61b80cc3dd84ead0d1" },
+    
+        { from: "9716e6942cdf4d039d19ced2cc46a9a3", to: "31a236087a834ea6b77b1b08a0d1a49e" },
+    
+        { from: "7e264a7a3e344155b87cc373d0ceadd3", to: "e49694c424874fe9b692684c6aac500d" },
+    
+        { from: "f60b2defe39745ab826fb5d3bef6f75b", to: "3452a45afaab4dc2bf26e122a2205d1d" },
+    
+        { from: "3452a45afaab4dc2bf26e122a2205d1d", to: "cccadefe720f4b39affb17c4d6e0d157" },
+    
+        { from: "3452a45afaab4dc2bf26e122a2205d1d", to: "468568f7ec284773bddfbaa0daf94726" },
+    
+        { from: "3452a45afaab4dc2bf26e122a2205d1d", to: "6e6cedf04cb84f75a26985261766ce72" },
+    
+        { from: "3452a45afaab4dc2bf26e122a2205d1d", to: "8128a285d72b497ab04138d55c7d33c9" },
+    
+        { from: "b494c1c9389440189f74230d4d40865a", to: "9666fcbd30264ee3aaa23302b8141132" },
+    
+        { from: "9666fcbd30264ee3aaa23302b8141132", to: "be4c6371e7eb4f9b87ca1532542b94ac" },
+    
+        { from: "be4c6371e7eb4f9b87ca1532542b94ac", to: "70f125b712cb4f5d89210039ca554c5c" },
+    
+        { from: "be4c6371e7eb4f9b87ca1532542b94ac", to: "06ffc200eb904fa6bc5b48585b1335ff" },
+    
+        { from: "be4c6371e7eb4f9b87ca1532542b94ac", to: "a2c87ee79edb4531a037cef122919788" },
+    
+        { from: "9666fcbd30264ee3aaa23302b8141132", to: "9d86455355d04d37be50fa23d09bccbe" },
+    
+        { from: "9d86455355d04d37be50fa23d09bccbe", to: "55781306a633415d8eb1adf92ff70e88" },
+    
+        { from: "9d86455355d04d37be50fa23d09bccbe", to: "c67228d24e7843ff94e35f7a9bc841e8" },
+    
+        { from: "b494c1c9389440189f74230d4d40865a", to: "654bbf53fdbe4091a72c8c4a4d26bf6f" },
+    
+        { from: "654bbf53fdbe4091a72c8c4a4d26bf6f", to: "9966672d49924ff1b10e490634bee71c" },
+    
+        { from: "d7144a80-a1f8-4bbd-a869-41ddeda6cece", to: "4855406ed1554dbb8f8a3ccd8635fcbe" },
+    
+        { from: "4855406ed1554dbb8f8a3ccd8635fcbe", to: "10760b23e00d430b86d6ba026aee9818" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

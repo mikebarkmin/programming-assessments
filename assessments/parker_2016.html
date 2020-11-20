@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Second Computer Science 1</h1>
+<p>
+Parker, Miranda C.
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">27</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/short_answer.html">short_answer</a></div>
+    
+    <div class="value"><a href="/answer_formats/multiple_choice.html">multiple_choice</a></div>
+    
+    <div class="value"><a href="/answer_formats/coding.html">coding</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="https://groups.google.com/forum/#!forum/cs1-concept-inventory-and-assessment-replications">Assessment</a></li>
+
+<li><a href="https://tiny.cc/codeguide">Pseudocode Guide</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Parker et.al: <a href="https://doi.org/10.1145/2960310.2960316">Replication, Validation, and Use of a Language Independent CS1 Knowledge Assessment</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "dd3646a4-9322-4ca2-83cd-874f1b60e83e", label: "commp_model", color: "palevioletred" },
+    
+        { id: "572f21d381c8467095ecda19b83eea27", label: "cognitive_processes", color: "#769a76" },
+    
+        { id: "8664785bb96d47c2be2385ababb30d9d", label: "interpreting", color: "#8fbc8f" },
+    
+        { id: "6fb2122dba0f44c599fa380989ee3b5f", label: "producing", color: "#8fbc8f" },
+    
+        { id: "b5fd3a9071e9451eaaccd2f17ca73ba5", label: "language", color: "#769a76" },
+    
+        { id: "05acd6b299de472083914595271f8ed3", label: "pseudocode", color: "#8fbc8f" },
+    
+        { id: "d3ca155c9ec647ddbd3738f9e631ba3c", label: "elements", color: "#769a76" },
+    
+        { id: "f9ad944c0e2a4a1aa59044bc4302c080", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "78878c0fc14b495dbd1736515e826058", label: "variables", color: "#a2c7a1" },
+    
+        { id: "8f1500d0559b4a13abd66bb3ad9dfd76", label: "subroutines", color: "#a2c7a1" },
+    
+        { id: "d90807b9787348e19415e37b6c88bef6", label: "expressions", color: "#a2c7a1" },
+    
+        { id: "666272c3986a4065bc568c19d9ea924b", label: "statements", color: "#a2c7a1" },
+    
+        { id: "b28d0d4613544359ac94e7cd95455472", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "e6ac0dc09ada4134a036301b4d62545b", label: "control", color: "#b4d2b3" },
+    
+        { id: "254925387fed4f93a269eb1bf0629ac1", label: "select", color: "#c7ddc6" },
+    
+        { id: "377252de531a4f97b6a462d1a1847aac", label: "if", color: "#d9e9d9" },
+    
+        { id: "fccbbe6a1fe24623a523d355ddda0f69", label: "iterative", color: "#c7ddc6" },
+    
+        { id: "a2a2cb8254d84bf9bd822da927903c34", label: "for", color: "#d9e9d9" },
+    
+        { id: "8d3269bfa7b8446294ded89d2d5c483a", label: "while", color: "#d9e9d9" },
+    
+        { id: "59c0c03d33b9461997013ebdad37e53e", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "dd7abfbd163d4e23ad5477b589f777b2", label: "return", color: "#d9e9d9" },
+    
+        { id: "a05b80bf280f4d14981432ffc65a0724", label: "call", color: "#d9e9d9" },
+    
+        { id: "c54d8cdf53ca427bafd0d58385fd86ec", label: "operators", color: "#a2c7a1" },
+    
+        { id: "cde133b9b0d74ed1ba96b16104792260", label: "relational", color: "#b4d2b3" },
+    
+        { id: "5ceba161b2ac472eae2159b4fdc60572", label: "logical", color: "#b4d2b3" },
+    
+        { id: "f0d2dca996594125b2b60412578cb3ff", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "90f3a3248d884597b096e38f58012191", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "774758e2b17e4bfda054a00f0e97e3f0", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "37f9bf04639e485689ccd3635baad2a0", label: "integer", color: "#b4d2b3" },
+    
+        { id: "fdb1229cefab417e8b8bb8beda88d24b", label: "character", color: "#b4d2b3" },
+    
+        { id: "9225eec84d5f4af6b8eb20b897890737", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "13482b608da6491db1fe43b082d8b514", label: "array", color: "#b4d2b3" },
+    
+        { id: "8d727d4d43134ed9b727fc7e6b9e5868", label: "string", color: "#b4d2b3" },
+    
+        { id: "c16500dfcffe48e287672e76be75031c", label: "algorithmic_paradigms", color: "#8fbc8f" },
+    
+        { id: "463f648119c44ae6a0e77f41ff3e0ae4", label: "iteration", color: "#a2c7a1" },
+    
+        { id: "06e6d2041a494cdda4771c56ed41d28b", label: "recursion", color: "#a2c7a1" },
+    
+        { id: "69a2a84fdd404480ab30126a5455cc69", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "0c305877274349f0a8b4890a82077f28", label: "imperative", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "dd3646a4-9322-4ca2-83cd-874f1b60e83e", to: "572f21d381c8467095ecda19b83eea27" },
+    
+        { from: "572f21d381c8467095ecda19b83eea27", to: "8664785bb96d47c2be2385ababb30d9d" },
+    
+        { from: "572f21d381c8467095ecda19b83eea27", to: "6fb2122dba0f44c599fa380989ee3b5f" },
+    
+        { from: "dd3646a4-9322-4ca2-83cd-874f1b60e83e", to: "b5fd3a9071e9451eaaccd2f17ca73ba5" },
+    
+        { from: "b5fd3a9071e9451eaaccd2f17ca73ba5", to: "05acd6b299de472083914595271f8ed3" },
+    
+        { from: "dd3646a4-9322-4ca2-83cd-874f1b60e83e", to: "d3ca155c9ec647ddbd3738f9e631ba3c" },
+    
+        { from: "d3ca155c9ec647ddbd3738f9e631ba3c", to: "f9ad944c0e2a4a1aa59044bc4302c080" },
+    
+        { from: "f9ad944c0e2a4a1aa59044bc4302c080", to: "78878c0fc14b495dbd1736515e826058" },
+    
+        { from: "f9ad944c0e2a4a1aa59044bc4302c080", to: "8f1500d0559b4a13abd66bb3ad9dfd76" },
+    
+        { from: "f9ad944c0e2a4a1aa59044bc4302c080", to: "d90807b9787348e19415e37b6c88bef6" },
+    
+        { from: "f9ad944c0e2a4a1aa59044bc4302c080", to: "666272c3986a4065bc568c19d9ea924b" },
+    
+        { from: "666272c3986a4065bc568c19d9ea924b", to: "b28d0d4613544359ac94e7cd95455472" },
+    
+        { from: "666272c3986a4065bc568c19d9ea924b", to: "e6ac0dc09ada4134a036301b4d62545b" },
+    
+        { from: "e6ac0dc09ada4134a036301b4d62545b", to: "254925387fed4f93a269eb1bf0629ac1" },
+    
+        { from: "254925387fed4f93a269eb1bf0629ac1", to: "377252de531a4f97b6a462d1a1847aac" },
+    
+        { from: "e6ac0dc09ada4134a036301b4d62545b", to: "fccbbe6a1fe24623a523d355ddda0f69" },
+    
+        { from: "fccbbe6a1fe24623a523d355ddda0f69", to: "a2a2cb8254d84bf9bd822da927903c34" },
+    
+        { from: "fccbbe6a1fe24623a523d355ddda0f69", to: "8d3269bfa7b8446294ded89d2d5c483a" },
+    
+        { from: "e6ac0dc09ada4134a036301b4d62545b", to: "59c0c03d33b9461997013ebdad37e53e" },
+    
+        { from: "59c0c03d33b9461997013ebdad37e53e", to: "dd7abfbd163d4e23ad5477b589f777b2" },
+    
+        { from: "59c0c03d33b9461997013ebdad37e53e", to: "a05b80bf280f4d14981432ffc65a0724" },
+    
+        { from: "f9ad944c0e2a4a1aa59044bc4302c080", to: "c54d8cdf53ca427bafd0d58385fd86ec" },
+    
+        { from: "c54d8cdf53ca427bafd0d58385fd86ec", to: "cde133b9b0d74ed1ba96b16104792260" },
+    
+        { from: "c54d8cdf53ca427bafd0d58385fd86ec", to: "5ceba161b2ac472eae2159b4fdc60572" },
+    
+        { from: "c54d8cdf53ca427bafd0d58385fd86ec", to: "f0d2dca996594125b2b60412578cb3ff" },
+    
+        { from: "d3ca155c9ec647ddbd3738f9e631ba3c", to: "90f3a3248d884597b096e38f58012191" },
+    
+        { from: "90f3a3248d884597b096e38f58012191", to: "774758e2b17e4bfda054a00f0e97e3f0" },
+    
+        { from: "774758e2b17e4bfda054a00f0e97e3f0", to: "37f9bf04639e485689ccd3635baad2a0" },
+    
+        { from: "774758e2b17e4bfda054a00f0e97e3f0", to: "fdb1229cefab417e8b8bb8beda88d24b" },
+    
+        { from: "90f3a3248d884597b096e38f58012191", to: "9225eec84d5f4af6b8eb20b897890737" },
+    
+        { from: "9225eec84d5f4af6b8eb20b897890737", to: "13482b608da6491db1fe43b082d8b514" },
+    
+        { from: "9225eec84d5f4af6b8eb20b897890737", to: "8d727d4d43134ed9b727fc7e6b9e5868" },
+    
+        { from: "d3ca155c9ec647ddbd3738f9e631ba3c", to: "c16500dfcffe48e287672e76be75031c" },
+    
+        { from: "c16500dfcffe48e287672e76be75031c", to: "463f648119c44ae6a0e77f41ff3e0ae4" },
+    
+        { from: "c16500dfcffe48e287672e76be75031c", to: "06e6d2041a494cdda4771c56ed41d28b" },
+    
+        { from: "dd3646a4-9322-4ca2-83cd-874f1b60e83e", to: "69a2a84fdd404480ab30126a5455cc69" },
+    
+        { from: "69a2a84fdd404480ab30126a5455cc69", to: "0c305877274349f0a8b4890a82077f28" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>

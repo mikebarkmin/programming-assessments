@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Assessments</title>
+    <link rel=stylesheet type=text/css href="/static/css/styles.css">
+
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+  </head>
+  <body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
+    
+<h1>Basic Data Structures (BDSI)</h1>
+<p>
+Porter, Leo and Zingaro, Daniel and Liao, Soohyun Nam and Taylor, Cynthia and Webb, Kevin C. and Lee, Cynthia and Clancy, Michael
+</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">13</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    
+    <div class="value"><a href="/answer_formats/multiple_choice.html">multiple_choice</a></div>
+    
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    
+    <div class="value"><a href="/target_groups/highschool.html">highschool</a></div>
+    
+    <div class="value"><a href="/target_groups/university.html">university</a></div>
+    
+  </div>
+</div>
+
+
+<h2>Resources</h2>
+<ul>
+
+<li><a href="https://groups.google.com/forum/\#!forum/cs2-bdsi-concept-inventory">Assessment</a></li>
+
+</ul>
+
+
+<h2>Classification</h2>
+<div id="network"></div>
+
+
+
+<h2>Related Papers</h2>
+<div class="cards">
+
+<div class="card">
+    <div class="title">Original</div>
+    <div class="value">1</div>
+</div>
+
+<div class="card">
+    <div class="title">Replication</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Use</div>
+    <div class="value">0</div>
+</div>
+
+<div class="card">
+    <div class="title">Mention</div>
+    <div class="value">0</div>
+</div>
+
+</div>
+<ul>
+
+<li>Porter et.al: <a href="https://doi.org/10.1145/3291279.3339404">BDSI: A Validated Concept Inventory for Basic Data Structures</a> (original)
+
+</ul>
+
+
+    </main>
+  </body>
+
+  
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    
+        { id: "1c63ef62-eef3-4d43-8acb-1b40dffc6fe3", label: "commp_model", color: "palevioletred" },
+    
+        { id: "c7da141644a4493abce2e81d94fdcd89", label: "language", color: "#769a76" },
+    
+        { id: "76bd467802584a54afd7ee3cf11e00d3", label: "pseudocode", color: "#8fbc8f" },
+    
+        { id: "def053c08f1b4f1682dd1c5d2b88781d", label: "elements", color: "#769a76" },
+    
+        { id: "c2729abf67b84f5392be80f0f849c6a8", label: "program_components", color: "#8fbc8f" },
+    
+        { id: "0cdd6fa2f9a74dd3a371fd6a26507434", label: "variables", color: "#a2c7a1" },
+    
+        { id: "bead44217c9e46cf9f18e4bc27952305", label: "expressions", color: "#a2c7a1" },
+    
+        { id: "ab25b445b9884e37af074a6b287abc03", label: "subroutines", color: "#a2c7a1" },
+    
+        { id: "83d754c505984727a9c0a1c8291feae7", label: "scope", color: "#a2c7a1" },
+    
+        { id: "2af4436f21e7493a95e9bbe7cf96ca5d", label: "statements", color: "#a2c7a1" },
+    
+        { id: "3ce12a18e1364ee6918253d2a3cc8758", label: "assignment", color: "#b4d2b3" },
+    
+        { id: "7a79b77c63104225a6a5ccdae7005476", label: "control", color: "#b4d2b3" },
+    
+        { id: "5225d393fe1347c39dac5ccc3ee8683d", label: "select", color: "#c7ddc6" },
+    
+        { id: "f72e30008614478e80797f9c1c52e624", label: "if", color: "#d9e9d9" },
+    
+        { id: "f5138166facc407487c6cdfec2c78837", label: "iterative", color: "#c7ddc6" },
+    
+        { id: "7e92945c8d8b4aeda0fae24a92c27464", label: "while", color: "#d9e9d9" },
+    
+        { id: "4eadd848b64f421888d0cf5360e052f5", label: "unconditional_branch", color: "#c7ddc6" },
+    
+        { id: "88e4ccbc3a294048ac491977c7f2ef90", label: "return", color: "#d9e9d9" },
+    
+        { id: "8486d8532f2e4e5c922d68866e11cd17", label: "call", color: "#d9e9d9" },
+    
+        { id: "62284675196f4dd7a3fcc70f0ca5eb41", label: "operators", color: "#a2c7a1" },
+    
+        { id: "3cfc7c336df84a559066a6daf30467b1", label: "logical", color: "#b4d2b3" },
+    
+        { id: "5072669ce1e3433c8a0f79ee1c43e4fe", label: "arithmetic", color: "#b4d2b3" },
+    
+        { id: "3e9fe16411de44469195b2cc22c318bf", label: "data_types", color: "#8fbc8f" },
+    
+        { id: "9efcedfc1a494a37a55c5252640e0c4e", label: "scalars", color: "#a2c7a1" },
+    
+        { id: "4575f658becb4099b70f31c457990081", label: "boolean", color: "#b4d2b3" },
+    
+        { id: "70667344fad64786901b06a1a5766a58", label: "integer", color: "#b4d2b3" },
+    
+        { id: "5c9593fff60d47318ee7ca4eeef15490", label: "compounds", color: "#a2c7a1" },
+    
+        { id: "7f450d914781414086002c1e693ddd25", label: "record", color: "#b4d2b3" },
+    
+        { id: "bb1a038f1ae149c1819f6051903a5fd3", label: "data_structures", color: "#8fbc8f" },
+    
+        { id: "af73ae5192974a2f9bcdfe342c9e557d", label: "list", color: "#a2c7a1" },
+    
+        { id: "9c8ff2d0dd004ab695eca4235dea94ce", label: "binary_search_tree", color: "#a2c7a1" },
+    
+        { id: "f79c97cd4fce4238b6591c4c08706b32", label: "linked_list", color: "#a2c7a1" },
+    
+        { id: "ee48d2ca613242109ba696fbff692247", label: "algorithmic_paradigms", color: "#8fbc8f" },
+    
+        { id: "af89cb998dbc423aaf5feed31e832b85", label: "iteration", color: "#a2c7a1" },
+    
+        { id: "2db15a8f0e694e3097ad00c07b8d08cd", label: "recursion", color: "#a2c7a1" },
+    
+        { id: "a4db6891c1d64d9db2d355410a22ea18", label: "high_level_paradigm", color: "#769a76" },
+    
+        { id: "48cd902ed14d44b5aa579a46fba30d2f", label: "object_oriented", color: "#8fbc8f" },
+    
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    
+        { from: "1c63ef62-eef3-4d43-8acb-1b40dffc6fe3", to: "c7da141644a4493abce2e81d94fdcd89" },
+    
+        { from: "c7da141644a4493abce2e81d94fdcd89", to: "76bd467802584a54afd7ee3cf11e00d3" },
+    
+        { from: "1c63ef62-eef3-4d43-8acb-1b40dffc6fe3", to: "def053c08f1b4f1682dd1c5d2b88781d" },
+    
+        { from: "def053c08f1b4f1682dd1c5d2b88781d", to: "c2729abf67b84f5392be80f0f849c6a8" },
+    
+        { from: "c2729abf67b84f5392be80f0f849c6a8", to: "0cdd6fa2f9a74dd3a371fd6a26507434" },
+    
+        { from: "c2729abf67b84f5392be80f0f849c6a8", to: "bead44217c9e46cf9f18e4bc27952305" },
+    
+        { from: "c2729abf67b84f5392be80f0f849c6a8", to: "ab25b445b9884e37af074a6b287abc03" },
+    
+        { from: "c2729abf67b84f5392be80f0f849c6a8", to: "83d754c505984727a9c0a1c8291feae7" },
+    
+        { from: "c2729abf67b84f5392be80f0f849c6a8", to: "2af4436f21e7493a95e9bbe7cf96ca5d" },
+    
+        { from: "2af4436f21e7493a95e9bbe7cf96ca5d", to: "3ce12a18e1364ee6918253d2a3cc8758" },
+    
+        { from: "2af4436f21e7493a95e9bbe7cf96ca5d", to: "7a79b77c63104225a6a5ccdae7005476" },
+    
+        { from: "7a79b77c63104225a6a5ccdae7005476", to: "5225d393fe1347c39dac5ccc3ee8683d" },
+    
+        { from: "5225d393fe1347c39dac5ccc3ee8683d", to: "f72e30008614478e80797f9c1c52e624" },
+    
+        { from: "7a79b77c63104225a6a5ccdae7005476", to: "f5138166facc407487c6cdfec2c78837" },
+    
+        { from: "f5138166facc407487c6cdfec2c78837", to: "7e92945c8d8b4aeda0fae24a92c27464" },
+    
+        { from: "7a79b77c63104225a6a5ccdae7005476", to: "4eadd848b64f421888d0cf5360e052f5" },
+    
+        { from: "4eadd848b64f421888d0cf5360e052f5", to: "88e4ccbc3a294048ac491977c7f2ef90" },
+    
+        { from: "4eadd848b64f421888d0cf5360e052f5", to: "8486d8532f2e4e5c922d68866e11cd17" },
+    
+        { from: "c2729abf67b84f5392be80f0f849c6a8", to: "62284675196f4dd7a3fcc70f0ca5eb41" },
+    
+        { from: "62284675196f4dd7a3fcc70f0ca5eb41", to: "3cfc7c336df84a559066a6daf30467b1" },
+    
+        { from: "62284675196f4dd7a3fcc70f0ca5eb41", to: "5072669ce1e3433c8a0f79ee1c43e4fe" },
+    
+        { from: "def053c08f1b4f1682dd1c5d2b88781d", to: "3e9fe16411de44469195b2cc22c318bf" },
+    
+        { from: "3e9fe16411de44469195b2cc22c318bf", to: "9efcedfc1a494a37a55c5252640e0c4e" },
+    
+        { from: "9efcedfc1a494a37a55c5252640e0c4e", to: "4575f658becb4099b70f31c457990081" },
+    
+        { from: "9efcedfc1a494a37a55c5252640e0c4e", to: "70667344fad64786901b06a1a5766a58" },
+    
+        { from: "3e9fe16411de44469195b2cc22c318bf", to: "5c9593fff60d47318ee7ca4eeef15490" },
+    
+        { from: "5c9593fff60d47318ee7ca4eeef15490", to: "7f450d914781414086002c1e693ddd25" },
+    
+        { from: "def053c08f1b4f1682dd1c5d2b88781d", to: "bb1a038f1ae149c1819f6051903a5fd3" },
+    
+        { from: "bb1a038f1ae149c1819f6051903a5fd3", to: "af73ae5192974a2f9bcdfe342c9e557d" },
+    
+        { from: "bb1a038f1ae149c1819f6051903a5fd3", to: "9c8ff2d0dd004ab695eca4235dea94ce" },
+    
+        { from: "bb1a038f1ae149c1819f6051903a5fd3", to: "f79c97cd4fce4238b6591c4c08706b32" },
+    
+        { from: "def053c08f1b4f1682dd1c5d2b88781d", to: "ee48d2ca613242109ba696fbff692247" },
+    
+        { from: "ee48d2ca613242109ba696fbff692247", to: "af89cb998dbc423aaf5feed31e832b85" },
+    
+        { from: "ee48d2ca613242109ba696fbff692247", to: "2db15a8f0e694e3097ad00c07b8d08cd" },
+    
+        { from: "1c63ef62-eef3-4d43-8acb-1b40dffc6fe3", to: "a4db6891c1d64d9db2d355410a22ea18" },
+    
+        { from: "a4db6891c1d64d9db2d355410a22ea18", to: "48cd902ed14d44b5aa579a46fba30d2f" },
+    
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+
+</html>
