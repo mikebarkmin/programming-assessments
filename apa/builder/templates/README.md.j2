@@ -15,7 +15,7 @@
 ## Assessments
 
 | Title | Authors | Related Papers |
-| ----- | ------- | --------- | -------------- |
+| ----- | ------- | -------------- |
 {% for assessment in assessments -%}
 | [{{ assessment.title | e }}](http://www.barkmin.eu/programming-assessments/assessments/{{ assessment.file }}.html) | {{ assessment.citekey }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
 {%- endfor %} |
