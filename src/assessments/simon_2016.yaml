@@ -44,3 +44,5 @@ resources:
 papers:
   - id: simon_2016
     category: original
+  - id: jacková_2019
+    category: replication

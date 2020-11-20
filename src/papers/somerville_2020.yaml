@@ -1,0 +1,39 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3372356.3372370
+abstract: 'Teaching an introductory programming course is beset by two core challenges:
+  students enter the course with different levels of prior experience; and, for whatever
+  reason, they progress at different rates. This is at odds with a typical face-to-face
+  course, where material is delivered to the whole class in a lock-step fashion. Addressing
+  these two challenges lies at the heart of an eight-week Summer School, described
+  here, designed to bring a broad intake of students up to a common level ready to
+  start on an degree apprenticeship programme that assumes a certain level of programming
+  ability at the outset.A programming test of students'' understanding of programming
+  constructs (e.g. conditional logic, loops, methods etc) allowed us to select for
+  whom the course was mandatory, but it was open to all. Successful completion of
+  the Summer School required students to demonstrate mastery of nine competencies.
+  Each competency had an initial test, if the student did not meet the required level
+  they were asked to complete coursework using Jupyter Notebooks. If the student passed
+  the initial test they moved straight to the final test and if they passed, they
+  moved to the next competency. There were also practice quizzes for students to do
+  before the final test. This provided an individualised learning pathway for the
+  students.Students improved in the programming test and have given favourable reviews
+  of the Summer School in a focus group.'
+address: New York, NY, USA
+articleno: '14'
+author:
+- somerville_derek
+- cutts_quintin
+- barr_matthew
+- parkinson_jack
+booktitle: Proceedings of the 4th Conference on Computing Education Practice 2020
+doi: 10.1145/3372356.3372370
+isbn: '9781450377294'
+keywords: Python, Programming, Graduate Apprenticeship, Introduction, Degree Apprenticeship
+location: Durham, United Kingdom
+numpages: '5'
+publisher: Association for Computing Machinery
+series: CEP 2020
+title: Addressing Mixed Levels of Prior Knowledge by Individualising Learning Pathways
+  in a Degree Apprenticeship Summer School
+url: https://doi.org/10.1145/3372356.3372370
+year: '2020'

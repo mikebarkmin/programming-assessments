@@ -64,18 +64,29 @@ def add_paper(path="src"):
     file_name = main_author["family"].lower() + "_" + bibtex_entry["year"] + ".yaml"
     file_path = os.path.join(path, "papers", file_name)
 
-    counter = 1
-    while os.path.exists(file_path):
-        file_name = (
-            main_author["family"].lower()
-            + "_"
-            + bibtex_entry["year"]
-            + "_"
-            + str(counter)
-            + ".yaml"
+    if os.path.exists(file_path):
+        create = (
+            input(
+                f"The file {file_name} already exists. Should a new one be created? (Y/n) "
+            )
+            or "Y"
         )
-        file_path = os.path.join(path, "papers", file_name)
-        counter += 1
+
+        if not create.upper() == "Y":
+            return
+
+        counter = 1
+        while os.path.exists(file_path):
+            file_name = (
+                main_author["family"].lower()
+                + "_"
+                + bibtex_entry["year"]
+                + "_"
+                + str(counter)
+                + ".yaml"
+            )
+            file_path = os.path.join(path, "papers", file_name)
+            counter += 1
 
     stream = open(file_path, "w")
     yaml.dump(bibtex_entry, stream)

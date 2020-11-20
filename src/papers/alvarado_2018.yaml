@@ -1,0 +1,34 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3159450.3159508
+abstract: Many college computer science majors have little or no pre-college computing
+  experience. Previous work has shown that inexperienced students under-perform their
+  experienced peers when placed in the same introductory courses, and are more likely
+  to drop out of the CS program. However, not much is known about what, if any, differences
+  may persist beyond the introductory sequence for students who remain in the program.
+  We conducted a study across all levels of a CS program at a large public university
+  in the United States to determine whether grade differences exist between students
+  with and without pre-college experience, and if so, for what types of experiences.
+  We find significant grade differences in courses at all levels of the program. We
+  further find that students who took AP Computer Science receive significantly higher
+  average grades---by up to a half grade---in nearly all courses we studied. Pre-college
+  experience appears to have a weaker relationship with retention and with low-stakes
+  assessment grades. We discuss the limitations of these findings and implications
+  for high school and college level CS courses and programs.
+address: New York, NY, USA
+author:
+- alvarado_christine
+- umbelino_gustavo
+- minnes_mia
+booktitle: Proceedings of the 49th ACM Technical Symposium on Computer Science Education
+doi: 10.1145/3159450.3159508
+isbn: '9781450351034'
+keywords: higher education, computing experience, AP computer science, performance
+location: Baltimore, Maryland, USA
+numpages: '6'
+pages: "876\u2013881"
+publisher: Association for Computing Machinery
+series: SIGCSE '18
+title: The Persistent Effect of Pre-College Computing Experience on College CS Course
+  Grades
+url: https://doi.org/10.1145/3159450.3159508
+year: '2018'

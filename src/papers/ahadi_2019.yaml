@@ -1,0 +1,33 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3286960.3286975
+abstract: Several systems that collect data from students' problem solving processes
+  exist. Within computing education research, such data has been used for multiple
+  purposes, ranging from assessing students' problem solving strategies to detecting
+  struggling students. To date, however, the majority of the analysis has been conducted
+  by individual researchers or research groups using case by case methodologies.Our
+  belief is that with increasing possibilities for data collection from students'
+  learning process, researchers and instructors will benefit from ready-made analysis
+  tools.In this study, we present ArAl, an online machine learning based platform
+  for analyzing programming source code snapshot data. The benefit of ArAl is two-fold.
+  The computing education researcher can use ArAl to analyze the source code snapshot
+  data collected from their own institute. Also, the website provides a collection
+  of well-documented machine learning and statistics based tools to investigate possible
+  correlation between different variables. The presented web-portal is available at
+  online-analysis-demo.herokuapp.com. This tool could be applied in many different
+  subject areas given appropriate performance data.
+address: New York, NY, USA
+author:
+- ahadi_alireza
+- lister_raymond
+- mathieson_luke
+booktitle: Proceedings of the Twenty-First Australasian Computing Education Conference
+doi: 10.1145/3286960.3286975
+isbn: '9781450366229'
+location: Sydney, NSW, Australia
+numpages: '8'
+pages: "118\u2013125"
+publisher: Association for Computing Machinery
+series: ACE '19
+title: 'ArAl: An Online Tool for Source Code Snapshot Metadata Analysis'
+url: https://doi.org/10.1145/3286960.3286975
+year: '2019'

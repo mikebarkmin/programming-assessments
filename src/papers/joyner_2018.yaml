@@ -1,0 +1,34 @@
+ENTRYTYPE: inproceedings
+ID: 10.1007/978-3-319-93846-2_30
+abstract: Massive Open Online Courses (MOOCs) may reach a massive number of people,
+  but few MOOCs count for credit. Scaling rigorous assessment, feedback, and integrity
+  checks presents difficulties. We implemented an AI system for a CS1 MOOC-for-credit
+  to address both scale and endorsement. In this analysis, we present the design of
+  the system and an evaluation of the course. We observe that students in the online
+  course achieve comparable learning outcomes, report a more positive student experience,
+  and identify AI-equipped programming problems as the primary contributor to their
+  experiences.
+address: Cham
+author:
+- joyner_david
+booktitle: Artificial Intelligence in Education
+editor: 'Penstein Ros{\''e}, Carolyn
+
+  and Mart{\''i}nez-Maldonado, Roberto
+
+  and Hoppe, H. Ulrich
+
+  and Luckin, Rose
+
+  and Mavrikis, Manolis
+
+  and Porayska-Pomsta, Kaska
+
+  and McLaren, Bruce
+
+  and du Boulay, Benedict'
+isbn: 978-3-319-93846-2
+pages: 166--170
+publisher: Springer International Publishing
+title: Intelligent Evaluation and Feedback in Support of a Credit-Bearing MOOC
+year: '2018'

@@ -1,0 +1,33 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3386527.3405928
+abstract: 'Choices learners make when navigating a self-directed online learning tool
+  can impact the effectiveness of the experience. But these tools often do not afford
+  learners the agency or the information to make decisions beneficial to their learning.
+  We evaluated the effect of varying levels of information and agency in a self-directed
+  environment designed to teach programming. We investigated three design alternatives:
+  informed high-agency, informed low-agency, and less informed high-agency. To investigate
+  the effect of these alternatives on learning, we conducted a study with 79 novice
+  programmers. Our results indicated that increased agency and information may have
+  translated to more motivation, but not improved learning. Qualitative results suggest
+  this was due to the burden that agency and information placed on decision-making.
+  We interpret our results in relation to informing the design of self-directed online
+  tools for learner agency.'
+address: New York, NY, USA
+author:
+- xie_benjamin
+- nelson_greg-l
+- akkaraju_harshitha
+- kwok_william
+- ko_amy-j
+booktitle: Proceedings of the Seventh ACM Conference on Learning @ Scale
+doi: 10.1145/3386527.3405928
+isbn: '9781450379519'
+keywords: interaction design, agency, educational technology
+location: Virtual Event, USA
+numpages: '13'
+pages: "77\u201389"
+publisher: Association for Computing Machinery
+series: L@S '20
+title: The Effect of Informing Agency in Self-Directed Online Learning Environments
+url: https://doi.org/10.1145/3386527.3405928
+year: '2020'

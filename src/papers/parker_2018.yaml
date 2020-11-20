@@ -1,0 +1,41 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3230977.3230987
+abstract: Socioeconomic status (SES) has a measurable impact on many educational outcomes
+  and likely also influences computer science (CS) achievement. We present a novel
+  model to account for the observed connections between SES and CS achievement. We
+  examined possible mediating variables between SES and CS achievement, including
+  spatial ability and access to computing. We define access as comprised of measurements
+  of prior learning opportunities for computing, perceptions of computer science,
+  and encouragement to pursue computing. The factors (SES, spatial ability, access
+  to computing, and CS achievement) were measured through surveys completed by 163
+  students in introductory computing courses at a college level. Through the use of
+  exploratory structural equation modeling, we found that these variables do impact
+  each other, though not as we originally hypothesized. For our sample of students,
+  we found spatial ability was a mediating variable for SES and CS achievement, but
+  access to computing was not. Neither model explained all the variance, and our subject
+  pool of US college students had higher than average SES. Our findings suggest that
+  SES does influence success in computer science, but that relationship may not be
+  due to access to computing education opportunities. Rather, SES might be influencing
+  variables such as spatial ability which in turn influence CS performance.
+address: New York, NY, USA
+author:
+- parker_miranda-c
+- solomon_amber
+- pritchett_brianna
+- illingworth_david-a
+- marguilieux_lauren-e
+- guzdial_mark
+booktitle: Proceedings of the 2018 ACM Conference on International Computing Education
+  Research
+doi: 10.1145/3230977.3230987
+isbn: '9781450356282'
+keywords: access, cs achievement, socioeconomic status, spatial ability
+location: Espoo, Finland
+numpages: '9'
+pages: "97\u2013105"
+publisher: Association for Computing Machinery
+series: ICER '18
+title: 'Socioeconomic Status and Computer Science Achievement: Spatial Ability as
+  a Mediating Variable in a Novel Model of Understanding'
+url: https://doi.org/10.1145/3230977.3230987
+year: '2018'

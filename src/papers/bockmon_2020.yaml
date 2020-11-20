@@ -1,0 +1,34 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3328778.3366829
+abstract: This paper discusses the results of replicating and extending a study performed
+  by Cooper et al. examining the relationship between students' spatial skills and
+  their success in learning to program. Whereas Cooper et al. worked with high school
+  students participating in a summer program, we worked with college students taking
+  an introductory computing course. Like Cooper et al.'s study, we saw a correlation
+  between a student's spatial skills and their success in learning computing. More
+  significantly, we saw that after applying an intervention to teach spatial skills,
+  students demonstrated improved performance both on a standard spatial skills assessment
+  as well as on a CS content instrument. We also saw a correlation between students'
+  enjoyment in computing and improved performance both on a standard spatial skills
+  assessment and on a CS content instrument, a result not observed by Cooper et al.
+address: New York, NY, USA
+author:
+- bockmon_ryan
+- cooper_stephen
+- koperski_william
+- gratch_jonathan
+- sorby_sheryl
+- dorodchi_mohsen
+booktitle: Proceedings of the 51st ACM Technical Symposium on Computer Science Education
+doi: 10.1145/3328778.3366829
+isbn: '9781450367936'
+keywords: cs1, intervention, attitudes, spatial skills, replication
+location: Portland, OR, USA
+numpages: '7'
+pages: "766\u2013772"
+publisher: Association for Computing Machinery
+series: SIGCSE '20
+title: A CS1 Spatial Skills Intervention and the Impact on Introductory Programming
+  Abilities
+url: https://doi.org/10.1145/3328778.3366829
+year: '2020'

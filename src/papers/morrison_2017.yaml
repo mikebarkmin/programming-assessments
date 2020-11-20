@@ -1,0 +1,29 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3105726.3106191
+abstract: 'The research in both cognitive load theory and multimedia principles for
+  learning indicates presenting information using both diagrams and accompanying audio
+  explanations yields better learning performance than using diagrams with text explanations.
+  While this is a common practice in introductory programming courses, often called
+  "live coding," it has yet to be empirically tested. This paper reports on an experiment
+  to determine if auditory explanations of code result in improved learning performance
+  over written explanations. Students were shown videos explaining short code segments
+  one of three ways: text only explanations, auditory only explanations, or both text
+  and auditory explanations, thus replicating experiments from other domains. The
+  results from this study do not support the findings from other disciplines and we
+  offer explanations for why this may be the case.'
+address: New York, NY, USA
+author:
+- morrison_briana-b
+booktitle: Proceedings of the 2017 ACM Conference on International Computing Education
+  Research
+doi: 10.1145/3105726.3106191
+isbn: '9781450349680'
+keywords: cognitive load, modality, live coding
+location: Tacoma, Washington, USA
+numpages: '10'
+pages: "226\u2013235"
+publisher: Association for Computing Machinery
+series: ICER '17
+title: 'Dual Modality Code Explanations for Novices: Unexpected Results'
+url: https://doi.org/10.1145/3105726.3106191
+year: '2017'

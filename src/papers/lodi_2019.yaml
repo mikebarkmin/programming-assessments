@@ -1,0 +1,33 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3304221.3319750
+abstract: 'Many arguments are used to advocate for the introduction of Computer Science
+  (CS) / Computational Thinking / "coding" in K-12 education. Growth mindset theory
+  (GM) is also becoming very popular among educators and researchers. Some claims
+  stating that studying CS can foster a GM have emerged. However, educational research
+  shows that transfer of competences is hard. Very little research has been conducted
+  on the relationship between GM and CS learning, with conflicting results. We measured
+  some indicators (e.g., mindset, computer science mindset) at the beginning and the
+  end of a high school year in five different classes: three CS oriented, one Chemistry
+  oriented, and one Transportation&Logistics oriented. In one of the CS oriented classes,
+  we did a very brief GM intervention. At the end of the school year, none of the
+  classes showed a statistically significant change in their mindset. Interestingly,
+  non-CS oriented classes showed a significant decrease in their computer science
+  growth mindset. In the intervention class, students suggested, to stimulate a GM,
+  the need for activities that are more creative, engaging, and related to the real
+  world and their interests.'
+address: New York, NY, USA
+author:
+- lodi_michael
+booktitle: Proceedings of the 2019 ACM Conference on Innovation and Technology in
+  Computer Science Education
+doi: 10.1145/3304221.3319750
+isbn: '9781450368957'
+keywords: high school, growth mindset, transfer, computer science mindset
+location: Aberdeen, Scotland Uk
+numpages: '7'
+pages: "147\u2013153"
+publisher: Association for Computing Machinery
+series: ITiCSE '19
+title: Does Studying CS Automatically Foster a Growth Mindset?
+url: https://doi.org/10.1145/3304221.3319750
+year: '2019'

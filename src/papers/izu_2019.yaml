@@ -1,0 +1,27 @@
+ENTRYTYPE: inproceedings
+ID: izu_fostering_2019
+address: "{New York, NY, USA}"
+author:
+  - izu_cruz
+  - schulte_carsten
+  - aggarwal_ashish
+  - cutts_quintin
+  - duran_rodrigo
+  - gutica_mirela
+  - heinemann_birte
+  - kraemer_eileen
+  - lonati_violetta
+  - mirolo_claudio
+booktitle:
+  Proceedings of the Working Group Reports on Innovation and Technology in
+  Computer Science Education
+doi: 10.1145/3344429.3372501
+isbn: 978-1-4503-6895-7
+keywords: cs1,k-12 computing,learning trajectories,novice programmers,program comprehension
+pages: 27--52
+publisher: "{Association for Computing Machinery}"
+series: "{{ITiCSE}}-{{WGR}} '19"
+title:
+  Fostering Program Comprehension in Novice Programmers - Learning Activities
+  and Learning Trajectories
+year: "2019"

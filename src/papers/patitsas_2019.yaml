@@ -1,0 +1,33 @@
+ENTRYTYPE: article
+ID: 10.1145/3372161
+abstract: Although it has never been rigorously demonstrated, there is a common belief
+  that grades in computer science courses are bimodal. We statistically analyzed 778
+  distributions of final course grades from a large research university and found
+  that only 5.8% of the distributions passed tests of multimodality. We then devised
+  a psychology experiment to understand why CS educators believe their grades to be
+  bimodal. We showed 53 CS professors a series of histograms displaying ambiguous
+  distributions that we asked them to categorize. A random half of participants were
+  primed to think about the fact that CS grades are commonly thought to be bimodal;
+  these participants were more likely to label ambiguous distributions as "bimodal."
+  Participants were also more likely to label distributions as bimodal if they believed
+  that some students are innately predisposed to do better at CS. These results suggest
+  that bimodal grades are instructional folklore in CS, caused by confirmation bias
+  and instructor beliefs about their students.
+address: New York, NY, USA
+author:
+- patitsas_elizabeth
+- berlin_jesse
+- craig_michelle
+- easterbrook_steve
+doi: 10.1145/3372161
+issn: 0001-0782
+issue_date: January 2020
+journal: Commun. ACM
+number: '1'
+numpages: '8'
+pages: "91\u201398"
+publisher: Association for Computing Machinery
+title: Evidence That Computer Science Grades Are Not Bimodal
+url: https://doi.org/10.1145/3372161
+volume: '63'
+year: '2019'

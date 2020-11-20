@@ -1,0 +1,35 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3300115.3309522
+abstract: Programming is considered a demanding task that requires focusing on detail
+  at code level. Students learning to program need to learn to think like a programmer,
+  which involves coming up with plans needed to solve problems, and they need to learn
+  to write the code that corresponds to the plans that they have thought of. The use
+  of multiple files creates additional overhead to the process, as part of the code
+  is not visible to the student. If a student does not remember the contents of a
+  particular file, she needs to consciously move from writing code in one file to
+  reading code in another file. This conscious transition of attention from one location
+  to another is known as cognitive shifting. Using key-level data collected from a
+  programming exam, we analyze students' movements within files and between files,
+  and relate these movements with students' performance in the course. Our results
+  indicate that frequently moving from one file to another may lead to worse performance
+  than more focused actions, but no such effect exists when analyzing movements within
+  an individual file.
+address: New York, NY, USA
+author:
+- fronza_ilenia
+- hellas_arto
+- ihantola_petri
+- mikkonen_tommi
+booktitle: Proceedings of the ACM Conference on Global Computing Education
+doi: 10.1145/3300115.3309522
+isbn: '9781450362597'
+keywords: cognitive shifting, programming process, movement in source code, learning
+  analytics, educational data mining
+location: Chengdu,Sichuan, China
+numpages: '7'
+pages: "65\u201371"
+publisher: Association for Computing Machinery
+series: CompEd '19
+title: An Exploration of Cognitive Shifting in Writing Code
+url: https://doi.org/10.1145/3300115.3309522
+year: '2019'

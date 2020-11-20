@@ -51,3 +51,9 @@ resources:
 papers:
   - id: caceffo_2016
     category: original
+  - id: bari_2019
+    category: use
+  - id: izu_2019
+    category: use
+  - id: xhakaj_2018
+    category: use

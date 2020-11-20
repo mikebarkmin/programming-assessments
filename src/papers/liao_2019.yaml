@@ -1,0 +1,40 @@
+ENTRYTYPE: article
+ID: 10.1145/3277569
+abstract: As enrollments and class sizes in postsecondary institutions have increased,
+  instructors have sought automated and lightweight means to identify students who
+  are at risk of performing poorly in a course. This identification must be performed
+  early enough in the term to allow instructors to assist those students before they
+  fall irreparably behind. This study describes a modeling methodology that predicts
+  student final exam scores in the third week of the term by using the clicker data
+  that is automatically collected for instructors when they employ the Peer Instruction
+  pedagogy. The modeling technique uses a support vector machine binary classifier,
+  trained on one term of a course, to predict outcomes in the subsequent term. We
+  applied this modeling technique to five different courses across the computer science
+  curriculum, taught by three different instructors at two different institutions.
+  Our modeling approach includes a set of strengths not seen wholesale in prior work,
+  while maintaining competitive levels of accuracy with that work. These strengths
+  include using a lightweight source of student data, affording early detection of
+  struggling students, and predicting outcomes across terms in a natural setting (different
+  final exams, minor changes to course content), across multiple courses in a curriculum,
+  and across multiple institutions.
+address: New York, NY, USA
+articleno: '18'
+author:
+- liao_soohyun-nam
+- zingaro_daniel
+- thai_kevin
+- alvarado_christine
+- griswold_william-g
+- porter_leo
+doi: 10.1145/3277569
+issue_date: June 2019
+journal: ACM Trans. Comput. Educ.
+keywords: Peer instruction, at-risk students, prediction, machine learning, clicker
+  data, multi-institution, cross-term
+number: '3'
+numpages: '19'
+publisher: Association for Computing Machinery
+title: A Robust Machine Learning Technique to Predict Low-Performing Students
+url: https://doi.org/10.1145/3277569
+volume: '19'
+year: '2019'

@@ -38,9 +38,13 @@ classifications:
     - high_level_paradigm.imperative
 resources:
   - title: Assessment
-    link: 'https://groups.google.com/forum/#!forum/cs1-concept-inventory-and-assessment-replications'
+    link: "https://groups.google.com/forum/#!forum/cs1-concept-inventory-and-assessment-replications"
   - title: Pseudocode Guide
-    link: 'https://tiny.cc/codeguide'
+    link: "https://tiny.cc/codeguide"
 papers:
   - id: bockmon_2019
     category: original
+  - id: somerville_2020
+    category: use
+  - id: bockmon_2020
+    category: use

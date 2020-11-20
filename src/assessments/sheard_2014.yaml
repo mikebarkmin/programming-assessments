@@ -41,3 +41,5 @@ resources:
 papers:
   - id: sheard_2014
     category: original
+  - id: simon_2016
+    category: use

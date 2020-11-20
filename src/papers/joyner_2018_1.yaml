@@ -1,0 +1,29 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3231644.3231665
+abstract: If a MOOC is to qualify for equal credit as an existing on-campus offering,
+  students must achieve comparable outcomes, both educational and attitudinal. We
+  have built a MOOC for teaching CS1 with the intent of offering it for degree credit.
+  To test its eligibility for credit, we delivered it as an online for-credit course
+  for two semesters to 197 on-campus students who selected the online version rather
+  than a traditional version. We compared the demographics, outcomes, and experiences
+  of these students to the 715 students in the traditional version. We found the online
+  students more likely to be older; to be underrepresented minorities; and to have
+  previously failed a CS class. We then found that our online students attained comparable
+  learning outcomes to students in the traditional section. Finally, we found that
+  our online students perceived the online course quality more positively and required
+  less time to achieve those comparable learning outcomes.
+address: New York, NY, USA
+articleno: '59'
+author:
+- joyner_david
+booktitle: Proceedings of the Fifth Annual ACM Conference on Learning at Scale
+doi: 10.1145/3231644.3231665
+isbn: '9781450358866'
+keywords: computing education, MOOCs for credit, online learning
+location: London, United Kingdom
+numpages: '10'
+publisher: Association for Computing Machinery
+series: L@S '18
+title: 'Toward CS1 at Scale: Building and Testing a MOOC-for-Credit Candidate'
+url: https://doi.org/10.1145/3231644.3231665
+year: '2018'

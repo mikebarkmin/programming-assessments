@@ -260,7 +260,9 @@ class Builder(Loader):
             for paper in classification.get("_meta", {}).get("papers", []):
                 paper_file = self.load_single("papers", paper)
                 paper = {}
-                paper["citekey"] = self.gen_citekey(paper_file["author"])
+                paper["citekey"] = self.gen_citekey(
+                    paper_file["author"], paper_file.get("year")
+                )
                 paper["title"] = paper_file["title"]
                 paper["url"] = paper_file.get("url", "#")
                 papers.append(paper)
@@ -291,7 +293,9 @@ class Builder(Loader):
             categories = self.load_single("", "categories")["papers"]
             for paper in assessment.get("papers", []):
                 paper_file = self.load_single("papers", paper["id"])
-                paper["citekey"] = self.gen_citekey(paper_file["author"])
+                paper["citekey"] = self.gen_citekey(
+                    paper_file["author"], paper_file.get("year")
+                )
                 paper["title"] = paper_file["title"]
                 paper["url"] = paper_file.get("url", "#")
                 if not categories[paper["category"]].get("count"):

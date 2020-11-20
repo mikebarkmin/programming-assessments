@@ -1,0 +1,29 @@
+ENTRYTYPE: inproceedings
+ID: xhakaj_towards_2018
+abstract: 'Computer programming is becoming important in almost every profession.
+  However, programming is still difficult for students to learn. In this work, we
+  focus on helping students acquire strong conceptual and procedural knowledge of
+  programing. We propose to create a new Intelligent Tutoring System (ITS) that will
+  support students in two types of conceptually-oriented activities: code tracing
+  and code comprehension. Further, we propose to run a study to evaluate whether the
+  ITS can support students'' conceptual learning and transfer to procedural learning
+  of computer programming.'
+address: '{Cham}'
+author:
+- xhakaj_franceska
+- aleven_vincent
+booktitle: Artificial {{Intelligence}} in {{Education}}
+doi: 10.1007/978-3-319-93846-2_101
+editor: Penstein Ros{\'e}, Carolyn and {Mart{\'i}nez-Maldonado}, Roberto and Hoppe,
+  H. Ulrich and Luckin, Rose and Mavrikis, Manolis and {Porayska-Pomsta}, Kaska and
+  McLaren, Bruce and {du Boulay}, Benedict
+file: /home/mbarkmin/Zotero/storage/XY3CYAUB/Xhakaj_Aleven_2018_Towards Improving
+  Introductory Computer Programming with an ITS for Conceptual.pdf
+isbn: 978-3-319-93846-2
+language: en
+pages: 535--538
+publisher: '{Springer International Publishing}'
+series: Lecture {{Notes}} in {{Computer Science}}
+title: Towards {{Improving Introductory Computer Programming}} with an {{ITS}} for
+  {{Conceptual Learning}}
+year: '2018'

@@ -1,0 +1,32 @@
+ENTRYTYPE: inproceedings
+ID: 10.1145/3300115.3309533
+abstract: 'In January 2017, a major public research university launched an online
+  version of CS1 targeted at on-campus students to address rising enrollments and
+  provide students with flexibility in their schedules. Prior research on this class
+  has found positive outcomes: students in the course achieve the same learning outcomes
+  as those in a traditional course, while reporting a lower time investment to reach
+  those outcomes and a high level of student satisfaction. This research builds on
+  that prior work in two ways. First, it replicates the findings from that earlier
+  semester with an entirely new semester of students. Second, it delves deeper into
+  the student experience within the online course and its traditional counterpart.
+  This deeper analysis focuses specifically on the differing ways in which students
+  in each section allocated their time, whether or not students in either section
+  accessed the opposite section''s material, and their future preferences in online
+  vs. residential CS classes.'
+address: New York, NY, USA
+author:
+- joyner_david
+- mcdaniel_melinda
+booktitle: Proceedings of the ACM Conference on Global Computing Education
+doi: 10.1145/3300115.3309533
+isbn: '9781450362597'
+keywords: learning at scale, online learning, CS1
+location: Chengdu,Sichuan, China
+numpages: '7'
+pages: "157\u2013163"
+publisher: Association for Computing Machinery
+series: CompEd '19
+title: Replicating and Unraveling Performance and Behavioral Differences between an
+  Online and a Traditional CS Course
+url: https://doi.org/10.1145/3300115.3309533
+year: '2019'

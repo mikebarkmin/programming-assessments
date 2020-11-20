@@ -1,0 +1,41 @@
+ENTRYTYPE: article
+ID: bari_evoparsons_2019
+abstract: The automated design of a set of practice problems that co-adapts to a population
+  of learners is a challenging problem. Fortunately, coevolutionary computation offers
+  a rich framework to study interactions between two co-adapting populations of teachers
+  and learners. This framework is also relevant in scenarios in which a population
+  of students solve practice exercises that are synthesized by an evolutionary algorithm.
+  In this study, we propose to leverage coevolutionary optimization to evolve a population
+  of Parsons puzzles (a relatively recent new type of practice exercise for novice
+  computer programmers). To this end, we start by experimenting with successive simulations
+  that progressively introduce the characteristics that we anticipate finding in our
+  target application. Using these simulations, we refine a set of guidelines that
+  capture insights on how to successfully coevolve Parsons puzzles. These guidelines
+  are then used to implement the proposed ``EvoParsons'' software, with which we conduct
+  preliminary evaluations on real human students enrolled in an introductory Java
+  programming course at the University of South Florida. We also propose several quantitative
+  metrics to assess the quality of puzzles produced by EvoParsons. Both simulations
+  and experiments establish the feasibility of evolving pedagogically relevant practice
+  problems that cover most of the dimensions underlying the interactions between problems
+  and students. In addition, a generation-by-generation detailed analysis of the evolving
+  population of Parsons puzzles confirms the occurrence of incremental improvements
+  that can be explained in pedagogical terms.
+author:
+- bari_a-t-m-golam
+- gaspar_alessio
+- wiegand_r-paul
+- albert_jennifer-l
+- bucci_anthony
+- kumar_amruth-n
+doi: 10.1007/s10710-019-09343-7
+file: /home/mbarkmin/Zotero/storage/84ZK39BF/Bari et al_2019_EvoParsons.pdf
+issn: 1573-7632
+journal: Genetic Programming and Evolvable Machines
+language: en
+number: '2'
+pages: 213--244
+shorttitle: '{{EvoParsons}}'
+title: '{{EvoParsons}}: Design, Implementation and Preliminary Evaluation of Evolutionary
+  {{Parsons}} Puzzle'
+volume: '20'
+year: '2019'
