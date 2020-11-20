@@ -50,6 +50,10 @@ papers:
 
 ## Add a Paper
 
+### Automatic
+Run `pipenv run add_paper` and paste bibtex data for the paper.
+
+### Manually
 Create a new file, e.g. `mueller_2020.yaml` in `src/papers`. The content of the file should look like this:
 
 ```yaml
