@@ -16,24 +16,24 @@
 
 | Title | Authors | Related Papers |
 | ----- | ------- | -------------- |
-| [Ahadi 2013 - 1](/ahadi_2013_1.html) | Ahadi et.al | - [N.A. (2013) (O)](#ahadi_2013) |
-| [Ahadi 2013 - 2](/ahadi_2013_2.html) | Ahadi et.al | - [N.A. (2013) (O)](#ahadi_2013) |
-| [Basic Data Structures (BDSI)](/porter_2019.html) | Porter et.al | - [N.A. (2019) (O)](#porter_2019) |
-| [Benchmarked Exam Questions for Introductory Programming](/simon_2016.html) | Simon et.al | - [N.A. (2016) (O)](#simon_2016) |
-| [Benchmarked Exam Questions for Introductory Programming](/sheard_2014.html) | Sheard et.al | - [N.A. (2014) (O)](#sheard_2014) |
-| [CS1 Assessment](/dierbach_2005.html) | Dierbach et.al | - [N.A. (2005) (O)](#dierbach_2005) |
-| [Concept Inventory (CI) for Introductory Programming in C](/caceffo_2016.html) | Caceffo et.al | - [N.A. (2016) (O)](#caceffo_2016) |
-| [Developing Assessments to Determine Mastery of Programming Fundamentals](/luxton-reilly_2018.html) | Luxton-Reilly et.al | - [N.A. (2018) (O)](#luxton-reilly_2018) |
-| [Multiple Choice Exam for First Semester](/lister_2005.html) | Lister | - [N.A. (2005) (O)](#lister_2005) |
-| [Second Computer Science 1](/parker_2016.html) | Parker | - [N.A. (2016) (O)](#parker_2016) |
-| [Second Computer Science 1 - Revised](/bockmon_2019.html) | Bockmon et.al | - [N.A. (2019) (O)](#bockmon_2019) |
-| [Self-Assessment Procedure XXIII: Programming Languages](/clifton_1995.html) | Clifton | - [N.A. (1995) (O)](#clifton_1995) |
-| [String Manipulation](/izu_2020.html) | Izu et.al | - [N.A. (2020) (O)](#izu_2020) |
+| [Ahadi 2013 - 1](https://www.barkmin.eu/programming-assessments/ahadi_2013_1.html) | Ahadi et.al | - [N.A. (2013) (O)](#ahadi_2013) |
+| [Ahadi 2013 - 2](https://www.barkmin.eu/programming-assessments/ahadi_2013_2.html) | Ahadi et.al | - [N.A. (2013) (O)](#ahadi_2013) |
+| [Basic Data Structures (BDSI)](https://www.barkmin.eu/programming-assessments/porter_2019.html) | Porter et.al | - [N.A. (2019) (O)](#porter_2019) |
+| [Benchmarked Exam Questions for Introductory Programming](https://www.barkmin.eu/programming-assessments/simon_2016.html) | Simon et.al | - [N.A. (2016) (O)](#simon_2016) |
+| [Benchmarked Exam Questions for Introductory Programming](https://www.barkmin.eu/programming-assessments/sheard_2014.html) | Sheard et.al | - [N.A. (2014) (O)](#sheard_2014) |
+| [CS1 Assessment](https://www.barkmin.eu/programming-assessments/dierbach_2005.html) | Dierbach et.al | - [N.A. (2005) (O)](#dierbach_2005) |
+| [Concept Inventory (CI) for Introductory Programming in C](https://www.barkmin.eu/programming-assessments/caceffo_2016.html) | Caceffo et.al | - [N.A. (2016) (O)](#caceffo_2016) |
+| [Developing Assessments to Determine Mastery of Programming Fundamentals](https://www.barkmin.eu/programming-assessments/luxton-reilly_2018.html) | Luxton-Reilly et.al | - [N.A. (2018) (O)](#luxton-reilly_2018) |
+| [Multiple Choice Exam for First Semester](https://www.barkmin.eu/programming-assessments/lister_2005.html) | Lister | - [N.A. (2005) (O)](#lister_2005) |
+| [Second Computer Science 1](https://www.barkmin.eu/programming-assessments/parker_2016.html) | Parker | - [N.A. (2016) (O)](#parker_2016) |
+| [Second Computer Science 1 - Revised](https://www.barkmin.eu/programming-assessments/bockmon_2019.html) | Bockmon et.al | - [N.A. (2019) (O)](#bockmon_2019) |
+| [Self-Assessment Procedure XXIII: Programming Languages](https://www.barkmin.eu/programming-assessments/clifton_1995.html) | Clifton | - [N.A. (1995) (O)](#clifton_1995) |
+| [String Manipulation](https://www.barkmin.eu/programming-assessments/izu_2020.html) | Izu et.al | - [N.A. (2020) (O)](#izu_2020) |
 
 
 ## Classifications
 
-- [Competency Structure Model for Programming (COMM_P)](/commp_model.html)
+- [Competency Structure Model for Programming (COMM_P)](https://www.barkmin.eu/programming-assessments/commp_model.html)
 
 
 ## Papers
