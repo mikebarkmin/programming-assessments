@@ -98,7 +98,7 @@ class Builder(Loader):
 
         papers_extended = self.load_flat("papers", full=True)
         for paper in papers_extended:
-            authors = paper.get("authors", [])
+            authors = paper.get("author", [])
             year = paper.get("year")
             paper["citekey"] = self.gen_citekey(authors, year)
 
