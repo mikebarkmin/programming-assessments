@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         run: |
-          python -m apa.cli build all
+          BASE_URL="github.com/mikebarkmin/programming-assessments/" python -m apa.cli build all
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v4

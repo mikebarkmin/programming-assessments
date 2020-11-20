@@ -2,8 +2,7 @@ from jinja2 import Environment, PackageLoader
 from ..helper import split_list
 
 env = Environment(loader=PackageLoader("apa.builder", "templates"))
-base_url = "http://www.barkmin.eu/programming-assessments/"
-base_url = "/"
+base_url = os.getenv("BASE_URL", "/")
 
 
 def badges_filter(badges):
