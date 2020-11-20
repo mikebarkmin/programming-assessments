@@ -5,6 +5,8 @@
 
  > A curated list of assessments, classifications and papers regarding programming asssessments
 
+ Visit http://www.barkmin.eu/programming-assessments/ for more details.
+
 ## Contents
 
 - [Assessments](#assessments)
