@@ -92,3 +92,4 @@ def contributor_table_filter(contributors, per_row=6):
 env.filters["author_table"] = author_table_filter
 env.filters["contributor_table"] = contributor_table_filter
 env.filters["badges"] = badges_filter
+env.filters["get_static"] = get_static

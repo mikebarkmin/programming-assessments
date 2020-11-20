@@ -1,4 +1,5 @@
 ![Lint](https://github.com/mikebarkmin/awesome-programming-assessments/workflows/Lint/badge.svg)
+![Build](https://github.com/mikebarkmin/awesome-programming-assessments/workflows/Build/badge.svg)
 
 # Programming Assessments
 
@@ -13,10 +14,10 @@
 
 ## Assessments
 
-| Title | Authors | Badges | Related Papers |
+| Title | Authors | Related Papers |
 | ----- | ------- | --------- | -------------- |
 {% for assessment in assessments -%}
-| [{{ assessment.title | e }}](src/assessments/{{ assessment.file }}.yaml) | {{ assessment.citekey }} | {{ assessment.badges|badges }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
+| [{{ assessment.title | e }}](http://www.barkmin.eu/programming-assessments/assessments/{{ assessment.file }}.html) | {{ assessment.citekey }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
 {%- endfor %} |
 {% endfor %}
 
