@@ -1,20 +1,37 @@
-ISBN: null
-accessed: null
-authors:
+ENTRYTYPE: article
+ID: 10.1145/203356.203378
+abstract: This is the 23rd Self-Assessment Procedure.1 The purpose of this procedure
+  is to let its readers test their knowledge of some of the more important features
+  of significant programming languages. The features of imperative languages like
+  Fortran, Algol 60, PL/I, Pascal, Modula-2, C, and Ada considered are data types,
+  data structures, control structures, program units, scope of names, and parameter
+  passing. Some of the corresponding features of functional languages like Lisp, logic
+  programming languages like Prolog, and ohject-oriented programming languages like
+  C++ and Smalltalk, are reviewed. Finally brief consideration is given to syntax
+  and semantics, chiefly by reference to the Backus-Naur form, BNF. The features of
+  programming languages affect all aspects of programming, including the ease of writing
+  and maintaining programs, the reliahility of software, and the efficiency and portability
+  of programs. Knowledge of programming language concepts and constructs is of importance
+  to software developers, programmers, and designers of programming languages and
+  compilers. The topic of this procedure should be of interest to any computer science
+  student or practitioner who wishes to test his or her knowledge and learn more about
+  one of the most important and broad areas in the computer field. The language used
+  most often in the questions is Pascal, with Ada, Lisp, and Prolog also featured
+  prominently. A glossary is included which defines some of the terms used in the
+  procedure. The questions are either multiple-choice or short answer. Some of the
+  multiple-choice questions allow for more than one correct answer.
+address: New York, NY, USA
+author:
 - clifton_mitchell-h
-collection_number: null
-collection_title: null
-container_title: Commun. ACM
-event_place: null
-id: 10.1145/203356.203378
-issue: 5
-issued: 1995-05-01
-number: null
-number_of_pages: 9
-original_date: null
-page: 89-97
+doi: 10.1145/203356.203378
+issn: 0001-0782
+issue_date: May 1995
+journal: Commun. ACM
+number: '5'
+numpages: '9'
+pages: "89\u201397"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
-title: 'Self-Assessment Procedure XXIII: programming languages'
-type: ARTICLE
-volume: 38
+title: 'Self-Assessment Procedure XXIII: Programming Languages'
+url: https://doi.org/10.1145/203356.203378
+volume: '38'
+year: '1995'

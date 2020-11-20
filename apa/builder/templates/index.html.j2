@@ -1,7 +1,7 @@
 
 {% extends "layout.html.j2" %}
 {% block body %}
-<h1>Programming Assessments</h1>
+<h1>Overview</h1>
 
 <h2>Classifications</h2>
 <ul>
@@ -27,4 +27,14 @@
 <li><a href="target_groups/{{ target_group[0] | e }}.html">{{ target_group[1].title }}</a></li>
 {%- endfor %}
 </ul>
+
+<h2>Contributors</h2>
+<div class="contributors">
+{% for contributor in contributors %}
+<div class="contributor">
+    <img src="{{ contributor.img|default('images/awesome_user.svg'|get_static, true) }}"></img>
+    <a href="{{ contributor.url }}">{{ contributor.given }} {{ contributor.family }}</a>
+</div>
+{% endfor %}
+</div>
 {% endblock %}

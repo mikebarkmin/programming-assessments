@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Programming Assessments</title>
-    <link rel=stylesheet type=text/css href="{{ '/static/css/styles.css'|get_static }}">
+    <link rel=stylesheet type=text/css href="{{ 'css/styles.css'|get_static }}">
 
     <script
         type="text/javascript"
@@ -10,7 +10,14 @@
     ></script>
   </head>
   <body>
+  <nav>
+    <ul>
+      <li><a href="{{ 'index'|get_url }}.html">Programming Assessments</a></li>
+    </ul> 
+  </nav>
+  <main>
     {% block body %}{% endblock %}
+    </main>
   </body>
 
   {% block scripts %}{% endblock %}

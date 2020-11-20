@@ -290,12 +290,12 @@ class Linter(Loader, PatternMatchingEventHandler):
             # check paper
             f = yaml.full_load(f)
             # check authors
-            authors = f.get("authors")
+            authors = f.get("author", [])
             for author in authors:
                 if author not in self.authors:
                     problems.append(
                         Problem(
-                            key="authors",
+                            key="author",
                             rule=Rule.AUTHOR_NOT_FOUND,
                             desc=f"{author} not found",
                             level=Level.ERROR,

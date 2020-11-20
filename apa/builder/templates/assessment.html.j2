@@ -1,5 +1,102 @@
-# {{ title }}
+{% extends "layout.html.j2" %}
+{% block body %}
+<h1>{{ assessment.title }}</h1>
+<p>
+{{ assessment.authors }}
+</p>
 
-{{ badges|badges }}
+<div class="cards">
+  <div class="card">
+    <div class="title">#Items</div>
+    <div class="value">{{ assessment.my_items.count }}</div>
+  </div>
+  <div class="card">
+    <div class="title">Formats</div>
+    {% for format in assessment.my_items.formats %}
+    <div class="value"><a href="{{ ('answer_formats/' + format)|get_url  }}.html">{{ format }}</a></div>
+    {% endfor %}
+  </div>
+  <div class="card">
+    <div class="title">Target Groups</div>
+    {% for group in assessment.target_groups %}
+    <div class="value"><a href="{{ ('target_groups/' + group)|get_url }}.html">{{ group }}</a></div>
+    {% endfor %}
+  </div>
+</div>
 
-{{ description }}
+{% if assessment.resources %}
+<h2>Resources</h2>
+<ul>
+{% for resource in assessment.resources %}
+<li><a href="{{ resource.link }}">{{ resource.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+<h2>Classification</h2>
+<div id="network"></div>
+{% if assessment.classifications._meta %}
+{% if assessment.classifications._meta.description %}
+<caption>{{ assessment.classifications._meta.description }}</caption>
+{% endif %}
+{% endif %}
+
+{% if assessment.papers %}
+<h2>Related Papers</h2>
+<div class="cards">
+{% for category in assessment.paper_categories %}
+<div class="card">
+    <div class="title">{{ category.title }}</div>
+    <div class="value">{{ category.count|default(0, true) }}</div>
+</div>
+{% endfor %}
+</div>
+<ul>
+{% for paper in assessment.papers %}
+<li>{{ paper.citekey }}: <a href="{{ paper.url }}">{{ paper.title | e }}</a> ({{ paper.category }})
+{% endfor %}
+</ul>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+// create an array with nodes
+    var nodes = new vis.DataSet([
+    {% for node in nodes %}
+        { id: "{{ node.id }}", label: "{{ node.label }}", color: "{{ node.color|default('darkseagreen', true) }}" },
+    {% endfor %}
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+    {% for edge in edges %}
+        { from: "{{ edge.from }}", to: "{{ edge.to }}" },
+    {% endfor %}
+    ]);
+
+    // create a network
+    var container = document.getElementById("network");
+    var data = {
+      nodes: nodes,
+      edges: edges,
+    };
+    var options = {
+      interaction: {
+        navigationButtons: true
+      },
+      layout: {
+      },
+      nodes: {
+        shape: "dot",
+        color: "#aaaaff",
+        font: "20px Arial",
+        scaling: {
+            min: 5,
+            max: 40,
+        }
+      },
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+{% endblock %}

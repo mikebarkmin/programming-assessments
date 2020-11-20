@@ -1,29 +1,49 @@
-ISBN: '9781450356275'
-accessed: 2020-06-24
-authors:
-- luxton-reilly_andrew
-- becker_brett-a
-- cao_yingjun
-- mcdermott_roger
-- mirolo_claudio
-- muhling_andreas
-- petersen_andrew
-- sanders_kate
-- simon
-- whalley_jacqueline
-collection_number: null
-collection_title: ITiCSE-WGR '17
-container_title: Proceedings of the 2017 ITiCSE Conference on Working Group Reports
-event_place: Bologna, Italy
-id: 10.1145/3174781.3174784
-issue: null
-issued: 2018-01-30
-number: null
-number_of_pages: 23
-original_date: 2018-01-30
-page: 47-69
+ENTRYTYPE: inproceedings
+ID: 10.1145/3174781.3174784
+abstract:
+  Current learning outcomes for introductory programming courses are relatively
+  general, specifying tasks such as designing, implementing, testing and debugging
+  programs that use some fundamental programming constructs. These outcomes impact
+  what we teach, our expectations, and our assessments. Although prior work has demonstrated
+  the utility of single concept assessments, most assessments used in formal examinations
+  combine numerous heterogeneous concepts, resulting in complex and difficult tasks.  As
+  a consequence, teachers may not be able to diagnose the actual difficulties faced
+  by students and students are not provided with accurate feedback about their achievements.
+  Such limitations on the nature and quality of feedback to teachers and students
+  alike may contribute to the perceived difficulty and high dropout rates commonly
+  observed in introductory programming courses.  In this paper we review the concepts
+  that Computer Science education researchers have identified as important for novice
+  programming. We survey expected learning outcomes for introductory programming courses,
+  and analyse assessments designed for such courses to determine the individual components
+  of syntax and semantics required to complete them. Having recognized the implicit
+  and explicit expectations of novice programming courses, we look at the relationships
+  between components, and progression between concepts. Finally, we demonstrate how
+  some complex assessments can be decomposed into atomic elements that can be assessed
+  independently.
+address: New York, NY, USA
+author:
+  - luxton-reilly_andrew
+  - becker_brett-a
+  - cao_yingjun
+  - mcdermott_roger
+  - mirolo_claudio
+  - m\"{u}hling_andreas
+  - petersen_andrew
+  - sanders_kate
+  - simon
+  - whalley_jacqueline
+booktitle: Proceedings of the 2017 ITiCSE Conference on Working Group Reports
+doi: 10.1145/3174781.3174784
+isbn: "9781450356275"
+keywords:
+  learning, compound assessment, questions, introductory programming, novice
+  programming, iticse working group, learning outcomes, exam, mastery, concept inventory,
+  cs1, learning objectives, assessment
+location: Bologna, Italy
+numpages: "23"
+pages: "47\u201369"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: ITiCSE-WGR '17
 title: Developing Assessments to Determine Mastery of Programming Fundamentals
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/3174781.3174784
+year: "2018"

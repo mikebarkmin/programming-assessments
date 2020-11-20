@@ -1,23 +1,27 @@
-ISBN: '9781450322430'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/2493394.2493416
+abstract: Computing academics report bimodal grade distributions in their CS1 classes.
+  Some academics believe that such a distribution is due to their being an innate
+  talent for programming, a "geek gene". Robins introduced the concept of learning
+  edge momentum, which offers an alternative explanation for the purported bimodal
+  grade distribution. In this paper, we analyze empirical data from a real introductory
+  programming class, looking for evidence of geek genes, learning edge momentum and
+  other possible factors.
+address: New York, NY, USA
+author:
 - ahadi_alireza
 - lister_raymond
-collection_number: null
-collection_title: ICER '13
-container_title: Proceedings of the ninth annual international ACM conference on International
-  computing education research
-event_place: San Diego, San California, USA
-id: 10.1145/2493394.2493416
-issue: null
-issued: 2013-08-12
-number: null
-number_of_pages: 6
-original_date: 2013-08-12
-page: 123-128
+booktitle: Proceedings of the Ninth Annual International ACM Conference on International
+  Computing Education Research
+doi: 10.1145/2493394.2493416
+isbn: '9781450322430'
+keywords: bimodal grade distribution, programming, cs1, learning edge momentum, assessment
+location: San Diego, San California, USA
+numpages: '6'
+pages: "123\u2013128"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
-title: 'Geek genes, prior knowledge, stumbling points and learning edge momentum:
-  parts of the one elephant?'
-type: PAPER_CONFERENCE
-volume: null
+series: ICER '13
+title: 'Geek Genes, Prior Knowledge, Stumbling Points and Learning Edge Momentum:
+  Parts of the One Elephant?'
+url: https://doi.org/10.1145/2493394.2493416
+year: '2013'

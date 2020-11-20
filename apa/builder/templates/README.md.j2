@@ -17,20 +17,20 @@
 | Title | Authors | Related Papers |
 | ----- | ------- | -------------- |
 {% for assessment in assessments -%}
-| [{{ assessment.title | e }}](http://www.barkmin.eu/programming-assessments/assessments/{{ assessment.file }}.html) | {{ assessment.citekey }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
+| [{{ assessment.title | e }}]({{ assessment.file |get_url }}.html) | {{ assessment.citekey }} | {% for paper in assessment.papers -%} - [{{ paper.citekey }} ({{ paper.category}})](#{{ paper.id }}) 
 {%- endfor %} |
 {% endfor %}
 
 ## Classifications
 
 {% for classification in classifications -%}
-- [{{ classification._meta.title | e }}](http://www.barkmin.eu/programming-assessments/classifications/{{ classification.file }}.html)
+- [{{ classification._meta.title | e }}]({{ classification.file|get_url }}.html)
 {% endfor %}
 
 ## Papers
 
 {% for paper in papers -%}
-- <a id="{{paper.file}}">{{ paper.citekey }}</a>: [{{ paper.title | e }}](https://doi.org/{{ paper.id }})
+- <a id="{{paper.file}}">{{ paper.citekey }}</a>: [{{ paper.title | e }}]({{ paper.url }})
 {% endfor %}
 
 ## Contributors

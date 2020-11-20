@@ -1,24 +1,32 @@
-ISBN: '9781450358903'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/3287324.3287372
+abstract: 'beginabstract Cognitive tests have been long used as a measure of student
+  knowledge, ability, and as a predictor for success in engineering and computer science.
+  However, these tests are not without their own problems relating to priming, difficulty
+  (resulting in test fatigue) and time on exam. This paper discusses efforts to modify
+  Parker et al.''s Second CS1 aptitude test (SCS1) citeParker16 to reduce the time
+  spent on the exam, provide greater customization to match concepts taught across
+  three universities, and reduce redundancy of test questions all while maintaining
+  the instrument''s reliability. This instrument was modified for use on an ongoing
+  grant investigating whether spatial abilities impact the success of students in
+  introductory CS courses. The instrument developed in this paper is a revised shortened
+  version of Second Computer Science 1 (SCS1) aptitude test, designated as SCS1R.
+  endabstract '
+address: New York, NY, USA
+author:
 - bockmon_ryan
 - cooper_stephen
 - gratch_jonathan
 - dorodchi_mohsen
-collection_number: null
-collection_title: SIGCSE '19
-container_title: Proceedings of the 50th ACM Technical Symposium on Computer Science
-  Education
-event_place: Minneapolis, MN, USA
-id: 10.1145/3287324.3287372
-issue: null
-issued: 2019-02-22
-number: null
-number_of_pages: 6
-original_date: 2019-02-22
-page: 552-557
+booktitle: Proceedings of the 50th ACM Technical Symposium on Computer Science Education
+doi: 10.1145/3287324.3287372
+isbn: '9781450358903'
+keywords: cs1, assessment, validity, replication
+location: Minneapolis, MN, USA
+numpages: '6'
+pages: "552\u2013557"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: SIGCSE '19
 title: (Re)Validating Cognitive Introductory Computing Instruments
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/3287324.3287372
+year: '2019'

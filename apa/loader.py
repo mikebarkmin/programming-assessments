@@ -27,6 +27,19 @@ class Loader:
         self.used_papers = []
         self.used_authors = []
 
+        for classification in self.load_flat("classifications", full=True):
+            if classification is None:
+                continue
+
+            authors = classification.get("_meta", {}).get("authors", [])
+            for author in authors:
+                if author not in self.used_authors:
+                    self.used_authors.append(author)
+            papers = classification.get("_meta", {}).get("papers", [])
+            for paper in papers:
+                if paper not in self.used_papers:
+                    self.used_papers.append(paper)
+
         for assessment in self.load_flat("assessments", full=True):
             if assessment is None:
                 continue
@@ -43,7 +56,7 @@ class Loader:
                     self.used_papers.append(paper["id"])
 
         for paper in self.load_flat("papers", full=True):
-            authors = paper.get("authors", [])
+            authors = paper.get("author", [])
 
             for author in authors:
                 if author not in self.used_authors:

@@ -1,24 +1,35 @@
-ISBN: '9781450336857'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/2839509.2844559
+abstract: 'A Concept Inventory (CI) is a set of multiple choice questions used to
+  reveal student''s misconceptions related to some topic. Each available choice (besides
+  the correct choice) is a distractor that is carefully developed to address a specific
+  misunderstanding, a student wrong thought. In computer science introductory programming
+  courses, the development of CIs is still beginning, with many topics requiring further
+  study and analysis. We identify, through analysis of open-ended exams and instructor
+  interviews, introductory programming course misconceptions related to function parameter
+  use and scope, variables, recursion, iteration, structures, pointers and boolean
+  expressions. We categorize these misconceptions and define high-quality distractors
+  founded in words used by students in their responses to exam questions. We discuss
+  the difficulty of assessing introductory programming misconceptions independent
+  of the syntax of a language and we present a detailed discussion of two pilot CIs
+  related to parameters: an open-ended question (to help identify new misunderstandings)
+  and a multiple choice question with suggested distractors that we identified.'
+address: New York, NY, USA
+author:
 - caceffo_ricardo
 - wolfman_steve
 - booth_kellogg-s
 - azevedo_rodolfo
-collection_number: null
-collection_title: SIGCSE '16
-container_title: Proceedings of the 47th ACM Technical Symposium on Computing Science
-  Education
-event_place: Memphis, Tennessee, USA
-id: 10.1145/2839509.2844559
-issue: null
-issued: 2016-02-17
-number: null
-number_of_pages: 6
-original_date: 2016-02-17
-page: 364-369
+booktitle: Proceedings of the 47th ACM Technical Symposium on Computing Science Education
+doi: 10.1145/2839509.2844559
+isbn: '9781450336857'
+keywords: cs1, computer science, introductory, programming, concept inventory, data
+  structure, misconception
+location: Memphis, Tennessee, USA
+numpages: '6'
+pages: "364\u2013369"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: SIGCSE '16
 title: Developing a Computer Science Concept Inventory for Introductory Programming
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/2839509.2844559
+year: '2016'

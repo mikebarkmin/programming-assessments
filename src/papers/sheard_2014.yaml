@@ -1,26 +1,34 @@
-ISBN: '9781921770319'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.5555/2667490.2667504
+abstract: This paper reports on the combining of two related but hitherto distinct
+  themes in programming education research. The first is the recognition that students
+  in programming courses tend to perform far more poorly than their teachers would
+  like, and further, more poorly than their teachers would expect without a careful
+  analysis of their results. The second is the proposal of a number of different styles
+  of examination question, sometimes coupled with analysis of student performance
+  on those questions, typically at single institutions. This work combines these themes
+  by including a common set of short questions in the final examinations of introductory
+  programming courses at six institutions in Australia and New Zealand, and analysing
+  the student performance across all six institutions. The analysis results in a set
+  of four simple questions that can be used to benchmark student performance in introductory
+  programming courses at a wide range of institutions.
+address: AUS
+author:
 - sheard_judy
 - simon
 - dermoudy_julian
 - d'souza_daryl
 - hu_minjie
 - parsons_dale
-collection_number: null
-collection_title: ACE '14
-container_title: Proceedings of the Sixteenth Australasian Computing Education Conference
+booktitle: Proceedings of the Sixteenth Australasian Computing Education Conference
   - Volume 148
-event_place: Auckland, New Zealand
-id: 10.5555/2667490.2667504
-issue: null
-issued: 2014-01-20
-number: null
-number_of_pages: 9
-original_date: 2014-01-20
-page: 113-121
+isbn: '9781921770319'
+keywords: standards, quality, examination papers, assessment, introductory programming,
+  CS1
+location: Auckland, New Zealand
+numpages: '9'
+pages: "113\u2013121"
 publisher: Australian Computer Society, Inc.
-publisher_place: AUS
-title: Benchmarking a set of exam questions for introductory programming
-type: PAPER_CONFERENCE
-volume: null
+series: ACE '14
+title: Benchmarking a Set of Exam Questions for Introductory Programming
+year: '2014'

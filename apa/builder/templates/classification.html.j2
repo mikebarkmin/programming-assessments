@@ -1,9 +1,22 @@
 {% extends "layout.html.j2" %}
 {% block body %}
 <h1>{{ classification._meta.title }}</h1>
+<p>
+{{ classification.authors }}
+</p>
 <p>{{ classification._meta.description }}</p>
 <h2>Network</h2>
 <div id="network"></div>
+<caption>The size of the nodes represents how often this concepts was tag. Red nodes are roots.</caption>
+
+{% if classification._meta.papers %}
+<h2>Related Papers</h2>
+<ul>
+{% for paper in classification._meta.papers %}
+<li>{{ paper.citekey }}: <a href="{{ paper.url }}">{{ paper.title | e }}</a>
+{% endfor %}
+</ul>
+{% endif %}
 {% endblock %}
 
 {% block scripts %}
@@ -11,7 +24,7 @@
 // create an array with nodes
     var nodes = new vis.DataSet([
     {% for node in nodes %}
-        { id: "{{ node.id }}", label: "{{ node.label }}", value: {{ node.size }} },
+        { id: "{{ node.id }}", label: "{{ node.label }}", value: {{ node.size }}, color: "{{ node.color }}" },
     {% endfor %}
     ]);
 
@@ -34,7 +47,6 @@
       },
       nodes: {
         shape: "dot",
-        color: "#aaaaff",
         font: "20px Arial",
         scaling: {
             min: 5,
@@ -43,5 +55,13 @@
       },
     };
     var network = new vis.Network(container, data, options);
+
+    network.on("doubleClick", function(props) {
+      if (!props.nodes.length) return;
+
+      var node = props.nodes[0];
+      var url = "https://google.de"
+      window.open(url, "_target");
+    })
 </script>
 {% endblock %}

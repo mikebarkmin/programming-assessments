@@ -1,24 +1,30 @@
-ISBN: '1581139977'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/1047344.1047453
+abstract: In this paper, we report on an approach taken addressing the issue of the
+  preparedness of students entering CS1. Specifically, we discuss the adoption of
+  a first-day assessment test in lieu of completed course prerequisites for determining
+  students' preparedness, and the development of a corresponding CS0 "fallback" course
+  intended to provide the appropriate background for those students lacking the necessary
+  programming reasoning skills, as indicated by assessment test results. We report
+  here on the adequacy of the assessment test designed, the effectiveness of the CS0
+  course as targeted for CS1 success, and the perceptions of students as to the impact
+  that the CS0 course has had on their ultimate success in CS1.
+address: New York, NY, USA
+author:
 - dierbach_charles
 - taylor_blair
 - zhou_harry
 - zimand_iliana
-collection_number: null
-collection_title: SIGCSE '05
-container_title: Proceedings of the 36th SIGCSE technical symposium on Computer science
-  education
-event_place: St. Louis, Missouri, USA
-id: 10.1145/1047344.1047453
-issue: null
-issued: 2005-02-23
-number: null
-number_of_pages: 4
-original_date: 2005-02-23
-page: 317-320
+booktitle: Proceedings of the 36th SIGCSE Technical Symposium on Computer Science
+  Education
+doi: 10.1145/1047344.1047453
+isbn: '1581139977'
+keywords: CS0, curriculum design, CS1, student assessment, computer science education
+location: St. Louis, Missouri, USA
+numpages: '4'
+pages: "317\u2013320"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
-title: Experiences with a CS0 course targeted for CS1 success
-type: PAPER_CONFERENCE
-volume: null
+series: SIGCSE '05
+title: Experiences with a CS0 Course Targeted for CS1 Success
+url: https://doi.org/10.1145/1047344.1047453
+year: '2005'

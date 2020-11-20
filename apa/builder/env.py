@@ -2,6 +2,8 @@ from jinja2 import Environment, PackageLoader
 from ..helper import split_list
 
 env = Environment(loader=PackageLoader("apa.builder", "templates"))
+base_url = "http://www.barkmin.eu/programming-assessments/"
+base_url = "/"
 
 
 def badges_filter(badges):
@@ -66,8 +68,12 @@ def get_img(c):
     return template.format(name, img, c.get("url"))
 
 
+def get_url(c):
+    return base_url + c
+
+
 def get_static(c):
-    return "http://www.barkmin.eu/programming-assessments/static/" + c
+    return base_url + "static/" + c
 
 
 def get_name(c):
@@ -93,3 +99,4 @@ env.filters["author_table"] = author_table_filter
 env.filters["contributor_table"] = contributor_table_filter
 env.filters["badges"] = badges_filter
 env.filters["get_static"] = get_static
+env.filters["get_url"] = get_url

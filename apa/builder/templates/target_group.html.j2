@@ -1,0 +1,15 @@
+{% extends "layout.html.j2" %}
+{% block body %}
+<h1>{{ target_group.title }}</h1>
+
+<h2>Assessments</h2>
+{% if assessments|length == 0 %}
+No assessments available
+{% endif %}
+<ul>
+{% for assessment in assessments %}
+<li>{{ assessment.citekey }}: <a href="{{ ('assessments/' + assessment.file)|get_url }}.html">{{ assessment.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% endblock %}

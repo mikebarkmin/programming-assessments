@@ -1,23 +1,27 @@
-ISBN: '1920682244'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.5555/1082424.1082444
+abstract: This paper presents a multiple choice question exam, used to test students
+  completing their first semester of programming. Assumptions in the design of the
+  exam are identified. A detailed analysis is performed on how students performed
+  on the questions. The intent behind this exercise is to begin a community process
+  of identifying the criteria that define an effective multiple-choice exam for testing
+  novice programmers. The long term aim is to develop consensus on peer review criteria
+  of such exams. This consensus is seen as a necessary precondition for any future
+  public domain library of such multiple-choice questions
+address: AUS
+author:
 - lister_raymond
-collection_number: null
-collection_title: ACE '05
-container_title: Proceedings of the 7th Australasian conference on Computing education
-  - Volume 42
-event_place: Newcastle, New South Wales, Australia
-id: 10.5555/1082424.1082444
-issue: null
-issued: 2005-01-01
-number: null
-number_of_pages: 10
-original_date: 2005-01-01
-page: 155-164
+booktitle: Proceedings of the 7th Australasian Conference on Computing Education -
+  Volume 42
+isbn: '1920682244'
+keywords: introductory programming, multiple-choice question, peer review, digital
+  library, CS1, java
+location: Newcastle, New South Wales, Australia
+numpages: '10'
+pages: "155\u2013164"
 publisher: Australian Computer Society, Inc.
-publisher_place: AUS
-title: 'One small step toward a culture of peer review and multi-institutional sharing
-  of educational resources: a multiple choice exam for first semester programming
-  students'
-type: PAPER_CONFERENCE
-volume: null
+series: ACE '05
+title: 'One Small Step toward a Culture of Peer Review and Multi-Institutional Sharing
+  of Educational Resources: A Multiple Choice Exam for First Semester Programming
+  Students'
+year: '2005'

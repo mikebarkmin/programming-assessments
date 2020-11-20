@@ -1,21 +1,21 @@
 papers:
   original:
     short: O
-    _meta:
-      description: >
-        The first paper mentioning the assessment
+    title: Original
+    description: >
+      The first paper mentioning the assessment
   replication:
     short: R
-    _meta:
-      description: >
-        An assessment is validated, the results are replicated
+    title: Replication
+    description: >
+      An assessment is validated, the results are replicated
   use:
     short: U
-    _meta:
-      description: >
-        An assessment is used
+    title: Use
+    description: >
+      An assessment is used
   mention:
     short: M
-    _meta:
-      description: >
-        An assessment is introduced/presented
+    title: Mention
+    description: >
+      An assessment is introduced/presented

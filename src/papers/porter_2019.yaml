@@ -1,6 +1,18 @@
-ISBN: '9781450361859'
-accessed: 2020-08-05
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/3291279.3339404
+abstract: 'A Concept Inventory (CI) is a validated assessment to measure student conceptual
+  understanding of a particular topic. This work presents a CI for Basic Data Structures
+  (BDSI) and the process by which the CI was designed and validated. We discuss: 1)
+  the collection of faculty opinions from diverse institutions on what belongs on
+  the instrument, 2) a series of interviews with students to identify their conceptions
+  and misconceptions of the content, 3) an iterative design process of developing
+  draft questions, conducting interviews with students to ensure the questions on
+  the instrument are interpreted properly, and collecting faculty feedback on the
+  questions themselves, and 4) a statistical evaluation of final versions of the instrument
+  to ensure its internal validity. We also provide initial results from pilot runs
+  of the CI.'
+address: New York, NY, USA
+author:
 - porter_leo
 - zingaro_daniel
 - liao_soohyun-nam
@@ -8,20 +20,16 @@ authors:
 - webb_kevin-c
 - lee_cynthia
 - clancy_michael
-collection_number: null
-collection_title: ICER '19
-container_title: Proceedings of the 2019 ACM Conference on International Computing
-  Education Research
-event_place: Toronto ON, Canada
-id: 10.1145/3291279.3339404
-issue: null
-issued: 2019-07-30
-number: null
-number_of_pages: 9
-original_date: 2019-07-30
-page: 111-119
+booktitle: Proceedings of the 2019 ACM Conference on International Computing Education
+  Research
+doi: 10.1145/3291279.3339404
+isbn: '9781450361859'
+keywords: concept inventory, data structures, assessment
+location: Toronto ON, Canada
+numpages: '9'
+pages: "111\u2013119"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: ICER '19
 title: 'BDSI: A Validated Concept Inventory for Basic Data Structures'
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/3291279.3339404
+year: '2019'

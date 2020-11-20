@@ -1,6 +1,17 @@
-ISBN: '9781450344494'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/2960310.2960337
+abstract: The programming education literature includes many observations that pass
+  rates are low in introductory programming courses, but few or no comparisons of
+  student performance across courses. This paper addresses that shortcoming. Having
+  included a small set of identical questions in the final examinations of a number
+  of introductory programming courses, we illustrate the use of these questions to
+  examine the relative performance of the students both across multiple institutions
+  and within some institutions. We also use the questions to quantify the size and
+  overall difficulty of each exam. We find substantial differences across the courses,
+  and venture some possible explanations of the differences. We conclude by explaining
+  the potential benefits to instructors of using the same questions in their own exams.
+address: New York, NY, USA
+author:
 - simon
 - sheard_judy
 - d'souza_daryl
@@ -9,20 +20,16 @@ authors:
 - sorva_juha
 - stegeman_martijn
 - zingaro_daniel
-collection_number: null
-collection_title: ICER '16
-container_title: Proceedings of the 2016 ACM Conference on International Computing
-  Education Research
-event_place: Melbourne, VIC, Australia
-id: 10.1145/2960310.2960337
-issue: null
-issued: 2016-08-25
-number: null
-number_of_pages: 9
-original_date: 2016-08-25
-page: 103-111
+booktitle: Proceedings of the 2016 ACM Conference on International Computing Education
+  Research
+doi: 10.1145/2960310.2960337
+isbn: '9781450344494'
+keywords: introductory programming, cs1, benchmarking, assessment, examination
+location: Melbourne, VIC, Australia
+numpages: '9'
+pages: "103\u2013111"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: ICER '16
 title: 'Benchmarking Introductory Programming Exams: Some Preliminary Results'
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/2960310.2960337
+year: '2016'

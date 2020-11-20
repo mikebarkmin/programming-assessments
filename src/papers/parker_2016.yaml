@@ -1,23 +1,34 @@
-ISBN: '9781450344494'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/2960310.2960316
+abstract: Computing education lags other discipline-based education research in the
+  number and range of validated assessments available to the research community. Validated
+  assessments are important for researchers to reduce experimental error due to flawed
+  assessments and to allow for comparisons between different experiments. Although
+  the need is great, building assessments from scratch is difficult. Once an assessment
+  is built, it's important to be able to replicate it, in order to address problems
+  within it, or to extend it. We developed the Second CS1 Assessment (SCS1) as an
+  isomorphic version of a previously validated language-independent assessment for
+  introductory computer science, the FCS1. Replicating the FCS1 is important to enable
+  free use by a broader research community. This paper is documentation of our process
+  for replicating an existing validated assessment and validating the success of our
+  replication. We present initial use of SCS1 by other research groups, to serve as
+  examples of where it might be used in the future. SCS1 is useful for researchers,
+  but care must be taken to avoid undermining the validity argument.
+address: New York, NY, USA
+author:
 - parker_miranda-c
 - guzdial_mark
 - engleman_shelly
-collection_number: null
-collection_title: ICER '16
-container_title: Proceedings of the 2016 ACM Conference on International Computing
-  Education Research
-event_place: Melbourne, VIC, Australia
-id: 10.1145/2960310.2960316
-issue: null
-issued: 2016-08-25
-number: null
-number_of_pages: 9
-original_date: 2016-08-25
-page: 93-101
+booktitle: Proceedings of the 2016 ACM Conference on International Computing Education
+  Research
+doi: 10.1145/2960310.2960316
+isbn: '9781450344494'
+keywords: assessment, validity, replication, cs1
+location: Melbourne, VIC, Australia
+numpages: '9'
+pages: "93\u2013101"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: ICER '16
 title: Replication, Validation, and Use of a Language Independent CS1 Knowledge Assessment
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/2960310.2960316
+year: '2016'

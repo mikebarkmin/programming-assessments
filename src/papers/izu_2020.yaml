@@ -1,22 +1,33 @@
-ISBN: '9781450368742'
-accessed: 2020-06-24
-authors:
+ENTRYTYPE: inproceedings
+ID: 10.1145/3341525.3387382
+abstract: 'This study explores novice programmers'' abilities to design and code a
+  string manipulation task in C after one semester of tertiary instruction. String
+  manipulation is an important skill for novice programmers to master as most applications
+  deal with text and/or interact with the user. The analysis shows most novice programmers
+  (88%) were able to sketch their own programming plan to print a word in pyramid
+  style. 53% of students chose to control the printing letter by letter (character
+  level) and 32% updated and printed the word as a whole (string level). However only
+  6% used string functions, apart from strlen() and strcmp(), to implement their plan.
+  This indicated a low level of transfer from their most recent class activity which
+  focused on the C string library. As expected, not all succeeded to correctly implement
+  their plan: 56% were correct at character level and 63% at string level, resulting
+  in 49% of the whole cohort completing the task. Their code has been thoroughly analysed
+  to identify implementation issues, and logical, syntax and plan errors are reported
+  and discussed.'
+address: New York, NY, USA
+author:
 - izu_cruz
 - weerasignhe_amali
-collection_number: null
-collection_title: ITiCSE '20
-container_title: Proceedings of the 2020 ACM Conference on Innovation and Technology
-  in Computer Science Education
-event_place: Trondheim, Norway
-id: 10.1145/3341525.3387382
-issue: null
-issued: 2020-06-15
-number: null
-number_of_pages: 7
-original_date: 2020-06-15
-page: 432-438
+booktitle: Proceedings of the 2020 ACM Conference on Innovation and Technology in
+  Computer Science Education
+doi: 10.1145/3341525.3387382
+isbn: '9781450368742'
+keywords: code design, string manipulation, iteration, novice programmers
+location: Trondheim, Norway
+numpages: '7'
+pages: "432\u2013438"
 publisher: Association for Computing Machinery
-publisher_place: New York, NY, USA
+series: ITiCSE '20
 title: Assessing CS1 Design Skills with a String Manipulation Task
-type: PAPER_CONFERENCE
-volume: null
+url: https://doi.org/10.1145/3341525.3387382
+year: '2020'

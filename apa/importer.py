@@ -10,7 +10,6 @@ def import_authors(authors, path="src"):
     authors = authors.split(" and ")
     for author in authors:
         author_name = author.split(",")
-        print(author_name)
         author = {
             "family": author_name[0].strip(),
             "given": author_name[1].strip() if len(author_name) > 1 else None,
@@ -38,12 +37,15 @@ def import_authors(authors, path="src"):
             }
         )
 
-        with open(os.path.join(path, "authors", author_filename + ".yaml"), "w+",) as f:
-            f.write(
-                yaml.dump(
-                    {"family": author.get("family"), "given": author.get("given")}
+        file_path = os.path.join(path, "authors", author_filename + ".yaml")
+        if not os.path.exists(file_path):
+            with open(file_path, "w+") as f:
+                f.write(
+                    yaml.dump(
+                        {"family": author.get("family"), "given": author.get("given")}
+                    )
                 )
-            )
+            print("New Author imported: " + file_path)
     return imported_authors
 
 
@@ -77,3 +79,4 @@ def add_paper(path="src"):
 
     stream = open(file_path, "w")
     yaml.dump(bibtex_entry, stream)
+    print("Successfully import: " + file_path)

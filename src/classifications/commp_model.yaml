@@ -1,9 +1,29 @@
 _meta:
   title: Competency Structure Model for Programming (COMM_P)
-  description: This is a description
+  description: >
+    The learning of programming can take manifold starting points, e.g. via
+    friends or family, a school course, a compulsory requirement in
+    vocational education (e.g. industrial robotics) or even in an academic
+    setting (e.g. formalization and execution of mathematical algorithms in
+    numerical mathematics). Within these approaches, context-specific
+    programming languages are used, which might support different paradigms.
+    In this paper, a proposal for a language and paradigm overarching
+    competency structure model is developed from theoretical considerations.
+    By analyzing different programming languages, textbooks and papers three
+    content dimensions are derived. 
+    <br><br>
+    Principles and the application of <b>high-Level paradigms</b> build the first dimension.
+    <br><br>
+    The second dimension <b>elements</b> represents paradigm and language independent concepts of program
+    components, data types, basic data structures and algorithmic paradigms.
+    <br><br>
+    The last content dimension <b>language</b> is defined by syntax, semantics,
+    standard library and the build/compile and run process of programming
+    languages.
   authors:
     - barkmin_mike
   papers:
+    - barkmin_2020
 
 cognitive_processes:
   interpreting:
