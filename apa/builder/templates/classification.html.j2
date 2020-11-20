@@ -1,21 +1,47 @@
 {% extends "layout.html.j2" %}
 {% block body %}
+<section>
 <h1>{{ classification._meta.title }}</h1>
 <p>
 {{ classification.authors }}
 </p>
 <p>{{ classification._meta.description }}</p>
+</section>
+
+<section>
 <h2>Network</h2>
 <div id="network"></div>
 <caption>The size of the nodes represents how often this concepts was tag. Red nodes are roots.</caption>
+</section>
+
+<section>
+<h2>List</h2>
+<ul>
+{% for key, value in classification.items() recursive %}
+  {% if value is mapping and not key == "_meta"  %}
+    <ul>
+      {% if value._meta and value._meta.description %}
+        <li><b>{{ key }}</b>: {{ value._meta.description }}</li>
+      {% else %}
+        <li><b>{{ key }}</b></li>
+      {% endif %}
+      {{ loop(value.items()) }}
+    </ul>
+  {% else %}
+  {% endif %}
+{% endfor %}
+</ul>
+</section>
 
 {% if classification._meta.papers %}
+<section>
 <h2>Related Papers</h2>
 <ul>
 {% for paper in classification._meta.papers %}
 <li>{{ paper.citekey }}: <a href="{{ paper.url }}">{{ paper.title | e }}</a>
 {% endfor %}
 </ul>
+</section>
 {% endif %}
 {% endblock %}
 
@@ -58,10 +84,7 @@
 
     network.on("doubleClick", function(props) {
       if (!props.nodes.length) return;
-
       var node = props.nodes[0];
-      var url = "https://google.de"
-      window.open(url, "_target");
     })
 </script>
 {% endblock %}

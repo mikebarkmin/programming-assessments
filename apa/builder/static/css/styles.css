@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
 html,
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   background-color: beige;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {

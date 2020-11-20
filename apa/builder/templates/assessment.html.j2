@@ -1,5 +1,6 @@
 {% extends "layout.html.j2" %}
 {% block body %}
+<section>
 <h1>{{ assessment.title }}</h1>
 <p>
 {{ assessment.authors }}
@@ -23,16 +24,20 @@
     {% endfor %}
   </div>
 </div>
+</section>
 
 {% if assessment.resources %}
+<section>
 <h2>Resources</h2>
 <ul>
 {% for resource in assessment.resources %}
 <li><a href="{{ resource.link }}">{{ resource.title }}</a></li>
 {% endfor %}
 </ul>
+</section>
 {% endif %}
 
+<section>
 <h2>Classification</h2>
 <div id="network"></div>
 {% if assessment.classifications._meta %}
@@ -40,8 +45,10 @@
 <caption>{{ assessment.classifications._meta.description }}</caption>
 {% endif %}
 {% endif %}
+</section>
 
 {% if assessment.papers %}
+<section>
 <h2>Related Papers</h2>
 <div class="cards">
 {% for category in assessment.paper_categories %}
@@ -56,6 +63,7 @@
 <li>{{ paper.citekey }}: <a href="{{ paper.url }}">{{ paper.title | e }}</a> ({{ paper.category }})
 {% endfor %}
 </ul>
+</section>
 {% endif %}
 {% endblock %}
 
