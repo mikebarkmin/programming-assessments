@@ -87,10 +87,14 @@ elements:
         _meta:
           description: >
             e.g.: >>, <<, |, &
+      pointer:
+        _meta:
+          description: >
+            &hi, *hi
       other:
         _meta:
           description: >
-            &hi, *hi, new
+            new
     variables:
       _meta:
         description: >
